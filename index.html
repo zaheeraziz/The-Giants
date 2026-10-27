@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Giants</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one scholar at the centre of the page; an arrow climbs up to their teachers. */
+:root{
+  --paper:#F4F6FA; --surface:#FFFFFF; --ink:#131A2C; --muted:#5A6379;
+  --gold:#9E7620; --gold-soft:#F3EBD8; --lapis:#1C4C9C; --line:#D7DCE7;
+  --f-display:"Newsreader","Iowan Old Style",Georgia,serif;
+  --f-ar:"Amiri","Noto Naskh Arabic","Geeza Pro",serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0C111E; --surface:#141B2C; --ink:#E6E9F1; --muted:#97A0B5;
+  --gold:#D6B05A; --gold-soft:#2A2415; --lapis:#86A9EA; --line:#283049; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0C111E; --surface:#141B2C; --ink:#E6E9F1; --muted:#97A0B5;
+  --gold:#D6B05A; --gold-soft:#2A2415; --lapis:#86A9EA; --line:#283049; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-display);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 64px}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:8px}
+[lang="ar"]{font-family:var(--f-ar)}
+
+.top{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline}
+.top h1{margin:0;font-size:1.25rem;font-weight:600}
+.top .ar{color:var(--gold);font-size:1.25rem}
+.trail{margin-left:auto;font-size:.85rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.trail button{border:0;background:none;color:var(--lapis);padding:2px 4px}
+
+.stage{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;align-items:center;padding-top:40px}
+
+.label{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:flex;gap:8px;align-items:baseline;margin-bottom:12px}
+.label .ar{font-size:1.05rem;letter-spacing:0;text-transform:none;color:var(--gold)}
+
+.teachers{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;max-width:100%}
+.t{display:flex;flex-direction:column;align-items:center;gap:2px;background:var(--surface);border:1px solid var(--line);
+  border-radius:12px;padding:10px 16px;min-width:0;transition:border-color .15s,transform .15s}
+.t:hover{border-color:var(--gold);transform:translateY(-2px)}
+.t .ar{font-size:1.15rem;color:var(--gold);line-height:1.3}
+.t .n{font-weight:600}
+.t .d{font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.t.stub{border-style:dashed}
+.t .w{font-size:.78rem;color:var(--lapis)}
+.none{font-style:italic;color:var(--muted);padding:12px}
+.arrow.down{margin-top:18px}
+.arrow.down .stem::before{display:none}
+.arrow.down .stem::after{content:"";position:absolute;left:50%;bottom:-1px;translate:-50% 0;border:8px solid transparent;border-top:12px solid var(--gold);border-bottom:0}
+.arrow.down .bracket{border:2px solid var(--gold);border-top:0;border-radius:0 0 10px 10px;margin:0 0 14px}
+.arrow.down .bracket.one{border-width:0 0 0 2px;border-radius:0}
+.arrow.down .bracket~*{}
+.arrow.down .stem{margin-bottom:0}
+.label.below{margin:12px 0 0}
+/* centre row: name in the middle column, arrow and works to the right */
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:start;gap:0 24px;width:100%;max-width:1200px}
+.mid{display:flex;flex-direction:column;align-items:center}
+.side.right,.side.left{display:flex;align-items:flex-start;gap:12px;min-width:0;padding-top:0}
+.side.left{justify-content:flex-end}
+.side.left .label{justify-content:flex-end}
+.harrow{flex:none;position:relative;width:44px;height:2px;background:var(--gold);margin-top:70px}
+.harrow::after{content:"";position:absolute;right:-2px;top:50%;translate:0 -50%;border:8px solid transparent;border-left:12px solid var(--gold);border-right:0}
+.harrow.left{background:var(--lapis)}
+.harrow.left::after{right:auto;left:-2px;border:8px solid transparent;border-right:12px solid var(--lapis);border-left:0}
+.works{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1 1 auto}
+.works .label{margin-bottom:2px}
+.shelfrow{display:flex;flex-direction:column;gap:6px;min-width:0}
+.shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:6px;min-width:0}
+.side.left .shelf{direction:rtl}.side.left .shelf>*{direction:ltr}
+.book.friend{text-align:left;border:0;border-top:3px solid var(--lapis);background:var(--surface);box-shadow:inset 0 0 0 1px var(--line);cursor:pointer;font:inherit;color:inherit}
+.book.friend:hover{box-shadow:inset 0 0 0 1px var(--lapis)}
+.book.friend.stub{box-shadow:inset 0 0 0 1px var(--line)}
+.book{min-width:0;display:flex;flex-direction:column;justify-content:space-between;gap:2px;scroll-snap-align:start;
+  background:var(--gold-soft);border-top:3px solid var(--gold);border-radius:4px 4px 8px 8px;padding:7px 9px}
+.book .bt{font-weight:600;font-style:italic;font-size:.85rem;line-height:1.2}
+.book .ba{font-size:.9rem;color:var(--gold);line-height:1.25}
+.book .bk{font-family:var(--f-mono);font-size:.6rem;letter-spacing:.05em;text-transform:uppercase;color:var(--lapis)}
+.more{position:relative;align-self:stretch}
+.more summary{text-align:center}
+.side.left .works{align-items:stretch}
+.more li button{all:unset;display:flex;flex-direction:column;cursor:pointer;width:100%}
+.more summary{list-style:none;cursor:pointer;font-size:.82rem;border:1px solid var(--gold);color:var(--ink);background:var(--surface);border-radius:8px;padding:8px 10px;white-space:nowrap}
+.more summary::-webkit-details-marker{display:none}
+.more summary::after{content:" ▾"}
+.more[open] summary::after{content:" ▴"}
+.more ul{position:absolute;z-index:5;right:0;top:calc(100% + 6px);margin:0;padding:6px;list-style:none;width:240px;max-height:300px;overflow:auto;
+  background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 28px rgb(0 0 0 / .14)}
+.more li{display:flex;flex-direction:column;padding:7px 9px;border-radius:6px}
+.more li:hover{background:var(--gold-soft)}
+.more li .bt{font-weight:600;font-style:italic;font-size:.88rem}
+.more li .bk{font-family:var(--f-mono);font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;color:var(--lapis)}
+@media (max-width:900px){
+  .row{grid-template-columns:minmax(0,1fr)}
+  .row>.mid{order:-1}
+  .side.right,.side.left{flex-direction:column;align-items:center;padding-top:20px}
+  .side.left .harrow{order:-1}
+  .side.left .label{justify-content:center}
+  .side.left .shelf{direction:ltr}
+  .harrow{width:2px;height:40px;margin:0}
+  .side.right,.side.left{align-items:center}
+  .harrow::after,.harrow.left::after{right:auto;left:50%;top:auto;bottom:-2px;translate:-50% 0;border:8px solid transparent;border-top:12px solid var(--gold);border-bottom:0}
+  .works{max-width:100%;width:100%;align-items:center}
+  .shelfrow{max-width:100%}
+  .more ul{right:auto;left:50%;translate:-50% 0}
+}
+
+/* the arrow: bracket under the teachers, a stem, an arrowhead pointing up */
+.arrow{display:flex;flex-direction:column;align-items:center;width:100%}
+.bracket{width:min(70%,560px);height:18px;border:2px solid var(--gold);border-bottom:0;border-radius:10px 10px 0 0;margin-top:14px}
+.bracket.one{width:2px;border-width:0 0 0 2px;border-radius:0}
+.stem{position:relative;width:2px;height:70px;background:var(--gold)}
+.stem::before{content:"";position:absolute;left:50%;top:-1px;translate:-50% 0;border:8px solid transparent;border-bottom:12px solid var(--gold);border-top:0}
+.bracket+.stem::before{top:-2px}
+.headtop{width:0;height:0;border:9px solid transparent;border-bottom:13px solid var(--gold);border-top:0;margin-top:14px}
+
+.center{margin-top:0;text-align:center;background:none;border:0;padding:8px 20px 0;display:flex;flex-direction:column;align-items:center;gap:2px}
+.center .ar{font-size:clamp(2.2rem,7vw,3.4rem);color:var(--gold);line-height:1.35}
+.center .n{font-size:clamp(1.6rem,4.8vw,2.4rem);font-weight:600;line-height:1.15;text-wrap:balance;
+  text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:6px;text-decoration-thickness:2px}
+.center:hover .n{text-decoration-color:var(--gold)}
+.dates{display:grid;grid-template-columns:auto auto;gap:4px 14px;margin-top:14px;font-family:var(--f-mono);font-size:.9rem;text-align:left}
+.dates dt{color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;padding-top:3px}
+.dates dd{margin:0;font-variant-numeric:tabular-nums}
+
+.bio{max-width:62ch;margin-top:22px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 20px}
+.bio p{margin:0}
+.bio .meta{font-size:.85rem;color:var(--muted);margin-top:8px}
+.hint{font-size:.8rem;color:var(--muted);margin-top:10px}
+.swap{animation:swap .35s ease}
+@keyframes swap{from{opacity:.3;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.swap{animation:none}.t{transition:none}}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <h1>The Giants</h1><span class="ar" lang="ar">الأعلام</span>
+  <nav class="trail" id="trail" aria-label="Path"></nav>
+</div>
+<main class="stage" id="stage" aria-live="polite"></main>
+
+<script>
+/* Seed records. b/d = AH, bce/dce = CE, ba = birth approximate. To verify against Siyar Aʿlām al-Nubalāʾ and Tahdhīb al-Tahdhīb. */
+const S={
+ jafar:{n:"Jaʿfar al-Ṣādiq",ar:"جعفر الصادق",b:83,d:148,bce:702,dce:765,city:"Medina",bio:"Great-grandson of al-Ḥusayn and a jurist of Medina whose circle drew transmitters who later anchored several schools."},
+ abuhanifa:{n:"Abū Ḥanīfa",ar:"أبو حنيفة النعمان",b:80,d:150,bce:699,dce:767,city:"Kufa",bio:"Kufan merchant and jurist who taught law through debate in his circle. Founder of the Ḥanafī school."},
+ malik:{n:"Mālik ibn Anas",ar:"مالك بن أنس",b:93,d:179,bce:711,dce:795,city:"Medina",bio:"The Imam of Medina. He grounded law in hadith and Medinan practice and compiled al-Muwaṭṭaʾ. Founder of the Mālikī school."},
+ shafii:{n:"al-Shāfiʿī",ar:"محمد بن إدريس الشافعي",b:150,d:204,bce:767,dce:820,city:"Mecca → Baghdad → Fusṭāṭ",bio:"Studied under Mālik in Medina and al-Shaybānī in Baghdad, then joined both traditions in one method. Author of al-Risāla; founder of the Shāfiʿī school."},
+ ahmad:{n:"Aḥmad ibn Ḥanbal",ar:"أحمد بن حنبل",b:164,d:241,bce:780,dce:855,city:"Baghdad",bio:"Baghdad traditionist who travelled widely for hadith and compiled the Musnad. The Ḥanbalī school formed around his rulings."},
+ shaybani:{n:"al-Shaybānī",ar:"محمد بن الحسن الشيباني",b:132,d:189,bce:749,dce:805,city:"Kufa → Baghdad",bio:"Student of Abū Ḥanīfa who also studied with Mālik. He put Ḥanafī doctrine into writing."},
+ abuyusuf:{n:"Abū Yūsuf",ar:"أبو يوسف",b:113,d:182,bce:731,dce:798,city:"Baghdad",bio:"Leading student of Abū Ḥanīfa and the first chief judge, under Hārūn al-Rashīd. Author of Kitāb al-Kharāj."},
+ ibnuyayna:{n:"Sufyān ibn ʿUyayna",ar:"سفيان بن عيينة",b:107,d:198,bce:725,dce:814,city:"Mecca",bio:"Hadith master of Mecca for decades, sought out by students during the pilgrimage season."},
+ thawri:{n:"Sufyān al-Thawrī",ar:"سفيان الثوري",b:97,d:161,bce:716,dce:778,city:"Kufa",bio:"Kufan jurist and traditionist, called the Commander of the Faithful in hadith."},
+ zuhri:{n:"Ibn Shihāb al-Zuhrī",ar:"ابن شهاب الزهري",b:51,ba:1,d:124,bce:671,dce:742,city:"Medina → Damascus",bio:"Among the first to record hadith systematically in writing, at the request of ʿUmar ibn ʿAbd al-ʿAzīz."},
+ bukhari:{n:"al-Bukhārī",ar:"محمد بن إسماعيل البخاري",b:194,d:256,bce:810,dce:870,city:"Bukhara",bio:"Travelled for hadith from his teens and spent some sixteen years compiling his Ṣaḥīḥ."},
+ muslim:{n:"Muslim ibn al-Ḥajjāj",ar:"مسلم بن الحجاج",b:204,ba:1,d:261,bce:820,dce:875,city:"Nishapur",bio:"Nishapuri traditionist and student of al-Bukhārī; compiler of the second Ṣaḥīḥ."},
+ tirmidhi:{n:"al-Tirmidhī",ar:"أبو عيسى الترمذي",b:209,d:279,bce:824,dce:892,city:"Tirmidh",bio:"Student of al-Bukhārī whose Jāmiʿ grades each hadith and records how jurists acted on it."},
+ abudawud:{n:"Abū Dāwūd",ar:"أبو داود السجستاني",b:202,d:275,bce:817,dce:889,city:"Basra",bio:"Student of Aḥmad who gathered the hadith jurists rely on for rulings in his Sunan."},
+ ibnmubarak:{n:"Ibn al-Mubārak",ar:"عبد الله بن المبارك",b:118,d:181,bce:736,dce:797,city:"Merv",bio:"Scholar, merchant and frontier fighter from Merv who studied with nearly every major teacher of his age."},
+ muzani:{n:"al-Muzanī",ar:"إسماعيل بن يحيى المزني",b:175,d:264,bce:791,dce:878,city:"Fusṭāṭ",bio:"Al-Shāfiʿī's student in Egypt whose Mukhtaṣar became the school's base text."},
+ madini:{n:"ʿAlī ibn al-Madīnī",ar:"علي بن المديني",b:161,d:234,bce:778,dce:849,city:"Basra",bio:"Basran master of hadith criticism and a principal teacher of al-Bukhārī."},
+ ibnmain:{n:"Yaḥyā ibn Maʿīn",ar:"يحيى بن معين",b:158,d:233,bce:775,dce:848,city:"Baghdad",bio:"Pioneer of narrator criticism (al-jarḥ wa al-taʿdīl)."},
+ ishaq:{n:"Isḥāq ibn Rāhwayh",ar:"إسحاق بن راهويه",b:161,d:238,bce:778,dce:853,city:"Nishapur",bio:"Khurasani jurist whose suggestion of a book of only sound hadith moved al-Bukhārī to begin his Ṣaḥīḥ."},
+ hammad:{n:"Ḥammād ibn Abī Sulaymān",ar:"حماد بن أبي سليمان",d:120,dce:738,city:"Kufa",bio:"Leading jurist of Kufa and Abū Ḥanīfa's principal teacher."},
+ waki:{n:"Wakīʿ ibn al-Jarrāḥ",ar:"وكيع بن الجراح",b:129,d:197,bce:746,dce:812,city:"Kufa",bio:"Kufan hadith master famed for his memory; teacher of al-Shāfiʿī and Aḥmad."},
+ layth:{n:"al-Layth ibn Saʿd",ar:"الليث بن سعد",b:94,d:175,bce:713,dce:791,city:"Fusṭāṭ",bio:"Jurist of Egypt and correspondent of Mālik."},
+ awzai:{n:"al-Awzāʿī",ar:"عبد الرحمن الأوزاعي",b:88,d:157,bce:707,dce:774,city:"Beirut",bio:"Jurist of Syria whose school was followed there and in early al-Andalus."},
+ baqir:{n:"Muḥammad al-Bāqir",ar:"محمد الباقر",d:114,dce:732,city:"Medina",stub:1},
+ nafi:{n:"Nāfiʿ mawlā Ibn ʿUmar",ar:"نافع مولى ابن عمر",d:117,dce:735,city:"Medina",stub:1},
+ rabia:{n:"Rabīʿat al-Raʾy",ar:"ربيعة الرأي",d:136,dce:753,city:"Medina",stub:1},
+ said:{n:"Saʿīd ibn al-Musayyib",ar:"سعيد بن المسيب",d:94,dce:713,city:"Medina",stub:1},
+ urwa:{n:"ʿUrwa ibn al-Zubayr",ar:"عروة بن الزبير",d:94,dce:713,city:"Medina",stub:1},
+ anas:{n:"Anas ibn Mālik",ar:"أنس بن مالك",d:93,dce:712,city:"Basra",stub:1},
+ ata:{n:"ʿAṭāʾ ibn Abī Rabāḥ",ar:"عطاء بن أبي رباح",d:114,dce:732,city:"Mecca",stub:1},
+ amr:{n:"ʿAmr ibn Dīnār",ar:"عمرو بن دينار",d:126,dce:743,city:"Mecca",stub:1},
+ nakhai:{n:"Ibrāhīm al-Nakhaʿī",ar:"إبراهيم النخعي",d:96,dce:714,city:"Kufa",stub:1},
+ /* Deoband */
+ nanautavi:{n:"Maulana Qāsim Nānautavī",ar:"محمد قاسم النانوتوي",b:1248,d:1297,bce:1832,dce:1880,city:"Nanauta → Delhi → Deoband",bio:"Born in Nanauta near Saharanpur and educated in Delhi. In 1866 he co-founded the madrasa at Deoband that became Darul Uloom Deoband. He is buried in the Qāsmī cemetery north of the Darul Uloom.",
+   works:[
+    {t:"Ḥāshiya on Ṣaḥīḥ al-Bukhārī",ar:"حاشية صحيح البخاري",k:"Hadith · Arabic",n:"Notes on the last portions, written at Aḥmad ʿAlī Sahāranpūrī's request"},
+    {t:"Taqrīr-e Dilpazīr",ar:"تقریر دلپذیر",k:"Creed · Urdu",n:"Reasoned proofs for God and the core beliefs of Islam"},
+    {t:"Āb-e Ḥayāt",ar:"آب حیات",k:"Creed · Urdu",n:"On the life of the Prophet in the grave"},
+    {t:"Taḥdhīr al-Nās",ar:"تحذير الناس",k:"Creed · Urdu",n:"On the finality of prophethood"},
+    {t:"Ḥujjat al-Islām",ar:"حجة الإسلام",k:"Interfaith · Urdu",n:"Rational case for Islam, prepared for the Shāhjahānpūr religious fair"},
+    {t:"Mubāḥatha-e Shāhjahānpūr",ar:"مباحثہ شاہجہانپور",k:"Interfaith · Urdu",n:"Record of his debates at the 1876–77 fairs"},
+    {t:"Intisār al-Islām",ar:"انتصار الإسلام",k:"Interfaith · Urdu",n:"Reply to Arya Samaj objections to Islam"},
+    {t:"Qibla Numā",ar:"قبلہ نما",k:"Interfaith · Urdu",n:"Answers the objection that facing the Kaaba is idol worship"},
+    {t:"Ṣadāqat-e Islām",ar:"صداقت اسلام",k:"Interfaith · Urdu",n:"On the truth of Islam"},
+    {t:"Qāsim al-ʿUlūm",ar:"قاسم العلوم",k:"Letters · Urdu/Persian",n:"His collected letters"}
+   ]},
+ mamlukali:{n:"Mamlūk ʿAlī Nānautavī",ar:"مملوك علي النانوتوي",d:1267,dce:1851,city:"Delhi",stub:1},
+ abdulghani:{n:"Shāh ʿAbd al-Ghanī Mujaddidī",ar:"شاه عبد الغني المجددي",d:1296,dce:1878,city:"Delhi → Medina",stub:1},
+ imdadullah:{n:"Ḥājī Imdādullāh Muhājir Makkī",ar:"إمداد الله المهاجر المكي",d:1317,dce:1899,city:"Thana Bhawan → Mecca",stub:1},
+ ahmadali:{n:"Aḥmad ʿAlī Sahāranpūrī",ar:"أحمد علي السهارنفوري",d:1297,dce:1880,city:"Saharanpur",stub:1},
+ sadruddin:{n:"Muftī Ṣadruddīn Āzurdah",ar:"صدر الدين آزرده",d:1285,dce:1868,city:"Delhi",stub:1},
+ mahtabali:{n:"Mahtāb ʿAlī Deobandī",ar:"مهتاب علي الديوبندي",city:"Deoband",stub:1},
+ nawaz:{n:"Muḥammad Nawāz Sahāranpūrī",ar:"محمد نواز السهارنفوري",city:"Saharanpur",stub:1},
+ mahmudhasan:{n:"Shaykh al-Hind Maḥmūd Ḥasan Deobandī",ar:"محمود حسن الديوبندي",b:1268,d:1339,bce:1851,dce:1920,city:"Deoband",stub:1},
+ amrohi:{n:"Aḥmad Ḥasan Amrohī",ar:"أحمد حسن الأمروهي",b:1266,d:1330,bce:1850,dce:1912,city:"Amroha → Moradabad",stub:1},
+ fakhrulhasan:{n:"Fakhr al-Ḥasan Gangohī",ar:"فخر الحسن الكنكوهي",d:1315,dce:1897,city:"Gangoh",stub:1},
+ hafizahmad:{n:"Ḥāfiẓ Muḥammad Aḥmad",ar:"حافظ محمد أحمد",b:1279,d:1347,bce:1862,dce:1928,city:"Deoband",stub:1},
+ gangohi:{n:"Rashīd Aḥmad Gangohī",ar:"رشيد أحمد الكنكوهي",d:1323,dce:1905,city:"Gangoh",stub:1},
+ abidhusain:{n:"Ḥājī ʿĀbid Ḥusain",ar:"حاجي عابد حسين",d:1331,dce:1912,city:"Deoband",stub:1},
+ yaqub:{n:"Muḥammad Yaʿqūb Nānautavī",ar:"محمد يعقوب النانوتوي",d:1302,dce:1884,city:"Deoband",stub:1},
+ zulfiqarali:{n:"Dhū al-Fiqār ʿAlī Deobandī",ar:"ذو الفقار علي الديوبندي",d:1322,dce:1904,city:"Deoband",stub:1},
+ fazlurrahman:{n:"Faḍl al-Raḥmān ʿUthmānī",ar:"فضل الرحمن العثماني",d:1325,dce:1907,city:"Deoband",stub:1},
+ sirsyed:{n:"Sir Sayyid Aḥmad Khān",ar:"سر سيد أحمد خان",d:1315,dce:1898,city:"Delhi → Aligarh",stub:1},
+ mazhar:{n:"Muḥammad Maẓhar Nānautavī",ar:"محمد مظهر النانوتوي",d:1302,dce:1885,city:"Saharanpur",stub:1},
+ hafizzamin:{n:"Ḥāfiẓ Ḍāmin Shahīd",ar:"حافظ ضامن شهيد",d:1273,dce:1857,city:"Thana Bhawan",stub:1},
+ abdulwahid:{n:"ʿAbd al-Wāḥid Bangālī",ar:"عبد الواحد البنغالي",city:"Bengal",stub:1}
+};
+/* [student, teacher] */
+const E=[["jafar","baqir"],["abuhanifa","hammad"],["abuhanifa","ata"],["abuhanifa","jafar"],["abuhanifa","nafi"],
+ ["malik","nafi"],["malik","zuhri"],["malik","rabia"],["malik","jafar"],
+ ["shafii","malik"],["shafii","shaybani"],["shafii","ibnuyayna"],["shafii","waki"],
+ ["ahmad","shafii"],["ahmad","ibnuyayna"],["ahmad","abuyusuf"],["ahmad","waki"],
+ ["shaybani","abuhanifa"],["shaybani","malik"],["shaybani","abuyusuf"],["shaybani","thawri"],["abuyusuf","abuhanifa"],
+ ["ibnuyayna","zuhri"],["ibnuyayna","amr"],["ibnuyayna","jafar"],["thawri","jafar"],
+ ["zuhri","said"],["zuhri","urwa"],["zuhri","anas"],
+ ["bukhari","ahmad"],["bukhari","madini"],["bukhari","ibnmain"],["bukhari","ishaq"],
+ ["muslim","ahmad"],["muslim","bukhari"],["muslim","ishaq"],
+ ["tirmidhi","bukhari"],["tirmidhi","abudawud"],["tirmidhi","muslim"],["abudawud","ahmad"],["abudawud","ibnmain"],
+ ["ibnmubarak","abuhanifa"],["ibnmubarak","malik"],["ibnmubarak","thawri"],["ibnmubarak","awzai"],["ibnmubarak","layth"],
+ ["muzani","shafii"],["madini","ibnuyayna"],["ibnmain","ibnuyayna"],["ibnmain","waki"],["ishaq","ibnuyayna"],
+ ["hammad","nakhai"],["waki","thawri"],["waki","abuhanifa"],["layth","zuhri"],["layth","nafi"],["awzai","zuhri"],
+ ["nanautavi","mamlukali","Logic, philosophy, major texts"],["nanautavi","abdulghani","Hadith"],["nanautavi","ahmadali","Hadith"],
+ ["nanautavi","imdadullah","Spiritual guide"],["nanautavi","sadruddin","Several texts"],["nanautavi","mahtabali","Arabic grammar"],["nanautavi","nawaz","Persian"],
+ ["mahmudhasan","nanautavi","First student of Deoband; later its head"],["amrohi","nanautavi","Studied all the sciences with him"],
+ ["fakhrulhasan","nanautavi","Student; compiled his letters"],["hafizahmad","nanautavi","His son; later rector of Deoband"],["abdulwahid","nanautavi","Student"]];
+/* Honorific: every scholar is shown as "Sheikh" + name (other leading titles folded in). */
+S.sirsyed.noHon=1;
+for(const id in S){const s=S[id]; if(s.noHon) continue;
+  s.n="Sheikh "+s.n.replace(/^(Maulana|Shaykh al-Hind|Shāh|Ḥājī|Muftī|Ḥāfiẓ)\s+/,"");
+  s.ar="الشيخ "+s.ar;}
+/* companions & friends: [a, b, relationship] — read both ways */
+const P=[
+ ["nanautavi","gangohi","Fellow student and co-disciple of Imdādullāh"],
+ ["nanautavi","abidhusain","Co-founder of Deoband, 1866"],
+ ["nanautavi","yaqub","Cousin; first head teacher of Deoband"],
+ ["nanautavi","zulfiqarali","Co-founder of Deoband"],
+ ["nanautavi","fazlurrahman","Co-founder of Deoband"],
+ ["nanautavi","sirsyed","Fellow student under Mamlūk ʿAlī; later differed with him"],
+ ["nanautavi","mazhar","Colleague; head of Maẓāhir al-ʿUlūm, Saharanpur"],
+ ["nanautavi","hafizzamin","Fought beside him at Shāmlī, 1857"]
+];
+const C={}; P.forEach(([a,b,why])=>{(C[a]=C[a]||[]).push({id:b,why});(C[b]=C[b]||[]).push({id:a,why});});
+const T={},ST={},W={}; for(const id in S){T[id]=[];ST[id]=[];} E.forEach(([s,t,w])=>{T[s].push(t); ST[t].push(s); if(w) W[s+">"+t]=w;});
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const $=id=>document.getElementById(id);
+let trail=[], bioOpen=false;
+
+function render(id){
+  const s=S[id]; if(!s) return render("shafii");
+  const teachers=[...T[id]].sort((a,b)=>(S[a].d??9999)-(S[b].d??9999));
+  const tdate=t=>S[t].d?`d. ${S[t].d} AH · ${S[t].dce} CE`:"Death date unknown";
+  const students=[...ST[id]].sort((a,b)=>(S[a].d??9999)-(S[b].d??9999));
+  const card=(t,w)=>`<button type="button" class="t${S[t].stub?" stub":""}" data-go="${t}"><span class="ar" lang="ar">${esc(S[t].ar)}</span><span class="n">${esc(S[t].n)}</span>${w?`<span class="w">${esc(w)}</span>`:""}<span class="d">${tdate(t)}</span></button>`;
+  const comps=(C[id]||[]);
+  const born=s.b?`${s.ba?"c. ":""}${s.b} AH · ${s.ba?"c. ":""}${s.bce} CE`:"Unknown";
+  const tHTML=teachers.length
+    ? `<div class="label"><span>Teachers</span><span class="ar" lang="ar">الشيوخ</span></div>
+       <div class="teachers">${teachers.map(t=>`<button type="button" class="t${S[t].stub?" stub":""}" data-go="${t}">
+          <span class="ar" lang="ar">${esc(S[t].ar)}</span><span class="n">${esc(S[t].n)}</span>${W[id+">"+t]?`<span class="w">${esc(W[id+">"+t])}</span>`:""}<span class="d">${tdate(t)}</span></button>`).join("")}</div>
+       <div class="arrow"><div class="bracket${teachers.length===1?" one":""}"></div><div class="stem"></div></div>`
+    : `<div class="none">No teachers recorded yet</div><div class="arrow"><div class="stem" style="opacity:.35"></div></div>`;
+
+  $("stage").innerHTML=`${tHTML}
+    <div class="row">
+     <div class="side left">
+      <div class="works">
+        <div class="label"><span>Companions &amp; friends</span><span class="ar" lang="ar">الأقران</span></div>
+        ${comps.length?`<div class="shelfrow">
+          <div class="shelf">${comps.slice(0,5).map(c=>`<button type="button" class="book friend${S[c.id].stub?" stub":""}" data-go="${c.id}" title="${esc(c.why)}"><span class="bt">${esc(S[c.id].n)}</span><span class="ba" lang="ar">${esc(S[c.id].ar)}</span><span class="bk">${esc(c.why)}</span></button>`).join("")}</div>
+          ${comps.length>5?`<details class="more"><summary>+${comps.length-5} more</summary><ul>${comps.slice(5).map(c=>`<li><button type="button" data-go="${c.id}"><span class="bt">${esc(S[c.id].n)}</span><span class="bk">${esc(c.why)}</span></button></li>`).join("")}</ul></details>`:""}
+        </div>`:`<div class="none">No companions recorded yet</div>`}
+      </div>
+      <div class="harrow left" aria-hidden="true"></div>
+     </div>
+     <div class="mid">
+      <button type="button" class="center swap" id="me" aria-expanded="${bioOpen}">
+        <span class="ar" lang="ar">${esc(s.ar)}</span><span class="n">${esc(s.n)}</span>
+      </button>
+      <dl class="dates"><dt>Born</dt><dd>${born}</dd><dt>Died</dt><dd>${s.d?`${s.d} AH · ${s.dce} CE`:"Unknown"}</dd></dl>
+     </div>
+     <div class="side right">
+      <div class="harrow" aria-hidden="true"></div>
+      <div class="works">
+        <div class="label"><span>Major works</span><span class="ar" lang="ar">المؤلفات</span></div>
+        ${(s.works||[]).length?`<div class="shelfrow">
+          <div class="shelf" tabindex="0" aria-label="Major works">${s.works.slice(0,5).map(w=>`<div class="book" title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span>${w.ar?`<span class="ba" lang="ar">${esc(w.ar)}</span>`:""}<span class="bk">${esc(w.k)}</span></div>`).join("")}</div>
+          ${s.works.length>5?`<details class="more"><summary>+${s.works.length-5} more</summary><ul>${s.works.slice(5).map(w=>`<li title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span><span class="bk">${esc(w.k)}</span></li>`).join("")}</ul></details>`:""}
+        </div>`:`<div class="none">No works recorded yet</div>`}
+      </div>
+     </div>
+    </div>
+    <div class="bio" id="bio" ${bioOpen?"":"hidden"}><p>${esc(s.bio||"Appears in the chains of others; full record not yet written.")}</p>
+      <p class="meta">${esc(s.city)}</p></div>
+    ${students.length
+      ? `<div class="arrow down"><div class="stem"></div><div class="bracket${students.length===1?" one":""}"></div></div>
+         <div class="teachers">${students.map(t=>card(t,W[t+">"+id])).join("")}</div>
+         <div class="label below"><span>Students &amp; disciples</span><span class="ar" lang="ar">التلاميذ</span></div>`
+      : `<div class="arrow down"><div class="stem" style="opacity:.35"></div></div><div class="none">No students recorded yet</div>`}
+    <p class="hint">Click any name above or below to move it to the centre. Click the centre name for a short bio.</p>`;
+
+  $("me").onclick=()=>{bioOpen=!bioOpen;$("bio").hidden=!bioOpen;$("me").setAttribute("aria-expanded",bioOpen);};
+  const i=trail.indexOf(id); if(i>=0) trail=trail.slice(0,i+1); else trail.push(id); trail=trail.slice(-6);
+  $("trail").innerHTML=trail.map((t,k)=>k===trail.length-1?`<strong>${esc(S[t].n)}</strong>`:`<button type="button" data-go="${t}">${esc(S[t].n)}</button><span aria-hidden="true">›</span>`).join("");
+}
+function go(id){ if(location.hash.slice(1)===id) render(id); else location.hash=id; }
+addEventListener("hashchange",()=>render(location.hash.slice(1)));
+document.addEventListener("click",e=>{const g=e.target.closest("[data-go]"); if(g){bioOpen=false;go(g.dataset.go);}});
+try{history.replaceState(null,"","#nanautavi")}catch(e){} render("nanautavi");
+</script>
+</body>
+</html>
