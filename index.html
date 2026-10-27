@@ -196,7 +196,10 @@ function display(id, lang = "en") {
   const p = P[id]; const base = nameOf(id, lang) || (lang === "en" ? id : "");
   if (!base) return "";
   if (p && p.honorific === false) return base;
-  return (lang === "en" ? "Sheikh " : "الشيخ ") + base;
+  // "Sheikh" replaces other leading titles (Shāh, Ḥājī, Muftī …) so they are not doubled up
+  const stripped = lang === "en" ? base.replace(/^(Maulana|Shāh|Ḥājī|Muftī|Ḥāfiẓ|Ḥakīm|Mullā|Miyānjī|Qārī|Ṣūfī)\s+/, "")
+                                 : base.replace(/^(مولانا|شاہ|حاجی|مفتی|حافظ|حکیم|ملا|میاں جی|قاری|صوفی)\s+/, "");
+  return (lang === "en" ? "Sheikh " : "الشيخ ") + stripped;
 }
 function life(id, type) {
   const ev = (LIFE[id] || []).filter(e => e.type === type);
@@ -229,6 +232,7 @@ function studentsOf(id) {
 }
 function companionsOf(id) {
   const out = new Map();
+  const linked = new Set([...teachersOf(id), ...studentsOf(id)].map(x => x.id));
   for (const r of OUT[id] || []) if (PEER.includes(r.type)) out.set(r.to, r);
   for (const r of INC[id] || []) if (PEER.includes(r.type) && !out.has(r.from)) out.set(r.from, r);
   // derived: shared founding role at the same institution
@@ -236,7 +240,8 @@ function companionsOf(id) {
     for (const other of BYINST[pi.institution_id] || [])
       if (other.person_id !== id && ["founder","co_founder"].includes(other.role) && !out.has(other.person_id))
         out.set(other.person_id, { type: "co_founder", note: { en: "Co-founder of " + (IN[pi.institution_id]?.name?.en || "the madrasa") } });
-  return [...out.entries()].map(([pid, r]) => ({ id: pid, r })).sort((a, b) => (a.r.rank ?? 99) - (b.r.rank ?? 99));
+  return [...out.entries()].filter(([pid]) => !linked.has(pid) && pid !== id).map(([pid, r]) => ({ id: pid, r }))
+    .sort((a, b) => (a.r.rank ?? 99) - (b.r.rank ?? 99) || (P[a.id]?.status === "stub") - (P[b.id]?.status === "stub"));
 }
 function worksOf(id) {
   return (CONTRIB[id] || []).filter(c => ["author","compiler","commentator"].includes(c.role))

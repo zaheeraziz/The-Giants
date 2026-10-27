@@ -1,0 +1,27 @@
+[
+ {
+  "from": "hawashi-bukhari-ahmadali",
+  "type": "gloss_on",
+  "to": "sahih-bukhari"
+ },
+ {
+  "from": "izah-al-adilla",
+  "type": "reply_to",
+  "to": "adilla-e-kamila"
+ },
+ {
+  "from": "hashiya-bukhari-qn",
+  "type": "gloss_on",
+  "to": "sahih-bukhari"
+ },
+ {
+  "from": "munazara-e-ajiba",
+  "type": "commentary_on",
+  "to": "tahdhir-al-nas"
+ },
+ {
+  "from": "tawthiq-al-kalam",
+  "type": "commentary_on",
+  "to": "dalil-al-muhkam"
+ }
+]

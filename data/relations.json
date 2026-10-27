@@ -1,0 +1,2476 @@
+[
+ {
+  "id": "rel-0001",
+  "type": "studied_under",
+  "from": "qasim-nanautavi",
+  "to": "mamluk-ali",
+  "subjects": [
+   "logic",
+   "philosophy",
+   "kalām",
+   "the full Dars curriculum"
+  ],
+  "note": {
+   "en": "Logic, philosophy and the full curriculum"
+  },
+  "place_id": "delhi",
+  "period": {
+   "text": "c.1844–1851"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn",
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0002",
+  "type": "studied_under",
+  "from": "mamluk-ali",
+  "to": "rashiduddin-khan",
+  "subjects": [
+   "higher studies"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0003",
+  "type": "studied_under",
+  "from": "mamluk-ali",
+  "to": "ilahi-bakhsh-kandhlawi",
+  "subjects": [
+   "middle studies"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0004",
+  "type": "studied_under",
+  "from": "mamluk-ali",
+  "to": "muhammad-qalandar",
+  "subjects": [
+   "middle studies"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0005",
+  "type": "studied_under",
+  "from": "mamluk-ali",
+  "to": "shah-abdul-aziz",
+  "note": {
+   "en": "One lesson (reported only)"
+  },
+  "confidence": "uncertain",
+  "citations": [
+   "tarajm-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0006",
+  "type": "studied_under",
+  "from": "khalil-ahmad",
+  "to": "mamluk-ali",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0007",
+  "type": "studied_under",
+  "from": "nazir-ahmad",
+  "to": "mamluk-ali",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0008",
+  "type": "studied_under",
+  "from": "zakaullah",
+  "to": "mamluk-ali",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0009",
+  "type": "studied_under",
+  "from": "ahsan-nanautavi",
+  "to": "mamluk-ali",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0010",
+  "type": "companion_of",
+  "from": "mamluk-ali",
+  "to": "sadruddin-azurda",
+  "note": {
+   "en": "Colleague in Delhi"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0011",
+  "type": "family",
+  "from": "mamluk-ali",
+  "to": "khalil-ahmad",
+  "note": {
+   "en": "Grandfather (through his daughter)"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0012",
+  "type": "studied_under",
+  "from": "qasim-nanautavi",
+  "to": "abdul-ghani-mujaddidi",
+  "subjects": [
+   "hadith"
+  ],
+  "note": {
+   "en": "Hadith"
+  },
+  "place_id": "delhi",
+  "period": {
+   "text": "c. late 1840s–1857"
+  },
+  "confidence": "attested",
+  "citations": [
+   "deoband-org-qn",
+   "wiki-qn"
+  ]
+ },
+ {
+  "id": "rel-0013",
+  "type": "studied_under",
+  "from": "abdul-ghani-mujaddidi",
+  "to": "abu-said-mujaddidi",
+  "note": {
+   "en": "His father: the Six Books, Muwaṭṭaʾ, fiqh and the ṭarīqa"
+  },
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "rel-0014",
+  "type": "studied_under",
+  "from": "abdul-ghani-mujaddidi",
+  "to": "shah-ishaq",
+  "subjects": [
+   "Ṣaḥīḥ al-Bukhārī"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "rel-0015",
+  "type": "ijaza_from",
+  "from": "abdul-ghani-mujaddidi",
+  "to": "abid-sindhi",
+  "note": {
+   "en": "Ijāza at age 15"
+  },
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "rel-0016",
+  "type": "studied_under",
+  "from": "abdul-jalil-barrada",
+  "to": "abdul-ghani-mujaddidi",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "rel-0017",
+  "type": "studied_under",
+  "from": "masum-mujaddidi",
+  "to": "abdul-ghani-mujaddidi",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "rel-0018",
+  "type": "family",
+  "from": "abdul-ghani-mujaddidi",
+  "to": "ahmad-said-mujaddidi",
+  "note": {
+   "en": "Elder brother"
+  },
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "rel-0019",
+  "type": "studied_under",
+  "from": "qasim-nanautavi",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "note": {
+   "en": "Hadith; worked on his Bukhārī edition at his request"
+  },
+  "place_id": "delhi",
+  "period": {
+   "text": "c.1848–1853"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn",
+   "wiki-ahmadali",
+   "deoband-bukhari"
+  ]
+ },
+ {
+  "id": "rel-0020",
+  "type": "studied_under",
+  "from": "ahmad-ali-saharanpuri",
+  "to": "mamluk-ali",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0021",
+  "type": "studied_under",
+  "from": "ahmad-ali-saharanpuri",
+  "to": "ilahi-bakhsh-kandhlawi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0022",
+  "type": "studied_under",
+  "from": "ahmad-ali-saharanpuri",
+  "to": "wajihuddin-saharanpuri",
+  "note": {
+   "en": "Most of Bukhārī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "ilmgate-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0023",
+  "type": "ijaza_from",
+  "from": "ahmad-ali-saharanpuri",
+  "to": "shah-ishaq",
+  "note": {
+   "en": "The Six Books, in Mecca (1261 AH)"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0024",
+  "type": "ijaza_from",
+  "from": "ahmad-ali-saharanpuri",
+  "to": "abdul-ghani-mujaddidi",
+  "note": {
+   "en": "Naqshbandī-Mujaddidī ṭarīqa"
+  },
+  "confidence": "reported",
+  "citations": [
+   "ilmgate-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0025",
+  "type": "studied_under",
+  "from": "shibli-nomani",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0026",
+  "type": "studied_under",
+  "from": "mehr-ali-shah",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0027",
+  "type": "studied_under",
+  "from": "muhammad-ali-mongeri",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0028",
+  "type": "studied_under",
+  "from": "nur-muhammad-ludhianwi",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0029",
+  "type": "studied_under",
+  "from": "ahsan-nanautavi",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0030",
+  "type": "bayah_to",
+  "from": "qasim-nanautavi",
+  "to": "imdadullah",
+  "subjects": [
+   "taṣawwuf"
+  ],
+  "note": {
+   "en": "Spiritual guide (bayʿah); made Nānautavī his khalīfa"
+  },
+  "place_id": "thana-bhawan",
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn",
+   "wiki-imdad"
+  ]
+ },
+ {
+  "id": "rel-0031",
+  "type": "bayah_to",
+  "from": "imdadullah",
+  "to": "nur-muhammad-jhanjhanawi",
+  "note": {
+   "en": "Chishtī-Ṣābirī khilāfa"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "id": "rel-0032",
+  "type": "bayah_to",
+  "from": "imdadullah",
+  "to": "nasiruddin-naqshbandi",
+  "note": {
+   "en": "Naqshbandī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "rel-0033",
+  "type": "studied_under",
+  "from": "imdadullah",
+  "to": "shah-ishaq",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "rel-0034",
+  "type": "studied_under",
+  "from": "imdadullah",
+  "to": "muhammad-qalandar",
+  "note": {
+   "en": "Mishkāt and Ḥiṣn Ḥaṣīn"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "rel-0035",
+  "type": "bayah_to",
+  "from": "ashraf-ali-thanwi",
+  "to": "imdadullah",
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "id": "rel-0036",
+  "type": "bayah_to",
+  "from": "khalil-ahmad",
+  "to": "imdadullah",
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "id": "rel-0037",
+  "type": "bayah_to",
+  "from": "mehr-ali-shah",
+  "to": "imdadullah",
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "id": "rel-0038",
+  "type": "bayah_to",
+  "from": "muhammad-anwarullah-faruqi",
+  "to": "imdadullah",
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "id": "rel-0039",
+  "type": "companion_of",
+  "from": "imdadullah",
+  "to": "rahmatullah-kairanawi",
+  "note": {
+   "en": "Neighbour in Mecca; buried beside him"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "id": "rel-0040",
+  "type": "companion_of",
+  "from": "imdadullah",
+  "to": "muhammad-thanawi",
+  "note": {
+   "en": "Thana Bhawan circle"
+  },
+  "confidence": "uncertain",
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "rel-0041",
+  "type": "studied_under",
+  "from": "qasim-nanautavi",
+  "to": "sadruddin-azurda",
+  "note": {
+   "en": "Several texts"
+  },
+  "place_id": "delhi",
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "id": "rel-0042",
+  "type": "studied_under",
+  "from": "sadruddin-azurda",
+  "to": "shah-abdul-aziz",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "rel-0043",
+  "type": "studied_under",
+  "from": "sadruddin-azurda",
+  "to": "shah-rafiuddin-dehlawi",
+  "subjects": [
+   "fiqh",
+   "uṣūl"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "rel-0044",
+  "type": "studied_under",
+  "from": "sadruddin-azurda",
+  "to": "fazl-imam-khairabadi",
+  "subjects": [
+   "rational sciences"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "rel-0045",
+  "type": "studied_under",
+  "from": "khairuddin-dehlawi",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "rekhta-azurda"
+  ]
+ },
+ {
+  "id": "rel-0046",
+  "type": "studied_under",
+  "from": "yusuf-ali-khan-rampur",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "rekhta-azurda"
+  ]
+ },
+ {
+  "id": "rel-0047",
+  "type": "studied_under",
+  "from": "siddiq-hasan-khan",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "rekhta-azurda"
+  ]
+ },
+ {
+  "id": "rel-0048",
+  "type": "studied_under",
+  "from": "shefta",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "rekhta-azurda"
+  ]
+ },
+ {
+  "id": "rel-0049",
+  "type": "studied_under",
+  "from": "faiz-hasan-saharanpuri",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "rekhta-azurda"
+  ]
+ },
+ {
+  "id": "rel-0050",
+  "type": "companion_of",
+  "from": "sadruddin-azurda",
+  "to": "ghalib",
+  "note": {
+   "en": "Friend and sparring partner"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-azurda"
+  ]
+ },
+ {
+  "id": "rel-0051",
+  "type": "companion_of",
+  "from": "sadruddin-azurda",
+  "to": "fazl-e-haq-khairabadi",
+  "note": {
+   "en": "Fellow student"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-azurda"
+  ]
+ },
+ {
+  "id": "rel-0052",
+  "type": "companion_of",
+  "from": "sadruddin-azurda",
+  "to": "momin",
+  "note": {
+   "en": "Delhi literary circle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-azurda"
+  ]
+ },
+ {
+  "id": "rel-0053",
+  "type": "companion_of",
+  "from": "sadruddin-azurda",
+  "to": "sahbai",
+  "note": {
+   "en": "Delhi literary circle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-azurda"
+  ]
+ },
+ {
+  "id": "rel-0054",
+  "type": "companion_of",
+  "from": "sadruddin-azurda",
+  "to": "rahmatullah-kairanawi",
+  "note": {
+   "en": "Co-signed the 1857 fatwa"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-azurda"
+  ]
+ },
+ {
+  "id": "rel-0055",
+  "type": "studied_under",
+  "from": "qasim-nanautavi",
+  "to": "mahtab-ali",
+  "subjects": [
+   "Arabic grammar",
+   "syntax"
+  ],
+  "note": {
+   "en": "Arabic grammar and syntax"
+  },
+  "place_id": "deoband",
+  "period": {
+   "text": "c.1841–43"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "id": "rel-0056",
+  "type": "studied_under",
+  "from": "mahtab-ali",
+  "to": "mamluk-ali",
+  "note": {
+   "en": "Delhi College"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahtab"
+  ]
+ },
+ {
+  "id": "rel-0057",
+  "type": "studied_under",
+  "from": "mahtab-ali",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahtab"
+  ]
+ },
+ {
+  "id": "rel-0058",
+  "type": "studied_under",
+  "from": "qasim-nanautavi",
+  "to": "nawaz-saharanpuri",
+  "subjects": [
+   "Persian"
+  ],
+  "note": {
+   "en": "Persian (some sources say elementary Arabic)"
+  },
+  "place_id": "saharanpur",
+  "period": {
+   "text": "c.1843"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-qn",
+   "dud-cofounders"
+  ]
+ },
+ {
+  "id": "rel-0059",
+  "type": "studied_under",
+  "from": "mahmud-hasan",
+  "to": "qasim-nanautavi",
+  "subjects": [
+   "hadith (the Six Books)"
+  ],
+  "note": {
+   "en": "The Six Books of hadith; long companionship"
+  },
+  "place_id": "meerut",
+  "period": {
+   "text": "c.1869–1872"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tarajm-mahmud",
+   "dud-ar-qn",
+   "madarisweb-asanid"
+  ],
+  "rank": 1
+ },
+ {
+  "id": "rel-0060",
+  "type": "studied_under",
+  "from": "mahmud-hasan",
+  "to": "mahtab-ali",
+  "subjects": [
+   "Persian",
+   "Arabic basics"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0061",
+  "type": "studied_under",
+  "from": "mahmud-hasan",
+  "to": "mulla-mahmud",
+  "note": {
+   "en": "Dars-e Niẓāmī at Deoband"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0062",
+  "type": "studied_under",
+  "from": "mahmud-hasan",
+  "to": "yaqub-nanautavi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0063",
+  "type": "khalifa_of",
+  "from": "mahmud-hasan",
+  "to": "rashid-gangohi",
+  "note": {
+   "en": "Khalīfa in taṣawwuf"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0064",
+  "type": "khalifa_of",
+  "from": "mahmud-hasan",
+  "to": "imdadullah",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0065",
+  "type": "ijaza_from",
+  "from": "mahmud-hasan",
+  "to": "abdul-ghani-mujaddidi",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0066",
+  "type": "studied_under",
+  "from": "mahmud-hasan",
+  "to": "zulfiqar-ali",
+  "note": {
+   "en": "His father: Arabic literature"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0067",
+  "type": "studied_under",
+  "from": "anwar-shah-kashmiri",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0068",
+  "type": "studied_under",
+  "from": "ashraf-ali-thanwi",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0069",
+  "type": "studied_under",
+  "from": "husain-ahmad-madani",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0070",
+  "type": "studied_under",
+  "from": "ubaidullah-sindhi",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0071",
+  "type": "studied_under",
+  "from": "kifayatullah",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0072",
+  "type": "studied_under",
+  "from": "shabbir-usmani",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0073",
+  "type": "studied_under",
+  "from": "ilyas-kandhlawi",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0074",
+  "type": "studied_under",
+  "from": "izaz-ali-amrohi",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0075",
+  "type": "studied_under",
+  "from": "manazir-gilani",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0076",
+  "type": "studied_under",
+  "from": "qari-tayyib",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0077",
+  "type": "companion_of",
+  "from": "mahmud-hasan",
+  "to": "mukhtar-ansari",
+  "note": {
+   "en": "Host and physician in Delhi"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "rel-0078",
+  "type": "studied_under",
+  "from": "ahmad-hasan-amrohi",
+  "to": "qasim-nanautavi",
+  "subjects": [
+   "rational sciences",
+   "kalām",
+   "the Ṣaḥīḥayn"
+  ],
+  "note": {
+   "en": "The full syllabus, rational sciences and kalām"
+  },
+  "place_id": "meerut",
+  "period": {
+   "text": "c.1286–1290 AH"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tarajm-amrohi",
+   "dud-ar-qn"
+  ],
+  "rank": 2
+ },
+ {
+  "id": "rel-0079",
+  "type": "ijaza_from",
+  "from": "ahmad-hasan-amrohi",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0080",
+  "type": "ijaza_from",
+  "from": "ahmad-hasan-amrohi",
+  "to": "abdul-ghani-mujaddidi",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0081",
+  "type": "ijaza_from",
+  "from": "ahmad-hasan-amrohi",
+  "to": "abdur-rahman-panipati",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0082",
+  "type": "khalifa_of",
+  "from": "ahmad-hasan-amrohi",
+  "to": "imdadullah",
+  "note": {
+   "en": "Taṣawwuf, in Mecca"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0083",
+  "type": "studied_under",
+  "from": "murtaza-chandpuri",
+  "to": "ahmad-hasan-amrohi",
+  "subjects": [
+   "logic",
+   "philosophy"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "shamela-budur"
+  ]
+ },
+ {
+  "id": "rel-0084",
+  "type": "fellow_student",
+  "from": "ahmad-hasan-amrohi",
+  "to": "mahmud-hasan",
+  "note": {
+   "en": "Classmates; graduated together in 1873"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0085",
+  "type": "fellow_student",
+  "from": "ahmad-hasan-amrohi",
+  "to": "fakhrul-hasan-gangohi",
+  "note": {
+   "en": "Classmates; graduated together"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0086",
+  "type": "companion_of",
+  "from": "ahmad-hasan-amrohi",
+  "to": "sanaullah-amritsari",
+  "note": {
+   "en": "Fellow debater against Ahmadis, Rampur 1909"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0087",
+  "type": "companion_of",
+  "from": "ahmad-hasan-amrohi",
+  "to": "hafiz-muhammad-ahmad",
+  "note": {
+   "en": "Led his funeral prayer"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0088",
+  "type": "studied_under",
+  "from": "fakhrul-hasan-gangohi",
+  "to": "qasim-nanautavi",
+  "subjects": [
+   "the Ṣaḥīḥayn"
+  ],
+  "note": {
+   "en": "The Ṣaḥīḥayn and long companionship at home and on travel"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tarajm-fakhr",
+   "dud-ar-qn",
+   "madarisweb-asanid"
+  ],
+  "rank": 3
+ },
+ {
+  "id": "rel-0089",
+  "type": "studied_under",
+  "from": "fakhrul-hasan-gangohi",
+  "to": "rashid-gangohi",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "id": "rel-0090",
+  "type": "studied_under",
+  "from": "fakhrul-hasan-gangohi",
+  "to": "hakim-mahmud-khan",
+  "subjects": [
+   "medicine"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "id": "rel-0091",
+  "type": "fellow_student",
+  "from": "fakhrul-hasan-gangohi",
+  "to": "mahmud-hasan",
+  "note": {
+   "en": "Classmates"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "id": "rel-0092",
+  "type": "studied_under",
+  "from": "abdul-ali-meeruti",
+  "to": "qasim-nanautavi",
+  "subjects": [
+   "the Ṣaḥīḥayn"
+  ],
+  "note": {
+   "en": "The Ṣaḥīḥayn and the general syllabus"
+  },
+  "place_id": "deoband",
+  "confidence": "attested",
+  "citations": [
+   "tarajm-abdulali",
+   "dud-ar-qn"
+  ],
+  "rank": 4
+ },
+ {
+  "id": "rel-0093",
+  "type": "studied_under",
+  "from": "abdul-ali-meeruti",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdulali"
+  ]
+ },
+ {
+  "id": "rel-0094",
+  "type": "studied_under",
+  "from": "abdul-ali-meeruti",
+  "to": "faiz-hasan-saharanpuri",
+  "subjects": [
+   "Arabic literature"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdulali"
+  ]
+ },
+ {
+  "id": "rel-0095",
+  "type": "studied_under",
+  "from": "kifayatullah",
+  "to": "abdul-ali-meeruti",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdulali"
+  ]
+ },
+ {
+  "id": "rel-0096",
+  "type": "studied_under",
+  "from": "mansur-ali-khan",
+  "to": "qasim-nanautavi",
+  "subjects": [
+   "the Ṣaḥīḥayn"
+  ],
+  "note": {
+   "en": "The Ṣaḥīḥayn and general sciences; lived with him"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tarajm-mansur",
+   "dud-ar-qn"
+  ],
+  "rank": 5
+ },
+ {
+  "id": "rel-0097",
+  "type": "studied_under",
+  "from": "mansur-ali-khan",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mansur"
+  ]
+ },
+ {
+  "id": "rel-0098",
+  "type": "studied_under",
+  "from": "abdur-rahman-amrohi",
+  "to": "qasim-nanautavi",
+  "subjects": [
+   "Jāmiʿ al-Tirmidhī"
+  ],
+  "note": {
+   "en": "Tirmidhī; one of his last students"
+  },
+  "period": {
+   "text": "c.1296–97 AH"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tarajm-abdurrahman"
+  ],
+  "rank": 6
+ },
+ {
+  "id": "rel-0099",
+  "type": "studied_under",
+  "from": "abdur-rahman-amrohi",
+  "to": "ahmad-hasan-amrohi",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "id": "rel-0100",
+  "type": "studied_under",
+  "from": "abdur-rahman-amrohi",
+  "to": "rashid-gangohi",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "id": "rel-0101",
+  "type": "bayah_to",
+  "from": "abdur-rahman-amrohi",
+  "to": "imdadullah",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "id": "rel-0102",
+  "type": "ijaza_from",
+  "from": "abdur-rahman-amrohi",
+  "to": "hussain-yamani",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "id": "rel-0103",
+  "type": "studied_under",
+  "from": "ismail-koli",
+  "to": "qasim-nanautavi",
+  "subjects": [
+   "the Ṣiḥāḥ and Sunan"
+  ],
+  "note": {
+   "en": "The Ṣiḥāḥ and Sunan collections"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tarajm-ismail"
+  ],
+  "rank": 7
+ },
+ {
+  "id": "rel-0104",
+  "type": "studied_under",
+  "from": "ismail-koli",
+  "to": "faiz-hasan-saharanpuri",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-ismail"
+  ]
+ },
+ {
+  "id": "rel-0105",
+  "type": "studied_under",
+  "from": "abdullah-ambehtvi",
+  "to": "qasim-nanautavi",
+  "note": {
+   "en": "Student, and related to him by marriage"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tarajm-abdullah"
+  ],
+  "rank": 8
+ },
+ {
+  "id": "rel-0106",
+  "type": "studied_under",
+  "from": "abdullah-ambehtvi",
+  "to": "yaqub-nanautavi",
+  "note": {
+   "en": "His maternal uncle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdullah"
+  ]
+ },
+ {
+  "id": "rel-0107",
+  "type": "ijaza_from",
+  "from": "abdullah-ambehtvi",
+  "to": "ahmad-ali-saharanpuri",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdullah"
+  ]
+ },
+ {
+  "id": "rel-0108",
+  "type": "studied_under",
+  "from": "abdullah-ambehtvi",
+  "to": "imdadullah",
+  "note": {
+   "en": "Read the Masnavī with him"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdullah"
+  ]
+ },
+ {
+  "id": "rel-0109",
+  "type": "studied_under",
+  "from": "abdul-wahid-bengali",
+  "to": "qasim-nanautavi",
+  "subjects": [
+   "hadith"
+  ],
+  "note": {
+   "en": "Hadith; Nānautavī sent him to Imdādullāh for taṣawwuf"
+  },
+  "place_id": "deoband",
+  "period": {
+   "text": "c.1870s"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ],
+  "rank": 9
+ },
+ {
+  "id": "rel-0110",
+  "type": "studied_under",
+  "from": "abdul-wahid-bengali",
+  "to": "yaqub-nanautavi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "id": "rel-0111",
+  "type": "khalifa_of",
+  "from": "abdul-wahid-bengali",
+  "to": "fazlur-rahman-ganjmuradabadi",
+  "note": {
+   "en": "Naqshbandī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "id": "rel-0112",
+  "type": "studied_under",
+  "from": "shah-ahmad-hasan",
+  "to": "abdul-wahid-bengali",
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "id": "rel-0113",
+  "type": "family",
+  "from": "qasim-nanautavi",
+  "to": "hafiz-muhammad-ahmad",
+  "note": {
+   "en": "His son"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-hafizahmad"
+  ],
+  "rank": 20
+ },
+ {
+  "id": "rel-0114",
+  "type": "studied_under",
+  "from": "hafiz-muhammad-ahmad",
+  "to": "mahmud-hasan",
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "rel-0115",
+  "type": "studied_under",
+  "from": "hafiz-muhammad-ahmad",
+  "to": "yaqub-nanautavi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "rel-0116",
+  "type": "studied_under",
+  "from": "hafiz-muhammad-ahmad",
+  "to": "rashid-gangohi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "rel-0117",
+  "type": "bayah_to",
+  "from": "hafiz-muhammad-ahmad",
+  "to": "imdadullah",
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "rel-0118",
+  "type": "family",
+  "from": "hafiz-muhammad-ahmad",
+  "to": "qari-tayyib",
+  "note": {
+   "en": "His son"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "rel-0119",
+  "type": "studied_under",
+  "from": "anwar-shah-kashmiri",
+  "to": "hafiz-muhammad-ahmad",
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "rel-0120",
+  "type": "studied_under",
+  "from": "shabbir-usmani",
+  "to": "hafiz-muhammad-ahmad",
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "rel-0121",
+  "type": "studied_under",
+  "from": "husain-ahmad-madani",
+  "to": "hafiz-muhammad-ahmad",
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "rel-0122",
+  "type": "fellow_student",
+  "from": "qasim-nanautavi",
+  "to": "rashid-gangohi",
+  "note": {
+   "en": "Classmates under Mamlūk ʿAlī; fellow disciples of Imdādullāh; fought together at Shāmlī; Hajj together in 1877"
+  },
+  "place_id": "delhi",
+  "period": {
+   "text": "from c.1845"
+  },
+  "confidence": "attested",
+  "citations": [
+   "ilmgate-gangohi",
+   "wiki-gangohi",
+   "deoband-org-gangohi"
+  ],
+  "rank": 1
+ },
+ {
+  "id": "rel-0123",
+  "type": "studied_under",
+  "from": "rashid-gangohi",
+  "to": "mamluk-ali",
+  "subjects": [
+   "rational sciences"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0124",
+  "type": "studied_under",
+  "from": "rashid-gangohi",
+  "to": "abdul-ghani-mujaddidi",
+  "subjects": [
+   "hadith",
+   "tafsīr"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0125",
+  "type": "studied_under",
+  "from": "rashid-gangohi",
+  "to": "sadruddin-azurda",
+  "subjects": [
+   "rational sciences"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0126",
+  "type": "bayah_to",
+  "from": "rashid-gangohi",
+  "to": "imdadullah",
+  "note": {
+   "en": "Chishtī-Ṣābirī; khalīfa"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0127",
+  "type": "studied_under",
+  "from": "khalil-ahmad",
+  "to": "rashid-gangohi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0128",
+  "type": "studied_under",
+  "from": "abdur-rahim-raipuri",
+  "to": "rashid-gangohi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0129",
+  "type": "studied_under",
+  "from": "husain-ahmad-madani",
+  "to": "rashid-gangohi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0130",
+  "type": "studied_under",
+  "from": "yahya-kandhlawi",
+  "to": "rashid-gangohi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0131",
+  "type": "studied_under",
+  "from": "ashiq-ilahi",
+  "to": "rashid-gangohi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "rel-0132",
+  "type": "ijaza_from",
+  "from": "mazhar-nanautavi",
+  "to": "rashid-gangohi",
+  "note": {
+   "en": "Ijāza in taṣawwuf"
+  },
+  "confidence": "reported",
+  "citations": [
+   "deoband-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0133",
+  "type": "companion_of",
+  "from": "qasim-nanautavi",
+  "to": "yaqub-nanautavi",
+  "note": {
+   "en": "Lifelong friend; Hajj together in 1860 and 1877; co-founder of Deoband; wrote Nānautavī's first biography"
+  },
+  "confidence": "attested",
+  "citations": [
+   "dud-yaqub",
+   "wiki-yaqub"
+  ],
+  "rank": 2
+ },
+ {
+  "id": "rel-0134",
+  "type": "studied_under",
+  "from": "yaqub-nanautavi",
+  "to": "mamluk-ali",
+  "note": {
+   "en": "His father"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0135",
+  "type": "studied_under",
+  "from": "yaqub-nanautavi",
+  "to": "abdul-ghani-mujaddidi",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0136",
+  "type": "studied_under",
+  "from": "yaqub-nanautavi",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "rel-0137",
+  "type": "khalifa_of",
+  "from": "yaqub-nanautavi",
+  "to": "imdadullah",
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0138",
+  "type": "family",
+  "from": "yaqub-nanautavi",
+  "to": "mamluk-ali",
+  "note": {
+   "en": "Son"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0139",
+  "type": "studied_under",
+  "from": "ashraf-ali-thanwi",
+  "to": "yaqub-nanautavi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0140",
+  "type": "studied_under",
+  "from": "khalil-ahmad",
+  "to": "yaqub-nanautavi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0141",
+  "type": "studied_under",
+  "from": "aziz-rahman-usmani",
+  "to": "yaqub-nanautavi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0142",
+  "type": "studied_under",
+  "from": "mumtaz-ali",
+  "to": "yaqub-nanautavi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0143",
+  "type": "studied_under",
+  "from": "habib-rahman-usmani",
+  "to": "yaqub-nanautavi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0144",
+  "type": "companion_of",
+  "from": "yaqub-nanautavi",
+  "to": "rashid-gangohi",
+  "note": {
+   "en": "Fellow disciple of Imdādullāh"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "rel-0145",
+  "type": "co_founder",
+  "from": "qasim-nanautavi",
+  "to": "sayyid-abid",
+  "note": {
+   "en": "Co-founder of Deoband; wrote to Nānautavī asking for a teacher; fellow disciple of Imdādullāh"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-founding",
+   "dud-rectors"
+  ],
+  "rank": 3
+ },
+ {
+  "id": "rel-0146",
+  "type": "bayah_to",
+  "from": "sayyid-abid",
+  "to": "imdadullah",
+  "note": {
+   "en": "Ijāza in taṣawwuf"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-abid"
+  ]
+ },
+ {
+  "id": "rel-0147",
+  "type": "bayah_to",
+  "from": "sayyid-abid",
+  "to": "karim-bakhsh-rampuri",
+  "confidence": "reported",
+  "citations": [
+   "wiki-abid"
+  ]
+ },
+ {
+  "id": "rel-0148",
+  "type": "bayah_to",
+  "from": "aziz-rahman-usmani",
+  "to": "sayyid-abid",
+  "confidence": "reported",
+  "citations": [
+   "wiki-abid"
+  ]
+ },
+ {
+  "id": "rel-0149",
+  "type": "companion_of",
+  "from": "sayyid-abid",
+  "to": "rafi-uddin-deobandi",
+  "note": {
+   "en": "Alternated with him as rector"
+  },
+  "confidence": "reported",
+  "citations": [
+   "dud-rectors"
+  ]
+ },
+ {
+  "id": "rel-0150",
+  "type": "companion_of",
+  "from": "qasim-nanautavi",
+  "to": "zulfiqar-ali",
+  "note": {
+   "en": "A close friend; co-founder of Deoband; father of his chief student; buried beside him"
+  },
+  "confidence": "attested",
+  "citations": [
+   "dud-zulfiqar"
+  ],
+  "rank": 4
+ },
+ {
+  "id": "rel-0151",
+  "type": "studied_under",
+  "from": "zulfiqar-ali",
+  "to": "mamluk-ali",
+  "note": {
+   "en": "Delhi College"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "rel-0152",
+  "type": "studied_under",
+  "from": "zulfiqar-ali",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "rel-0153",
+  "type": "studied_under",
+  "from": "zulfiqar-ali",
+  "to": "mahtab-ali",
+  "note": {
+   "en": "His elder brother"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "rel-0154",
+  "type": "family",
+  "from": "zulfiqar-ali",
+  "to": "mahtab-ali",
+  "note": {
+   "en": "Younger brother"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "rel-0155",
+  "type": "family",
+  "from": "zulfiqar-ali",
+  "to": "mahmud-hasan",
+  "note": {
+   "en": "Father"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "rel-0156",
+  "type": "co_founder",
+  "from": "qasim-nanautavi",
+  "to": "fazlur-rahman-usmani",
+  "note": {
+   "en": "Co-founder of Deoband; both studied under Mamlūk ʿAlī"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-fazlurrahman",
+   "dud-cofounders"
+  ],
+  "rank": 5
+ },
+ {
+  "id": "rel-0157",
+  "type": "studied_under",
+  "from": "fazlur-rahman-usmani",
+  "to": "mamluk-ali",
+  "note": {
+   "en": "Delhi College"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "id": "rel-0158",
+  "type": "family",
+  "from": "fazlur-rahman-usmani",
+  "to": "aziz-rahman-usmani",
+  "note": {
+   "en": "Father"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "id": "rel-0159",
+  "type": "family",
+  "from": "fazlur-rahman-usmani",
+  "to": "habib-rahman-usmani",
+  "note": {
+   "en": "Father"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "id": "rel-0160",
+  "type": "family",
+  "from": "fazlur-rahman-usmani",
+  "to": "shabbir-usmani",
+  "note": {
+   "en": "Father"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "id": "rel-0161",
+  "type": "companion_of",
+  "from": "qasim-nanautavi",
+  "to": "mazhar-nanautavi",
+  "note": {
+   "en": "Close friend; fought beside him at Shāmlī; Hajj together in 1860 and 1877; taught him some early books"
+  },
+  "confidence": "attested",
+  "citations": [
+   "deoband-mazhar"
+  ],
+  "rank": 6
+ },
+ {
+  "id": "rel-0162",
+  "type": "studied_under",
+  "from": "mazhar-nanautavi",
+  "to": "mamluk-ali",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0163",
+  "type": "studied_under",
+  "from": "mazhar-nanautavi",
+  "to": "shah-ishaq",
+  "subjects": [
+   "Ṣaḥīḥ al-Bukhārī"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0164",
+  "type": "studied_under",
+  "from": "mazhar-nanautavi",
+  "to": "abdul-ghani-mujaddidi",
+  "subjects": [
+   "Muwaṭṭaʾ"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0165",
+  "type": "studied_under",
+  "from": "mazhar-nanautavi",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0166",
+  "type": "studied_under",
+  "from": "mazhar-nanautavi",
+  "to": "ahmad-ali-saharanpuri",
+  "subjects": [
+   "hadith"
+  ],
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0167",
+  "type": "studied_under",
+  "from": "khalil-ahmad",
+  "to": "mazhar-nanautavi",
+  "note": {
+   "en": "His most prominent student"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0168",
+  "type": "studied_under",
+  "from": "mahmud-hasan",
+  "to": "mazhar-nanautavi",
+  "note": {
+   "en": "Received his ijāza"
+  },
+  "confidence": "reported",
+  "citations": [
+   "deoband-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0169",
+  "type": "family",
+  "from": "mazhar-nanautavi",
+  "to": "ahsan-nanautavi",
+  "note": {
+   "en": "Brother"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0170",
+  "type": "family",
+  "from": "mazhar-nanautavi",
+  "to": "munir-nanautavi",
+  "note": {
+   "en": "Brother"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0171",
+  "type": "companion_of",
+  "from": "mazhar-nanautavi",
+  "to": "saadat-ali-saharanpuri",
+  "note": {
+   "en": "Founder of the Saharanpur madrasa"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "rel-0172",
+  "type": "companion_of",
+  "from": "qasim-nanautavi",
+  "to": "munir-nanautavi",
+  "note": {
+   "en": "Guarded him at Shāmlī on Imdādullāh's order; urged him to attend the Shahjahanpur fair"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-munir",
+   "loc-qn"
+  ],
+  "rank": 7
+ },
+ {
+  "id": "rel-0173",
+  "type": "studied_under",
+  "from": "munir-nanautavi",
+  "to": "mamluk-ali",
+  "confidence": "reported",
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "id": "rel-0174",
+  "type": "studied_under",
+  "from": "munir-nanautavi",
+  "to": "sadruddin-azurda",
+  "confidence": "reported",
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "id": "rel-0175",
+  "type": "studied_under",
+  "from": "munir-nanautavi",
+  "to": "abdul-ghani-mujaddidi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "id": "rel-0176",
+  "type": "family",
+  "from": "munir-nanautavi",
+  "to": "ahsan-nanautavi",
+  "note": {
+   "en": "Brother; partner in the press"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "id": "rel-0177",
+  "type": "companion_of",
+  "from": "qasim-nanautavi",
+  "to": "hafiz-zamin",
+  "note": {
+   "en": "Fought beside him under Imdādullāh at Shāmlī, 1857"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-shamli",
+   "deoband-imdad"
+  ],
+  "rank": 8
+ },
+ {
+  "id": "rel-0178",
+  "type": "bayah_to",
+  "from": "hafiz-zamin",
+  "to": "nur-muhammad-jhanjhanawi",
+  "confidence": "uncertain",
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "rel-0179",
+  "type": "companion_of",
+  "from": "hafiz-zamin",
+  "to": "imdadullah",
+  "note": {
+   "en": "Leader of the Thana Bhawan circle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "deoband-imdad"
+  ]
+ },
+ {
+  "id": "rel-0180",
+  "type": "family",
+  "from": "hafiz-zamin",
+  "to": "hafiz-yusuf-thanawi",
+  "note": {
+   "en": "Father"
+  },
+  "confidence": "reported",
+  "citations": [
+   "deoband-imdad"
+  ]
+ },
+ {
+  "id": "rel-0181",
+  "type": "co_founder",
+  "from": "qasim-nanautavi",
+  "to": "rafi-uddin-deobandi",
+  "note": {
+   "en": "Co-founder; Nānautavī laid the Nau Darah foundation stone during his rectorship (1875)"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-rafiuddin"
+  ],
+  "rank": 9
+ },
+ {
+  "id": "rel-0182",
+  "type": "khalifa_of",
+  "from": "rafi-uddin-deobandi",
+  "to": "abdul-ghani-mujaddidi",
+  "note": {
+   "en": "Naqshbandī-Mujaddidī"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-rafiuddin"
+  ]
+ },
+ {
+  "id": "rel-0183",
+  "type": "bayah_to",
+  "from": "aziz-rahman-usmani",
+  "to": "rafi-uddin-deobandi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-rafiuddin"
+  ]
+ },
+ {
+  "id": "rel-0184",
+  "type": "bayah_to",
+  "from": "murtaza-chandpuri",
+  "to": "rafi-uddin-deobandi",
+  "confidence": "reported",
+  "citations": [
+   "wiki-rafiuddin"
+  ]
+ },
+ {
+  "id": "rel-0185",
+  "type": "co_founder",
+  "from": "qasim-nanautavi",
+  "to": "fazl-e-haq-deobandi",
+  "note": {
+   "en": "Early founder of Deoband; disciple and biographer of Nānautavī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlehaq"
+  ],
+  "rank": 10
+ },
+ {
+  "id": "rel-0186",
+  "type": "companion_of",
+  "from": "qasim-nanautavi",
+  "to": "ahsan-nanautavi",
+  "note": {
+   "en": "Asked the question behind Taḥdhīr al-Nās and published it; wrote a biography of Nānautavī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "basair-ahsan",
+   "loc-qn"
+  ],
+  "rank": 11
+ },
+ {
+  "id": "rel-0187",
+  "type": "debated",
+  "from": "sir-syed",
+  "to": "qasim-nanautavi",
+  "note": {
+   "en": "Exchanged views in 1874 on reason and revelation; Nānautavī replied in Taṣfiyat al-ʿAqāʾid. Wrote a warm obituary of him in 1880."
+  },
+  "period": {
+   "text": "1874"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tareen-2024",
+   "wiki-sirsyed"
+  ],
+  "rank": 12
+ },
+ {
+  "id": "rel-0188",
+  "type": "studied_under",
+  "from": "sir-syed",
+  "to": "mamluk-ali",
+  "note": {
+   "en": "Disputed"
+  },
+  "confidence": "disputed",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "id": "rel-0189",
+  "type": "studied_under",
+  "from": "sir-syed",
+  "to": "ghulam-ali-dehlawi",
+  "note": {
+   "en": "Early education"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "rel-0190",
+  "type": "companion_of",
+  "from": "sir-syed",
+  "to": "hali",
+  "note": {
+   "en": "Aligarh circle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "rel-0191",
+  "type": "companion_of",
+  "from": "sir-syed",
+  "to": "mohsin-ul-mulk",
+  "note": {
+   "en": "Aligarh circle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "rel-0192",
+  "type": "companion_of",
+  "from": "sir-syed",
+  "to": "chiragh-ali",
+  "note": {
+   "en": "Aligarh circle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "rel-0193",
+  "type": "companion_of",
+  "from": "sir-syed",
+  "to": "shibli-nomani",
+  "note": {
+   "en": "Aligarh circle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "rel-0194",
+  "type": "companion_of",
+  "from": "sir-syed",
+  "to": "nazir-ahmad",
+  "note": {
+   "en": "Aligarh circle"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ }
+]

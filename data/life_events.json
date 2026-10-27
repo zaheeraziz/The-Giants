@@ -1,0 +1,2479 @@
+[
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1248,
+    "m": 8
+   },
+   "gregorian": {
+    "y": 1832
+   },
+   "precision": "month",
+   "approx": false,
+   "sort": 1832,
+   "text": {
+    "en": "Shaʿbān or Ramaḍān 1248 AH / 1832–33 CE"
+   }
+  },
+  "place_id": "nanauta",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn",
+   "deoband-org-qn",
+   "rekhta-qn"
+  ],
+  "note": {
+   "en": "Month given as Sha'ban or Ramadan."
+  }
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1297,
+    "m": 5,
+    "d": 4
+   },
+   "gregorian": {
+    "y": 1880,
+    "m": 4,
+    "d": 15
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1880.288
+  },
+  "place_id": "deoband",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn",
+   "ummid-qn"
+  ],
+  "note": {
+   "en": "Thursday 4 Jumada al-Ula 1297, recorded by Yaqub Nanautavi; aged about 47."
+  }
+ },
+ {
+  "person_id": "shah-ishaq",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1197
+   },
+   "gregorian": {
+    "y": 1783
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1783
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "shah-ishaq",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1262
+   },
+   "gregorian": {
+    "y": 1846
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1846
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "shah-abdul-aziz",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1159
+   },
+   "gregorian": {
+    "y": 1746
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1746
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "shah-abdul-aziz",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1239
+   },
+   "gregorian": {
+    "y": 1824
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1824
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ilahi-bakhsh-kandhlawi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1162
+   },
+   "gregorian": {
+    "y": 1748
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1748
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ilahi-bakhsh-kandhlawi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1245
+   },
+   "gregorian": {
+    "y": 1829
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1829
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "rashiduddin-khan",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1249
+   },
+   "gregorian": {
+    "y": 1833
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1833
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "abu-said-mujaddidi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1196
+   },
+   "gregorian": {
+    "y": 1782
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1782
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "abu-said-mujaddidi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1250
+   },
+   "gregorian": {
+    "y": 1835
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1835
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "abid-sindhi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1257
+   },
+   "gregorian": {
+    "y": 1841
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1841
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "nur-muhammad-jhanjhanawi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1259
+   },
+   "gregorian": {
+    "y": 1843
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1843
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "shah-rafiuddin-dehlawi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1233
+   },
+   "gregorian": {
+    "y": 1818
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1818
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "fazl-imam-khairabadi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1244
+   },
+   "gregorian": {
+    "y": 1829
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1829
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "khalil-ahmad",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1269
+   },
+   "gregorian": {
+    "y": 1852
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1852
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "khalil-ahmad",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1346
+   },
+   "gregorian": {
+    "y": 1927
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1927
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ashraf-ali-thanwi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1280
+   },
+   "gregorian": {
+    "y": 1863
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1863
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ashraf-ali-thanwi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1362
+   },
+   "gregorian": {
+    "y": 1943
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1943
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "shibli-nomani",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1857
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1857
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "shibli-nomani",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1914
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1914
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mehr-ali-shah",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1859
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1859
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mehr-ali-shah",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1937
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1937
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "muhammad-ali-mongeri",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1846
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1846
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "muhammad-ali-mongeri",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1927
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1927
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "nazir-ahmad",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1836
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1836
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "nazir-ahmad",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1912
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1912
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "zakaullah",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1832
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1832
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "zakaullah",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1910
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1910
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ghalib",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1797
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1797
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ghalib",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1869
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1869
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "fazl-e-haq-khairabadi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1797
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1797
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "fazl-e-haq-khairabadi",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1861
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1861
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "momin",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1800
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1800
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "momin",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1851
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1851
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "sahbai",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1857
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1857
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "rahmatullah-kairanawi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1818
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1818
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "rahmatullah-kairanawi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1308,
+    "m": 9,
+    "d": 22
+   },
+   "gregorian": {
+    "y": 1891,
+    "m": 5,
+    "d": 1
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1891.333
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "siddiq-hasan-khan",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1832
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1832
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "siddiq-hasan-khan",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1890
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1890
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "faiz-hasan-saharanpuri",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1304
+   },
+   "gregorian": {
+    "y": 1887
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1887
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "abdul-jalil-barrada",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1327
+   },
+   "gregorian": {},
+   "precision": "year",
+   "approx": false,
+   "sort": 1909.2
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "masum-mujaddidi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1341
+   },
+   "gregorian": {},
+   "precision": "year",
+   "approx": false,
+   "sort": 1922.8
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ahmad-said-mujaddidi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1217
+   },
+   "gregorian": {
+    "y": 1802
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1802
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ahmad-said-mujaddidi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1277
+   },
+   "gregorian": {
+    "y": 1860
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1860
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "muhammad-anwarullah-faruqi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1848
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1848
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "muhammad-anwarullah-faruqi",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1918
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1918
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mamluk-ali",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1789
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1789
+  },
+  "place_id": "nanauta",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "person_id": "mamluk-ali",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1267,
+    "m": 12,
+    "d": 11
+   },
+   "gregorian": {
+    "y": 1851,
+    "m": 10,
+    "d": 7
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1851.766
+  },
+  "place_id": "delhi",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-mamluk",
+   "tarajm-mamluk"
+  ],
+  "note": {
+   "en": "Died of jaundice."
+  }
+ },
+ {
+  "person_id": "abdul-ghani-mujaddidi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1235,
+    "m": 8
+   },
+   "gregorian": {
+    "y": 1820,
+    "m": 5
+   },
+   "precision": "month",
+   "approx": false,
+   "sort": 1820.333
+  },
+  "place_id": "delhi",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "person_id": "abdul-ghani-mujaddidi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1296,
+    "m": 1,
+    "d": 6
+   },
+   "gregorian": {
+    "y": 1878,
+    "m": 12,
+    "d": 31
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1878.999
+  },
+  "place_id": "medina",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "ulum-abdulghani"
+  ],
+  "note": {
+   "en": "Tuesday 6 Muharram 1296."
+  }
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1225
+   },
+   "gregorian": {
+    "y": 1810
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1810
+  },
+  "place_id": "saharanpur",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1297,
+    "m": 5,
+    "d": 6
+   },
+   "gregorian": {
+    "y": 1880,
+    "m": 4,
+    "d": 17
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1880.294
+  },
+  "place_id": "saharanpur",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-ahmadali"
+  ],
+  "note": {
+   "en": "Two days after Nānautavī."
+  }
+ },
+ {
+  "person_id": "imdadullah",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1233,
+    "m": 2,
+    "d": 20
+   },
+   "gregorian": {
+    "y": 1817,
+    "m": 12,
+    "d": 30
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1817.996
+  },
+  "place_id": "nanauta",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-imdad",
+   "deoband-imdad"
+  ],
+  "note": {
+   "en": "Some give 1814 or 1818."
+  }
+ },
+ {
+  "person_id": "imdadullah",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1317,
+    "m": 6,
+    "d": 13
+   },
+   "gregorian": {
+    "y": 1899,
+    "m": 10,
+    "d": 18
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1899.797
+  },
+  "place_id": "mecca",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "person_id": "sadruddin-azurda",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1789,
+    "m": 12,
+    "d": 12
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1789.947
+  },
+  "place_id": "delhi",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "rekhta-azurda"
+  ],
+  "note": {
+   "en": "Wikipedia gives 1804."
+  }
+ },
+ {
+  "person_id": "sadruddin-azurda",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1868,
+    "m": 7,
+    "d": 16
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1868.541
+  },
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "rekhta-azurda"
+  ]
+ },
+ {
+  "person_id": "mahtab-ali",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1304
+   },
+   "gregorian": {
+    "y": 1887
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1887
+  },
+  "place_id": "deoband",
+  "preferred": true,
+  "confidence": "disputed",
+  "citations": [
+   "wiki-mahtab"
+  ],
+  "note": {
+   "en": "Sources give 1293 or 1304 AH; 1304 preferred."
+  }
+ },
+ {
+  "person_id": "anwar-shah-kashmiri",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1292
+   },
+   "gregorian": {
+    "y": 1875
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1875
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "anwar-shah-kashmiri",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1352
+   },
+   "gregorian": {
+    "y": 1933
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1933
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "husain-ahmad-madani",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1296
+   },
+   "gregorian": {
+    "y": 1879
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1879
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "husain-ahmad-madani",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1377
+   },
+   "gregorian": {
+    "y": 1957
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1957
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ubaidullah-sindhi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1872
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1872
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ubaidullah-sindhi",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1944
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1944
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "kifayatullah",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1875
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1875
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "kifayatullah",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1952
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1952
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ilyas-kandhlawi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1885
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1885
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ilyas-kandhlawi",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1944
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1944
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "izaz-ali-amrohi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1374
+   },
+   "gregorian": {
+    "y": 1955
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1955
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "manazir-gilani",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1892
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1892
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "manazir-gilani",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1956
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1956
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "qari-tayyib",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1897
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1897
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "qari-tayyib",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1983
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1983
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mulla-mahmud",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1886
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1886
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "shabbir-usmani",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1305
+   },
+   "gregorian": {
+    "y": 1887
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1887
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "shabbir-usmani",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1369
+   },
+   "gregorian": {
+    "y": 1949
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1949
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "aziz-rahman-usmani",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1859
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1859
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "aziz-rahman-usmani",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1928
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1928
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "murtaza-chandpuri",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1285
+   },
+   "gregorian": {
+    "y": 1868
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1868
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "sanaullah-amritsari",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1868
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1868
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "sanaullah-amritsari",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1948
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1948
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "fazlur-rahman-ganjmuradabadi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1208
+   },
+   "gregorian": {
+    "y": 1793
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1793
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "fazlur-rahman-ganjmuradabadi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1313
+   },
+   "gregorian": {
+    "y": 1895
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1895
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "habibullah-qurayshi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1865
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1865
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "habibullah-qurayshi",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1943
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1943
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mukhtar-ansari",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1880
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1880
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mukhtar-ansari",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1936
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1936
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1268
+   },
+   "gregorian": {
+    "y": 1851
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1851
+  },
+  "place_id": "bareilly",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1339,
+    "m": 3,
+    "d": 18
+   },
+   "gregorian": {
+    "y": 1920,
+    "m": 11,
+    "d": 30
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1920.913
+  },
+  "place_id": "delhi",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1850
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1850
+  },
+  "place_id": "amroha",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1330,
+    "m": 3
+   },
+   "gregorian": {
+    "y": 1912,
+    "m": 3,
+    "d": 18
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1912.213
+  },
+  "place_id": "amroha",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-amrohi",
+   "tarajm-amrohi"
+  ],
+  "note": {
+   "en": "Died of plague."
+  }
+ },
+ {
+  "person_id": "fakhrul-hasan-gangohi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1315
+   },
+   "gregorian": {
+    "y": 1897
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1897
+  },
+  "place_id": "kanpur",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "person_id": "abdul-ali-meeruti",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1347,
+    "m": 5,
+    "d": 12
+   },
+   "gregorian": {
+    "y": 1928,
+    "m": 10
+   },
+   "precision": "day",
+   "approx": true,
+   "sort": 1928.75
+  },
+  "place_id": "delhi",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "tarajm-abdulali"
+  ]
+ },
+ {
+  "person_id": "mansur-ali-khan",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1337
+   },
+   "gregorian": {
+    "y": 1918
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1918
+  },
+  "place_id": "mecca",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "tarajm-mansur"
+  ]
+ },
+ {
+  "person_id": "abdur-rahman-amrohi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1367,
+    "m": 6,
+    "d": 23
+   },
+   "gregorian": {
+    "y": 1948,
+    "m": 5
+   },
+   "precision": "day",
+   "approx": true,
+   "sort": 1948.333
+  },
+  "place_id": "amroha",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "person_id": "ismail-koli",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1263
+   },
+   "gregorian": {
+    "y": 1846
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1846
+  },
+  "place_id": "aligarh",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "tarajm-ismail"
+  ]
+ },
+ {
+  "person_id": "ismail-koli",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1311
+   },
+   "gregorian": {
+    "y": 1893
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1893
+  },
+  "place_id": "aligarh",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "tarajm-ismail"
+  ]
+ },
+ {
+  "person_id": "abdullah-ambehtvi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1344
+   },
+   "gregorian": {
+    "y": 1925
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1925
+  },
+  "place_id": "bombay",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdullah"
+  ]
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1268
+   },
+   "gregorian": {
+    "y": 1851
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1851
+  },
+  "place_id": "chittagong",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1905
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1905
+  },
+  "place_id": "chittagong",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "person_id": "hafiz-muhammad-ahmad",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1279
+   },
+   "gregorian": {
+    "y": 1862
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1862
+  },
+  "place_id": "nanauta",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "person_id": "hafiz-muhammad-ahmad",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1347,
+    "m": 5,
+    "d": 3
+   },
+   "gregorian": {
+    "y": 1928,
+    "m": 10,
+    "d": 18
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1928.797
+  },
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-hafizahmad"
+  ],
+  "note": {
+   "en": "Died on a train near Nizamabad."
+  }
+ },
+ {
+  "person_id": "yahya-kandhlawi",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1915
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1915
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mumtaz-ali",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1860
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1860
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mumtaz-ali",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1935
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1935
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "hali",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1837
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1837
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "hali",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1914
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1914
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mohsin-ul-mulk",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1837
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1837
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "mohsin-ul-mulk",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1907
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1907
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "chiragh-ali",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1844
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1844
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "chiragh-ali",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1895
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1895
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ghulam-ali-dehlawi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1743
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1743
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "ghulam-ali-dehlawi",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1824
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1824
+  },
+  "preferred": true,
+  "confidence": "reported"
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1244,
+    "m": 11,
+    "d": 6
+   },
+   "gregorian": {
+    "y": 1826,
+    "m": 6,
+    "d": 12
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1826.447
+  },
+  "place_id": "gangoh",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1323,
+    "m": 6,
+    "d": 8
+   },
+   "gregorian": {
+    "y": 1905,
+    "m": 8,
+    "d": 11
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1905.611
+  },
+  "place_id": "gangoh",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1249,
+    "m": 2,
+    "d": 13
+   },
+   "gregorian": {
+    "y": 1833,
+    "m": 7
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1833.5
+  },
+  "place_id": "nanauta",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1302,
+    "m": 3,
+    "d": 3
+   },
+   "gregorian": {
+    "y": 1884
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1884
+  },
+  "place_id": "nanauta",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-yaqub",
+   "dud-yaqub"
+  ],
+  "note": {
+   "en": "Died of cholera."
+  }
+ },
+ {
+  "person_id": "sayyid-abid",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1250
+   },
+   "gregorian": {
+    "y": 1834
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1834
+  },
+  "place_id": "deoband",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-abid"
+  ]
+ },
+ {
+  "person_id": "sayyid-abid",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1331,
+    "m": 12,
+    "d": 27
+   },
+   "gregorian": {
+    "y": 1912
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1912
+  },
+  "place_id": "deoband",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-abid"
+  ],
+  "note": {
+   "en": "The Hijri date converts to late 1913; sources give 1912."
+  }
+ },
+ {
+  "person_id": "zulfiqar-ali",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1237
+   },
+   "gregorian": {
+    "y": 1822
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1822
+  },
+  "place_id": "deoband",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "person_id": "zulfiqar-ali",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1322
+   },
+   "gregorian": {
+    "y": 1904
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1904
+  },
+  "place_id": "deoband",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "person_id": "fazlur-rahman-usmani",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1831
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1831
+  },
+  "place_id": "deoband",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "person_id": "fazlur-rahman-usmani",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1325
+   },
+   "gregorian": {
+    "y": 1907,
+    "m": 6,
+    "d": 15
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1907.455
+  },
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "person_id": "mazhar-nanautavi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1238
+   },
+   "gregorian": {
+    "y": 1821
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1821
+  },
+  "place_id": "nanauta",
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "person_id": "mazhar-nanautavi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1302,
+    "m": 12,
+    "d": 24
+   },
+   "gregorian": {
+    "y": 1885,
+    "m": 10,
+    "d": 3
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1885.755
+  },
+  "place_id": "saharanpur",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "person_id": "munir-nanautavi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1247
+   },
+   "gregorian": {
+    "y": 1831
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1831
+  },
+  "place_id": "nanauta",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "person_id": "hafiz-zamin",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1273
+   },
+   "gregorian": {
+    "y": 1857
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1857
+  },
+  "place_id": "shamli",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-shamli"
+  ],
+  "note": {
+   "en": "Killed in battle; exact date unverified."
+  }
+ },
+ {
+  "person_id": "rafi-uddin-deobandi",
+  "type": "birth",
+  "date": {
+   "hijri": {
+    "y": 1252,
+    "m": 9,
+    "d": 19
+   },
+   "gregorian": {
+    "y": 1836,
+    "m": 12,
+    "d": 28
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1836.991
+  },
+  "place_id": "deoband",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-rafiuddin"
+  ]
+ },
+ {
+  "person_id": "rafi-uddin-deobandi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1308,
+    "m": 6,
+    "d": 12
+   },
+   "gregorian": {
+    "y": 1891,
+    "m": 1,
+    "d": 22
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1891.058
+  },
+  "place_id": "medina",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-rafiuddin"
+  ]
+ },
+ {
+  "person_id": "fazl-e-haq-deobandi",
+  "type": "death",
+  "date": {
+   "hijri": {
+    "y": 1315
+   },
+   "gregorian": {
+    "y": 1898
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1898
+  },
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlehaq"
+  ],
+  "note": {
+   "en": "Died at Jhalawar, Rajputana."
+  }
+ },
+ {
+  "person_id": "ahsan-nanautavi",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1825
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1825
+  },
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "basair-ahsan"
+  ]
+ },
+ {
+  "person_id": "ahsan-nanautavi",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1895
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1895
+  },
+  "preferred": true,
+  "confidence": "reported",
+  "citations": [
+   "basair-ahsan"
+  ]
+ },
+ {
+  "person_id": "sir-syed",
+  "type": "birth",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1817,
+    "m": 10,
+    "d": 17
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1817.794
+  },
+  "place_id": "delhi",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "person_id": "sir-syed",
+  "type": "death",
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1898,
+    "m": 3,
+    "d": 27
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1898.238
+  },
+  "place_id": "aligarh-college",
+  "preferred": true,
+  "confidence": "attested",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ }
+]

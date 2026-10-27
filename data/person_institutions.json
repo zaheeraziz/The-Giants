@@ -1,0 +1,400 @@
+[
+ {
+  "person_id": "qasim-nanautavi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "note": {
+   "en": "1866"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn",
+   "dud-cofounders"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "institution_id": "madrasa-shahi",
+  "role": "founder",
+  "note": {
+   "en": "proposed and supervised its founding, 1879"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-shahi"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "institution_id": "matba-ahmadi",
+  "role": "editor",
+  "note": {
+   "en": "worked on Aḥmad ʿAlī's edition of Ṣaḥīḥ al-Bukhārī"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "institution_id": "delhi-college",
+  "role": "student",
+  "note": {
+   "en": "enrolled, but studied mostly privately"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "mamluk-ali",
+  "institution_id": "delhi-college",
+  "role": "teacher",
+  "note": {
+   "en": "Arabic lecturer 1825; head Arabic teacher from 1841"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "institution_id": "matba-ahmadi",
+  "role": "founder",
+  "note": {
+   "en": "1845"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "institution_id": "mazahir-uloom",
+  "role": "teacher",
+  "note": {
+   "en": "vice-principal 1291 AH, head teacher 1294 AH"
+  },
+  "confidence": "reported",
+  "citations": [
+   "ilmgate-ahmadali"
+  ]
+ },
+ {
+  "person_id": "mahtab-ali",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "note": {
+   "en": "consulted at the founding; second donor; first council"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-mahtab",
+   "dud-cofounders"
+  ]
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "institution_id": "darul-uloom-deoband",
+  "role": "student",
+  "note": {
+   "en": "its first student"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "institution_id": "darul-uloom-deoband",
+  "role": "head_teacher",
+  "note": {
+   "en": "principal 1890–1915"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "institution_id": "madrasa-shahi",
+  "role": "head_teacher",
+  "note": {
+   "en": "first principal, 1879–85"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-shahi",
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "student",
+  "note": {
+   "en": "graduated 1290 AH / 1873"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "person_id": "fakhrul-hasan-gangohi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "student",
+  "note": {
+   "en": "graduated 1290 AH"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-amrohi"
+  ]
+ },
+ {
+  "person_id": "abdullah-ambehtvi",
+  "institution_id": "aligarh-college",
+  "role": "teacher",
+  "note": {
+   "en": "religious preacher from 1311 AH"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdullah"
+  ]
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "institution_id": "hathazari",
+  "role": "co_founder",
+  "note": {
+   "en": "1896"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "person_id": "habibullah-qurayshi",
+  "institution_id": "hathazari",
+  "role": "co_founder",
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "person_id": "azizur-rahman-sufi",
+  "institution_id": "hathazari",
+  "role": "co_founder",
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "person_id": "hafiz-muhammad-ahmad",
+  "institution_id": "darul-uloom-deoband",
+  "role": "rector",
+  "note": {
+   "en": "1895–1928"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "note": {
+   "en": "Listed by Darul Uloom; patron (sarparast) after 1880. Disputed for 1866 itself."
+  },
+  "confidence": "disputed",
+  "citations": [
+   "dud-cofounders",
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "head_teacher",
+  "note": {
+   "en": "first head teacher, 1866–1883"
+  },
+  "confidence": "attested",
+  "citations": [
+   "dud-yaqub"
+  ]
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "confidence": "attested",
+  "citations": [
+   "dud-cofounders"
+  ]
+ },
+ {
+  "person_id": "sayyid-abid",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "note": {
+   "en": "raised the first funds in 1866"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-founding"
+  ]
+ },
+ {
+  "person_id": "sayyid-abid",
+  "institution_id": "darul-uloom-deoband",
+  "role": "rector",
+  "note": {
+   "en": "1866–67, 1869–71, 1890–92"
+  },
+  "confidence": "attested",
+  "citations": [
+   "dud-rectors"
+  ]
+ },
+ {
+  "person_id": "zulfiqar-ali",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "note": {
+   "en": "council member 1866–1903"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "person_id": "fazlur-rahman-usmani",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "note": {
+   "en": "council member for life"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "person_id": "mazhar-nanautavi",
+  "institution_id": "mazahir-uloom",
+  "role": "head_teacher",
+  "note": {
+   "en": "from 1867"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "person_id": "munir-nanautavi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "rector",
+  "note": {
+   "en": "about 1892–94; sources differ"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-munir",
+   "dud-rectors"
+  ]
+ },
+ {
+  "person_id": "rafi-uddin-deobandi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "rector",
+  "note": {
+   "en": "1867–69 and 1871/72–1888"
+  },
+  "confidence": "attested",
+  "citations": [
+   "dud-rectors"
+  ]
+ },
+ {
+  "person_id": "rafi-uddin-deobandi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "confidence": "attested",
+  "citations": [
+   "dud-cofounders"
+  ]
+ },
+ {
+  "person_id": "fazl-e-haq-deobandi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "note": {
+   "en": "supervised the first appeal for funds"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-fazlehaq"
+  ]
+ },
+ {
+  "person_id": "fazl-e-haq-deobandi",
+  "institution_id": "darul-uloom-deoband",
+  "role": "rector",
+  "note": {
+   "en": "1310–1311 AH"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlehaq"
+  ]
+ },
+ {
+  "person_id": "sir-syed",
+  "institution_id": "aligarh-college",
+  "role": "founder",
+  "note": {
+   "en": "1875"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "person_id": "nihal-ahmad",
+  "institution_id": "darul-uloom-deoband",
+  "role": "co_founder",
+  "confidence": "reported",
+  "citations": [
+   "wiki-founding"
+  ]
+ },
+ {
+  "person_id": "mulla-mahmud",
+  "institution_id": "darul-uloom-deoband",
+  "role": "teacher",
+  "note": {
+   "en": "first teacher, appointed by Nānautavī"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-founding"
+  ]
+ }
+]

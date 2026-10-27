@@ -1,0 +1,157 @@
+[
+ {
+  "person_id": "qasim-nanautavi",
+  "event_id": "shamli-1857",
+  "role": "participant",
+  "note": {
+   "en": "fought alongside Imdādullāh and Gangohī"
+  },
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "event_id": "deoband-founding",
+  "role": "founder",
+  "citations": [
+   "dud-cofounders"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "event_id": "shahjahanpur-1876",
+  "role": "speaker",
+  "note": {
+   "en": "debated Christian and Arya Samaj speakers"
+  },
+  "citations": [
+   "dud-cofounders",
+   "tareen-shahjahanpur"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "event_id": "shahjahanpur-1877",
+  "role": "speaker",
+  "citations": [
+   "dud-cofounders",
+   "tareen-shahjahanpur"
+  ]
+ },
+ {
+  "person_id": "imdadullah",
+  "event_id": "shamli-1857",
+  "role": "leader",
+  "note": {
+   "en": "amīr of the Thana Bhawan rising"
+  },
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "event_id": "silk-letter",
+  "role": "leader",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "event_id": "shahjahanpur-1876",
+  "role": "participant",
+  "note": {
+   "en": "accompanied Nānautavī"
+  },
+  "citations": [
+   "tareen-shahjahanpur"
+  ]
+ },
+ {
+  "person_id": "fakhrul-hasan-gangohi",
+  "event_id": "shahjahanpur-1876",
+  "role": "participant",
+  "note": {
+   "en": "recorded the debates"
+  },
+  "citations": [
+   "tareen-shahjahanpur"
+  ]
+ },
+ {
+  "person_id": "fakhrul-hasan-gangohi",
+  "event_id": "shahjahanpur-1877",
+  "role": "participant",
+  "note": {
+   "en": "recorded the debates"
+  },
+  "citations": [
+   "hira-shahjahanpur"
+  ]
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "event_id": "shamli-1857",
+  "role": "participant",
+  "note": {
+   "en": "served as qāḍī"
+  },
+  "citations": [
+   "wiki-shamli"
+  ]
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "event_id": "shamli-1857",
+  "role": "participant",
+  "note": {
+   "en": "listed among the commanders"
+  },
+  "citations": [
+   "wiki-shamli"
+  ]
+ },
+ {
+  "person_id": "sayyid-abid",
+  "event_id": "deoband-founding",
+  "role": "founder",
+  "citations": [
+   "wiki-founding"
+  ]
+ },
+ {
+  "person_id": "mazhar-nanautavi",
+  "event_id": "shamli-1857",
+  "role": "participant",
+  "note": {
+   "en": "wounded; his leg was paralysed"
+  },
+  "citations": [
+   "deoband-mazhar"
+  ]
+ },
+ {
+  "person_id": "munir-nanautavi",
+  "event_id": "shamli-1857",
+  "role": "participant",
+  "note": {
+   "en": "commanded the left flank; told by Imdādullāh never to leave Nānautavī's side"
+  },
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "person_id": "hafiz-zamin",
+  "event_id": "shamli-1857",
+  "role": "participant",
+  "note": {
+   "en": "killed in the battle"
+  },
+  "citations": [
+   "wiki-shamli"
+  ]
+ }
+]

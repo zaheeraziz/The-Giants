@@ -1,0 +1,2232 @@
+[
+ {
+  "id": "injah-al-hajah",
+  "title": {
+   "translit": "Injāḥ al-Ḥājah ʿalā Sunan Ibn Mājah",
+   "original": "إنجاح الحاجة على سنن ابن ماجه"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Marginal commentary on Sunan Ibn Mājah, printed in India."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "takhrij-maktubat",
+  "title": {
+   "translit": "Takhrīj Aḥādīth Maktūbāt al-Imām al-Rabbānī"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Traces the sources of the hadith quoted in Shaykh Aḥmad Sirhindī's letters."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "khulasat-al-jawahir",
+  "title": {
+   "translit": "Khulāṣat al-Jawāhir al-ʿAliyya"
+  },
+  "genres": [
+   "biography"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Life of his father, Abū Saʿīd Mujaddidī."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "id": "hawashi-bukhari-ahmadali",
+  "title": {
+   "translit": "Ḥawāshī Ṣaḥīḥ al-Bukhārī",
+   "original": "حواشی صحیح البخاری"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Marginal notes on Ṣaḥīḥ al-Bukhārī; the first annotated Indian edition. Nānautavī worked on the final portions."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "attested",
+  "citations": [
+   "deoband-bukhari"
+  ]
+ },
+ {
+  "id": "hawashi-tirmidhi",
+  "title": {
+   "translit": "Ḥawāshī Jāmiʿ al-Tirmidhī"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Marginal notes on Tirmidhī."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "hawashi-mishkat",
+  "title": {
+   "translit": "Ḥawāshī Mishkāt al-Maṣābīḥ"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Marginal notes on the Mishkāt."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "id": "sahih-muslim-edition",
+  "title": {
+   "translit": "Ṣaḥīḥ Muslim with al-Nawawī's commentary (edition)"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Reportedly the first printed edition."
+  },
+  "rank": 4,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "ilmgate-ahmadali"
+  ]
+ },
+ {
+  "id": "sahih-bukhari",
+  "title": {
+   "translit": "Ṣaḥīḥ al-Bukhārī",
+   "original": "صحيح البخاري"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "The hadith collection of al-Bukhārī (d. 256 AH)."
+  },
+  "status": "extant",
+  "confidence": "reported"
+ },
+ {
+  "id": "ziya-al-qulub",
+  "title": {
+   "translit": "Ḍiyāʾ al-Qulūb",
+   "original": "ضیاء القلوب"
+  },
+  "genres": [
+   "taṣawwuf"
+  ],
+  "languages": [
+   "fa"
+  ],
+  "description": {
+   "en": "Sufi manual written in Mecca, 1282 AH."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "ghiza-e-ruh",
+  "title": {
+   "translit": "Ghiżā-e Rūḥ",
+   "original": "غذائے روح"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Masnavi of about 1,600 verses, 1264 AH."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "faisla-haft-masala",
+  "title": {
+   "translit": "Fayṣla-e Haft Masʾala",
+   "original": "فیصلہ ہفت مسئلہ"
+  },
+  "genres": [
+   "taṣawwuf"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Mediation on seven disputed devotional questions."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "jihad-e-akbar",
+  "title": {
+   "translit": "Jihād-e Akbar",
+   "original": "جہاد اکبر"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Poem on the greater struggle against the self, 1268 AH."
+  },
+  "rank": 4,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "irshad-e-murshid",
+  "title": {
+   "translit": "Irshād-e Murshid",
+   "original": "ارشاد مرشد"
+  },
+  "genres": [
+   "taṣawwuf"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Litanies of the four Sufi orders, 1293 AH."
+  },
+  "rank": 5,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "tuhfat-al-ushshaq",
+  "title": {
+   "translit": "Tuḥfat al-ʿUshshāq",
+   "original": "تحفۃ العشاق"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Masnavi, 1281 AH."
+  },
+  "rank": 6,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "gulzar-e-marifat",
+  "title": {
+   "translit": "Gulzār-e Maʿrifat",
+   "original": "گلزار معرفت"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Devotional poems."
+  },
+  "rank": 7,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "hashiya-masnavi",
+  "title": {
+   "translit": "Ḥāshiya-e Masnavī-e Rūmī",
+   "original": "حاشیہ مثنوی"
+  },
+  "genres": [
+   "taṣawwuf"
+  ],
+  "languages": [
+   "fa"
+  ],
+  "description": {
+   "en": "Notes on Rūmī's Masnavī."
+  },
+  "rank": 8,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "kulliyat-imdadiya",
+  "title": {
+   "translit": "Kulliyāt-e Imdādiyya",
+   "original": "کلیات امدادیہ"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "His collected works."
+  },
+  "rank": 9,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-imdad"
+  ]
+ },
+ {
+  "id": "azurda-diwan",
+  "title": {
+   "translit": "Dīwān-e Āzurdah (fragments)",
+   "original": "دیوان آزردہ"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur",
+   "fa"
+  ],
+  "description": {
+   "en": "His collected poems, largely lost in 1857; ghazals survive in anthologies."
+  },
+  "rank": 1,
+  "status": "manuscript",
+  "confidence": "reported",
+  "citations": [
+   "rekhta-azurda"
+  ]
+ },
+ {
+  "id": "azurda-musaddas",
+  "title": {
+   "translit": "Musaddas on the victims of 1857"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Elegy for those killed in 1857."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "kashmirlife-azurda"
+  ]
+ },
+ {
+  "id": "azurda-shahr-ashob",
+  "title": {
+   "translit": "Shahr-āshob",
+   "original": "شہر آشوب"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Lament on the ruin of Delhi."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "kashmirlife-azurda"
+  ]
+ },
+ {
+  "id": "tarjuma-shaykh-al-hind",
+  "title": {
+   "translit": "Tarjuma-e Shaykh al-Hind",
+   "original": "ترجمہ شیخ الہند"
+  },
+  "genres": [
+   "tafsir"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Urdu translation of the Qur'an; his notes reach Sūrat al-Nisāʾ and were completed by Shabbīr Aḥmad ʿUthmānī."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "adilla-e-kamila",
+  "title": {
+   "translit": "Adilla-e Kāmila",
+   "original": "ادلۂ کاملہ"
+  },
+  "genres": [
+   "polemics"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Ten questions put to Ahl-e Hadith scholars, written at Nānautavī's request."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "izah-al-adilla",
+  "title": {
+   "translit": "Īḍāḥ al-Adilla",
+   "original": "ایضاح الادلہ"
+  },
+  "genres": [
+   "polemics"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Defence of Adilla-e Kāmila against a rebuttal."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "al-abwab-wal-tarajim",
+  "title": {
+   "translit": "al-Abwāb wa al-Tarājim li al-Bukhārī",
+   "original": "الأبواب والتراجم للبخاري"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Study of Bukhārī's chapter headings, begun in Malta."
+  },
+  "rank": 4,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "ahsan-al-qira",
+  "title": {
+   "translit": "Aḥsan al-Qirā",
+   "original": "احسن القریٰ"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Defends Gangohī's ruling on Friday prayer in villages."
+  },
+  "rank": 5,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "juhd-al-muqill",
+  "title": {
+   "translit": "Juhd al-Muqill",
+   "original": "جہد المقل"
+  },
+  "genres": [
+   "kalam"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Two volumes on the divine attributes."
+  },
+  "rank": 6,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "abu-dawud-edition",
+  "title": {
+   "translit": "Sunan Abī Dāwūd (edition with notes)"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Edited and annotated for the Mujtabāʾī Press, Delhi, 1900."
+  },
+  "rank": 7,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "id": "ifadat-e-ahmadiyya",
+  "title": {
+   "translit": "Ifādāt-e Aḥmadiyya",
+   "original": "افادات احمدیہ"
+  },
+  "genres": [
+   "kalam"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "His collected expositions."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "izalat-al-waswas",
+  "title": {
+   "translit": "Izālat al-Waswās",
+   "original": "ازالۃ الوسواس"
+  },
+  "genres": [
+   "polemics"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Rebuttal of doubts (topic not verified)."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "uncertain",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "al-malumat-al-ilahiyya",
+  "title": {
+   "translit": "al-Maʿlūmāt al-Ilāhiyya",
+   "original": "المعلومات الالٰہیہ"
+  },
+  "genres": [
+   "kalam"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On divine knowledge."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "uncertain",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "amrohi-fatawa",
+  "title": {
+   "translit": "Fatāwā (manuscript)"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "His legal rulings, held in Phalauda and Rampur libraries."
+  },
+  "rank": 4,
+  "status": "manuscript",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "al-taliq-al-mahmud",
+  "title": {
+   "translit": "al-Taʿlīq al-Maḥmūd ʿalā Sunan Abī Dāwūd",
+   "original": "التعليق المحمود على سنن أبي داود"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Short marginal commentary often printed with Sunan Abī Dāwūd."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "attested",
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "id": "hashiya-ibn-majah-fakhr",
+  "title": {
+   "translit": "Ḥāshiya ʿalā Sunan Ibn Mājah",
+   "original": "حاشية على سنن ابن ماجه"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Brief glosses."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "id": "hashiya-talkhis",
+  "title": {
+   "translit": "Ḥāshiya ʿalā Talkhīṣ al-Miftāḥ",
+   "original": "حاشية على تلخيص المفتاح"
+  },
+  "genres": [
+   "rhetoric"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Glosses on a classic of Arabic rhetoric."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "id": "madhhab-e-mansur",
+  "title": {
+   "translit": "Madhhab-e Manṣūr",
+   "original": "مذہب منصور"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Two volumes defending the Ḥanafī school from hadith."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mansur"
+  ]
+ },
+ {
+  "id": "mayar-al-adwiya",
+  "title": {
+   "translit": "Miʿyār al-Adwiya",
+   "original": "معيار الأدوية"
+  },
+  "genres": [
+   "medicine"
+  ],
+  "description": {
+   "en": "On pharmacology."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mansur"
+  ]
+ },
+ {
+  "id": "al-fath-al-mubin-mansur",
+  "title": {
+   "translit": "al-Fatḥ al-Mubīn",
+   "original": "الفتح المبين"
+  },
+  "description": {
+   "en": "Topic not verified."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "uncertain",
+  "citations": [
+   "tarajm-mansur"
+  ]
+ },
+ {
+  "id": "hashiya-mukhtasar-maani",
+  "title": {
+   "translit": "Ḥāshiya ʿalā Mukhtaṣar al-Maʿānī"
+  },
+  "genres": [
+   "rhetoric"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Glosses on a rhetoric textbook."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "id": "hawashi-mutawwal",
+  "title": {
+   "translit": "Ḥawāshī ʿalā al-Muṭawwal"
+  },
+  "genres": [
+   "rhetoric"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Glosses on al-Taftāzānī's Muṭawwal."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "id": "hashiya-baydawi",
+  "title": {
+   "translit": "Ḥāshiya ʿalā Tafsīr al-Bayḍāwī"
+  },
+  "genres": [
+   "tafsir"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "Glosses on al-Bayḍāwī's commentary."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "id": "al-qawl-al-sarih-masih",
+  "title": {
+   "translit": "al-Qawl al-Ṣarīḥ fī Takdhīb Mathīl al-Masīḥ"
+  },
+  "genres": [
+   "polemics"
+  ],
+  "description": {
+   "en": "Rebuttal of the claim to be 'like the Messiah'."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-ismail"
+  ]
+ },
+ {
+  "id": "al-qawl-al-sawab-mawlid",
+  "title": {
+   "translit": "al-Qawl al-Ṣawāb fī al-Mawlid wa al-Qiyām"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "description": {
+   "en": "On mawlid gatherings and standing during them."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-ismail"
+  ]
+ },
+ {
+  "id": "fatawa-rashidiyya",
+  "title": {
+   "translit": "Fatāwā-e Rashīdiyya",
+   "original": "فتاویٰ رشیدیہ"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "His collected legal rulings."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "lami-al-darari",
+  "title": {
+   "translit": "Lāmiʿ al-Darārī ʿalā Jāmiʿ al-Bukhārī",
+   "original": "لامع الدراری"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "His Bukhārī lectures, recorded by Yaḥyā Kāndhlawī and edited by Zakariyyā Kāndhlawī."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "al-kawkab-al-durri",
+  "title": {
+   "translit": "al-Kawkab al-Durrī",
+   "original": "الکوکب الدری"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "His Tirmidhī lectures, compiled the same way."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "imdad-al-suluk",
+  "title": {
+   "translit": "Imdād al-Sulūk",
+   "original": "امداد السلوک"
+  },
+  "genres": [
+   "taṣawwuf"
+  ],
+  "languages": [
+   "fa"
+  ],
+  "description": {
+   "en": "Treatise on the Sufi path."
+  },
+  "rank": 4,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "hidayat-al-shia-gangohi",
+  "title": {
+   "translit": "Hidāyat al-Shīʿa",
+   "original": "ہدایۃ الشیعہ"
+  },
+  "genres": [
+   "polemics"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Response to Shīʿī positions."
+  },
+  "rank": 5,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "zubdat-al-manasik",
+  "title": {
+   "translit": "Zubdat al-Manāsik",
+   "original": "زبدۃ المناسک"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On the rites of Hajj."
+  },
+  "rank": 6,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "sabil-al-rashad",
+  "title": {
+   "translit": "Sabīl al-Rashād",
+   "original": "سبیل الرشاد"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A short treatise."
+  },
+  "rank": 7,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "tasfiyat-al-qulub",
+  "title": {
+   "translit": "Taṣfiyat al-Qulūb",
+   "original": "تصفیۃ القلوب"
+  },
+  "genres": [
+   "taṣawwuf"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On purifying the heart."
+  },
+  "rank": 8,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "id": "sawanih-qasimi-yaqub",
+  "title": {
+   "translit": "Sawāniḥ-e Qāsimī (Sawāneḥ ʿUmrī)",
+   "original": "سوانح قاسمی"
+  },
+  "genres": [
+   "biography"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "The earliest short life of Nānautavī, written by his friend; printed at the Mujtabāʾī Press, Delhi, 1894."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "attested",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "maktubat-yaqubi",
+  "title": {
+   "translit": "Maktūbāt-e Yaʿqūbī",
+   "original": "مکتوبات یعقوبی"
+  },
+  "genres": [
+   "letters"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Sixty-four letters on Sufi practice and legal questions."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "bayaz-yaqubi",
+  "title": {
+   "translit": "Bayāḍ-e Yaʿqūbī",
+   "original": "بیاض یعقوبی"
+  },
+  "genres": [
+   "other"
+  ],
+  "languages": [
+   "ur",
+   "fa"
+  ],
+  "description": {
+   "en": "Notebook of Hajj diaries, hadith chains, poems and devotions."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-yaqub"
+  ]
+ },
+ {
+  "id": "al-hadiyya-al-saniyya",
+  "title": {
+   "translit": "al-Hadiyya al-Saniyya fī Dhikr al-Madrasa al-Islāmiyya al-Dīwbandiyya",
+   "original": "الہدیۃ السنیۃ"
+  },
+  "genres": [
+   "history"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "1307 AH account of the Deoband madrasa and its elders."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "tashil-al-dirasa",
+  "title": {
+   "translit": "Tashīl al-Dirāsa",
+   "original": "تسہیل الدراسہ"
+  },
+  "genres": [
+   "commentary"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On the Dīwān al-Ḥamāsa."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "tashil-al-bayan",
+  "title": {
+   "translit": "Tashīl al-Bayān",
+   "original": "تسہیل البیان"
+  },
+  "genres": [
+   "commentary"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On the Dīwān of al-Mutanabbī."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "taliqat-muallaqat",
+  "title": {
+   "translit": "al-Taʿlīqāt ʿalā al-Sabʿ al-Muʿallaqāt",
+   "original": "التعلیقات علی السبع المعلقات"
+  },
+  "genres": [
+   "commentary"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On the seven Muʿallaqāt odes."
+  },
+  "rank": 4,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "itr-al-warda",
+  "title": {
+   "translit": "ʿIṭr al-Warda",
+   "original": "عطر الوردہ"
+  },
+  "genres": [
+   "commentary"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On the Qaṣīdat al-Burda."
+  },
+  "rank": 5,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "al-irshad-zulfiqar",
+  "title": {
+   "translit": "al-Irshād",
+   "original": "الارشاد"
+  },
+  "genres": [
+   "commentary"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On the Bānat Suʿād ode."
+  },
+  "rank": 6,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "tadhkirat-al-balagha",
+  "title": {
+   "translit": "Tadhkirat al-Balāgha",
+   "original": "تذکرۃ البلاغہ"
+  },
+  "genres": [
+   "rhetoric"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Rhetoric handbook with Urdu examples."
+  },
+  "rank": 7,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "tashil-al-hisab",
+  "title": {
+   "translit": "Tashīl al-Ḥisāb",
+   "original": "تسہیل الحساب"
+  },
+  "genres": [
+   "mathematics"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Arithmetic textbook, printed at Bareilly in 1852."
+  },
+  "rank": 8,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "id": "qissa-gham-diban",
+  "title": {
+   "translit": "Qiṣṣa-e Gham-e Dībān",
+   "original": "قصۂ غم دیبان"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "fa"
+  ],
+  "description": {
+   "en": "1301 AH poem on the plague in Deoband; a historical source."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "id": "ghayat-al-awtar",
+  "title": {
+   "translit": "Ghāyat al-Awṭār (completion)",
+   "original": "غایۃ الاوطار"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Helped complete the Urdu translation of al-Durr al-Mukhtār."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mazhar"
+  ]
+ },
+ {
+  "id": "siraj-al-salikin",
+  "title": {
+   "translit": "Sirāj al-Sālikīn",
+   "original": "سراج السالکین"
+  },
+  "genres": [
+   "taṣawwuf"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Urdu translation of al-Ghazālī's Minhāj al-ʿĀbidīn (1281 AH / 1864)."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "id": "fawaid-e-gharibah",
+  "title": {
+   "translit": "Fawāʾid-e Gharība",
+   "original": "فوائد غریبہ"
+  },
+  "genres": [
+   "taṣawwuf"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Treatise on Sufism."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "id": "athar-al-sanadid",
+  "title": {
+   "translit": "Āthār al-Ṣanādīd",
+   "original": "آثار الصنادید"
+  },
+  "genres": [
+   "history"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Survey of Delhi's monuments (1847)."
+  },
+  "rank": 1,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "asbab-e-baghawat",
+  "title": {
+   "translit": "Asbāb-e Baghāwat-e Hind",
+   "original": "اسباب بغاوت ہند"
+  },
+  "genres": [
+   "history"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On the causes of the 1857 revolt (1859)."
+  },
+  "rank": 2,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "tafsir-sir-syed",
+  "title": {
+   "translit": "Tafsīr al-Qurʾān",
+   "original": "تفسیر القرآن"
+  },
+  "genres": [
+   "tafsir"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Modernist commentary on the Qur'an (from 1877)."
+  },
+  "rank": 3,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "khutubat-e-ahmadiyya",
+  "title": {
+   "translit": "al-Khuṭubāt al-Aḥmadiyya",
+   "original": "خطبات احمدیہ"
+  },
+  "genres": [
+   "sira"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Reply to William Muir's life of the Prophet (1870)."
+  },
+  "rank": 4,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "tahzib-al-akhlaq",
+  "title": {
+   "translit": "Tahdhīb al-Akhlāq",
+   "original": "تہذیب الاخلاق"
+  },
+  "genres": [
+   "journal"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Reformist Urdu journal (from 1870)."
+  },
+  "rank": 5,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "tabyin-al-kalam",
+  "title": {
+   "translit": "Tabyīn al-Kalām",
+   "original": "تبیین الکلام"
+  },
+  "genres": [
+   "interfaith"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A Muslim commentary on the Bible (1862–65)."
+  },
+  "rank": 6,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ },
+ {
+  "id": "hujjat-al-islam",
+  "title": {
+   "translit": "Ḥujjat al-Islām",
+   "original": "حجۃ الاسلام",
+   "meaning": "The Proof of Islam"
+  },
+  "genres": [
+   "kalam"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A reasoned case for Islam: why people were created, proofs that God exists and is one, prophethood, and a refutation of the Trinity. It grew out of the arguments he prepared for the Shahjahanpur religious fairs, and modern scholars read it as a new kind of kalām built on logical propositions."
+  },
+  "rank": 1,
+  "status": "extant",
+  "composed": {
+   "hijri": {
+    "y": 1294
+   },
+   "gregorian": {
+    "y": 1877
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1877
+  },
+  "publication": "Maktaba Majlis Qasim-ul-Ma'arif, Deoband, 1967; ed. Ishtiyaq Ahmad, Deoband, 2013",
+  "confidence": "attested",
+  "citations": [
+   "ajis-hujjat",
+   "rekhta-hujjat",
+   "azhaar-sadaqat"
+  ]
+ },
+ {
+  "id": "tahdhir-al-nas",
+  "title": {
+   "translit": "Taḥdhīr al-Nās",
+   "original": "تحذیر الناس من انکار اثر ابن عباس",
+   "meaning": "Warning the People against Denying the Report of Ibn ʿAbbās"
+  },
+  "genres": [
+   "aqida"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Answers a question about Ibn ʿAbbās's report of a prophet on each of the 'seven earths'. He argues that the Prophet's being the Seal of the Prophets is first a matter of rank, not only of coming last in time, while affirming that he is the last prophet. Later Barelvi critics made it central to their case against Deobandis; Deobandis reject their reading."
+  },
+  "rank": 2,
+  "status": "extant",
+  "composed": {
+   "hijri": {
+    "y": 1290
+   },
+   "gregorian": {
+    "y": 1873
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1873
+  },
+  "publication": "first printed at Matbaʿ Ṣiddīqī, Bareilly (reported)",
+  "confidence": "attested",
+  "citations": [
+   "ilmgate-zajr",
+   "wiki-husam",
+   "deoband-org-qn"
+  ]
+ },
+ {
+  "id": "hashiya-bukhari-qn",
+  "title": {
+   "translit": "Ḥāshiya ʿalā Ṣaḥīḥ al-Bukhārī (final portions)",
+   "original": "حاشیہ صحیح البخاری",
+   "meaning": "Marginal notes on Ṣaḥīḥ al-Bukhārī"
+  },
+  "genres": [
+   "hadith"
+  ],
+  "languages": [
+   "ar"
+  ],
+  "description": {
+   "en": "At Aḥmad ʿAlī Sahāranpūrī's request he wrote the notes on the last portions of Bukhārī for Aḥmad ʿAlī's edition, which became the standard South Asian madrasa text. Exactly which chapters are his is disputed."
+  },
+  "rank": 3,
+  "status": "extant",
+  "composed": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1852
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1852
+  },
+  "publication": "printed within Aḥmad ʿAlī's edition (Aḥmadī Press, Delhi)",
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn",
+   "ilmgate-ahmadali",
+   "deoband-bukhari"
+  ]
+ },
+ {
+  "id": "taqrir-e-dilpazir",
+  "title": {
+   "translit": "Taqrīr-e Dilpazīr",
+   "original": "تقریر دلپذیر",
+   "meaning": "The Pleasing Discourse"
+  },
+  "genres": [
+   "kalam"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A dense philosophical case for the truth of Islam, written as an invitation to it: the existence of a Maker and the divine attributes of knowledge, will, power and speech. Later printed under the title Ṣadāqat-e Islām."
+  },
+  "rank": 4,
+  "status": "extant",
+  "publication": "Matbaʿ Qāsmī, Deoband, 1928; Darul Uloom Deoband, 2013",
+  "confidence": "attested",
+  "citations": [
+   "azhaar-sadaqat",
+   "rekhta-dilpazir"
+  ]
+ },
+ {
+  "id": "qibla-numa",
+  "title": {
+   "translit": "Qibla Numā",
+   "original": "قبلہ نما",
+   "meaning": "The Qibla-Pointer"
+  },
+  "genres": [
+   "interfaith"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Answers Dayanand Saraswati's charge that Muslims worship a stone when they face the Kaaba, arguing that facing a direction of prayer is not worship of an object."
+  },
+  "rank": 5,
+  "status": "extant",
+  "composed": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1878
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1878
+  },
+  "publication": "Matbaʿ Mujtabāʾī, Delhi, 1907; Darul Uloom Deoband, 2013",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-qibla",
+   "azhaar-sadaqat",
+   "deoband-org-qn"
+  ]
+ },
+ {
+  "id": "intisar-al-islam",
+  "title": {
+   "translit": "Intiṣār al-Islām",
+   "original": "انتصار الاسلام",
+   "meaning": "The Vindication of Islam"
+  },
+  "genres": [
+   "interfaith"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Rebuts objections to Islam raised by Dayanand Saraswati, founder of the Arya Samaj, in the exchanges of the late 1870s."
+  },
+  "rank": 6,
+  "status": "extant",
+  "composed": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1878
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1878
+  },
+  "publication": "printed 1878, 48 pp",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-intisar",
+   "azhaar-sadaqat"
+  ]
+ },
+ {
+  "id": "mubahasa-shahjahanpur",
+  "title": {
+   "translit": "Mubāḥatha-e Shāhjahānpūr",
+   "original": "مباحثہ شاہجہاں پور",
+   "meaning": "The Shahjahanpur Debate"
+  },
+  "genres": [
+   "interfaith"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Record of his speeches and exchanges with Christian missionaries and Arya Samaj speakers at the second Shahjahanpur fair in 1877, compiled by his student Fakhr al-Ḥasan Gangohī."
+  },
+  "rank": 7,
+  "status": "extant",
+  "composed": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1877,
+    "m": 3
+   },
+   "precision": "month",
+   "approx": false,
+   "sort": 1877.167
+  },
+  "publication": "ed. Fakhr al-Ḥasan, Matbaʿ Mujtabāʾī, Delhi, 1891",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-mubahasa",
+   "tareen-shahjahanpur"
+  ]
+ },
+ {
+  "id": "guftgu-e-mazhabi",
+  "title": {
+   "translit": "Guftgū-e Madhhabī",
+   "original": "گفتگوئے مذہبی: واقعۂ میلہ خدا شناسی",
+   "meaning": "Religious Conversation: the God-Recognition Fair"
+  },
+  "genres": [
+   "interfaith"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A contemporary report of the first Shahjahanpur fair in 1876, preserving his arguments on God, prophethood and scripture before Christian and Hindu audiences."
+  },
+  "rank": 8,
+  "status": "extant",
+  "composed": {
+   "hijri": {
+    "y": 1293
+   },
+   "gregorian": {
+    "y": 1876
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1876
+  },
+  "publication": "Matbaʿ Ḍiyāʾī, Meerut, 1876",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-guftgu",
+   "ajis-hujjat"
+  ]
+ },
+ {
+  "id": "tasfiyat-al-aqaid",
+  "title": {
+   "translit": "Taṣfiyat al-ʿAqāʾid",
+   "original": "تصفیۃ العقائد",
+   "meaning": "Purification of Beliefs"
+  },
+  "genres": [
+   "aqida"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "His reply to Sir Sayyid Aḥmad Khān's principles for reading the Qur'an by reason and nature. It accepts reason while refusing to let it override revelation, and prints Sir Sayyid's letter alongside the reply."
+  },
+  "rank": 9,
+  "status": "extant",
+  "composed": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1874
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1874
+  },
+  "publication": "Matbaʿ Mujtabāʾī, Delhi, 1902",
+  "confidence": "attested",
+  "citations": [
+   "chughtai-tasfiya",
+   "rekhta-tasfiya",
+   "tareen-2024"
+  ]
+ },
+ {
+  "id": "hadiyyat-al-shia",
+  "title": {
+   "translit": "Hadiyyat al-Shīʿa",
+   "original": "ہدیۃ الشیعہ",
+   "meaning": "A Gift to the Shia"
+  },
+  "genres": [
+   "polemics"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A long Sunni answer to Shīʿī claims about the Companions and the imamate, written at Gangohī's request; one of his largest books."
+  },
+  "rank": 10,
+  "status": "extant",
+  "composed": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1867
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1867
+  },
+  "publication": "Matbaʿ Fayḍī, Delhi, 1867",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-hadiyya",
+   "tarajm-qn"
+  ]
+ },
+ {
+  "id": "aab-e-hayat",
+  "title": {
+   "translit": "Āb-e Ḥayāt",
+   "original": "آب حیات",
+   "meaning": "The Water of Life"
+  },
+  "genres": [
+   "aqida"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Argues that the prophets, the Prophet Muḥammad above all, are truly alive in their graves; still the standard reference for the Deobandi position. Not to be confused with Muḥammad Ḥusayn Āzād's history of Urdu poetry of the same name."
+  },
+  "rank": 11,
+  "status": "extant",
+  "confidence": "attested",
+  "citations": [
+   "ilmgate-hayat",
+   "azhaar-sadaqat"
+  ]
+ },
+ {
+  "id": "qasim-al-ulum",
+  "title": {
+   "translit": "Qāsim al-ʿUlūm (letters)",
+   "original": "قاسم العلوم",
+   "meaning": "Distributor of Sciences"
+  },
+  "genres": [
+   "letters"
+  ],
+  "languages": [
+   "fa",
+   "ur"
+  ],
+  "description": {
+   "en": "His collected letters answering questions on theology, Sufism and law; the main source for his thought outside the treatises."
+  },
+  "rank": 12,
+  "status": "extant",
+  "composed": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1875
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1875
+  },
+  "publication": "vol. 1, Matbaʿ Mujtabāʾī, Delhi, 1875",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-qasimululoom"
+  ]
+ },
+ {
+  "id": "munazara-e-ajiba",
+  "title": {
+   "translit": "Munāẓara-e ʿAjība",
+   "original": "مناظرہ عجیبہ",
+   "meaning": "The Remarkable Disputation"
+  },
+  "genres": [
+   "aqida",
+   "letters"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "His exchange of letters with ʿAbd al-ʿAzīz Amrohī defending the argument of Taḥdhīr al-Nās; in effect his own fuller explanation of that book."
+  },
+  "rank": 13,
+  "status": "extant",
+  "publication": "Maktaba Qasim al-'Ulum, Karachi, 1978",
+  "confidence": "attested",
+  "citations": [
+   "ajis-hujjat"
+  ]
+ },
+ {
+  "id": "ajwiba-e-arbain",
+  "title": {
+   "translit": "Ajwiba-e Arbaʿīn",
+   "original": "اجوبہ اربعین",
+   "meaning": "Answers to Forty Questions"
+  },
+  "genres": [
+   "polemics"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Answers forty questions in two parts, apparently put from the Shīʿī side."
+  },
+  "rank": 14,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "archive-ajwiba"
+  ]
+ },
+ {
+  "id": "tuhfa-lahmiya",
+  "title": {
+   "translit": "al-Tuḥfa al-Laḥmiyya",
+   "original": "تحفۂ لحمیہ",
+   "meaning": "The Gift concerning Meat"
+  },
+  "genres": [
+   "interfaith"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Defends eating meat against Hindu and Jain criticism, using rational and medical arguments, at a time of tension over cow protection."
+  },
+  "rank": 15,
+  "status": "extant",
+  "confidence": "attested",
+  "citations": [
+   "azhaar-sadaqat",
+   "deoband-org-qn"
+  ]
+ },
+ {
+  "id": "dalil-al-muhkam",
+  "title": {
+   "translit": "al-Dalīl al-Muḥkam",
+   "original": "الدلیل المحکم علی عدم قراءۃ الفاتحہ",
+   "meaning": "The Firm Proof"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Argues the Ḥanafī position that a person praying behind an imam does not recite al-Fātiḥa."
+  },
+  "rank": 16,
+  "status": "extant",
+  "publication": "Shamsul Matabe, Moradabad",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-dalil",
+   "deoband-org-qn"
+  ]
+ },
+ {
+  "id": "tawthiq-al-kalam",
+  "title": {
+   "translit": "Tawthīq al-Kalām fī al-Inṣāt Khalf al-Imām",
+   "original": "توثیق الکلام",
+   "meaning": "Strengthening the Argument for Silence behind the Imam"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A short companion tract to al-Dalīl al-Muḥkam."
+  },
+  "rank": 17,
+  "status": "extant",
+  "publication": "Khairkhwah Press, Saharanpur",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-tawthiq"
+  ]
+ },
+ {
+  "id": "masabih-al-tarawih",
+  "title": {
+   "translit": "Maṣābīḥ al-Tarāwīḥ",
+   "original": "مصابیح التراویح",
+   "meaning": "Lamps of the Tarāwīḥ"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "On the tarāwīḥ prayer of Ramadan."
+  },
+  "rank": 18,
+  "status": "extant",
+  "publication": "Matbaʿ Ḍiyāʾī, Meerut",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-masabih"
+  ]
+ },
+ {
+  "id": "qasaid-e-qasmi",
+  "title": {
+   "translit": "Qaṣāʾid-e Qāsmī",
+   "original": "قصائد قاسمی",
+   "meaning": "Qasimi Odes"
+  },
+  "genres": [
+   "poetry"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "His collected odes, mostly in praise of the Prophet: the devotional, literary side of a scholar known for dense theology."
+  },
+  "rank": 19,
+  "status": "extant",
+  "publication": "ed. Nadim Ahmad, Hujjat al-Islam Academy, Deoband, 2021",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-qasaid"
+  ]
+ },
+ {
+  "id": "jamal-e-qasmi",
+  "title": {
+   "translit": "Jamāl-e Qāsmī",
+   "original": "جمال قاسمی",
+   "meaning": "Qasimi Beauty"
+  },
+  "genres": [
+   "letters"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A short collection of letters on doctrine."
+  },
+  "rank": 20,
+  "status": "extant",
+  "composed": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1901
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1901
+  },
+  "publication": "ed. Mohammad Jamaluddin, Matbaʿ Mujtabāʾī, Delhi, 1901",
+  "confidence": "attested",
+  "citations": [
+   "rekhta-jamal"
+  ]
+ },
+ {
+  "id": "fuyuz-e-qasimiya",
+  "title": {
+   "translit": "Fuyūḍ-e Qāsimiyya",
+   "original": "فیوض قاسمیہ",
+   "meaning": "Qasimi Graces"
+  },
+  "genres": [
+   "letters"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "A short collection of letters or teachings published in Deoband."
+  },
+  "rank": 21,
+  "status": "extant",
+  "publication": "Kutub Khana Ezaziya, Deoband",
+  "confidence": "reported",
+  "citations": [
+   "rekhta-fuyuz"
+  ]
+ },
+ {
+  "id": "lataif-e-qasmi",
+  "title": {
+   "translit": "Laṭāʾif-e Qāsmī",
+   "original": "لطائف قاسمی",
+   "meaning": "Qasimi Subtleties"
+  },
+  "genres": [
+   "letters"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Listed among his works; usually described as a small collection of letters."
+  },
+  "rank": 22,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "deoband-org-qn",
+   "tarajm-qn"
+  ]
+ },
+ {
+  "id": "al-haqq-al-sarih",
+  "title": {
+   "translit": "al-Ḥaqq al-Ṣarīḥ fī Bayān al-Tarāwīḥ",
+   "original": "الحق الصریح",
+   "meaning": "The Clear Truth on the Tarāwīḥ"
+  },
+  "genres": [
+   "fiqh"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Listed among his works as a treatise on tarāwīḥ; may be another title for Maṣābīḥ al-Tarāwīḥ."
+  },
+  "rank": 23,
+  "status": "extant",
+  "confidence": "reported",
+  "citations": [
+   "deoband-org-qn",
+   "tarajm-qn"
+  ]
+ },
+ {
+  "id": "barahin-e-qasimiya",
+  "title": {
+   "translit": "Barāhīn-e Qāsimiyya",
+   "original": "براہین قاسمیہ",
+   "meaning": "Qasimi Proofs"
+  },
+  "genres": [
+   "interfaith"
+  ],
+  "languages": [
+   "ur"
+  ],
+  "description": {
+   "en": "Answers Arya Samaj objections about God's existence and attributes."
+  },
+  "rank": 24,
+  "status": "extant",
+  "confidence": "uncertain",
+  "citations": [
+   "azhaar-sadaqat"
+  ]
+ }
+]

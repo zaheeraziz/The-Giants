@@ -1,0 +1,116 @@
+[
+ {
+  "id": "shamli-1857",
+  "name": {
+   "en": "Battle of Shāmlī"
+  },
+  "date": {
+   "hijri": {
+    "y": 1273
+   },
+   "gregorian": {
+    "y": 1857
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1857
+  },
+  "place_id": "shamli",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "id": "shahjahanpur-1876",
+  "name": {
+   "en": "Mela Khuda Shanasi (religious fair), Shahjahanpur — first"
+  },
+  "date": {
+   "hijri": {
+    "y": 1293
+   },
+   "gregorian": {
+    "y": 1876,
+    "m": 5,
+    "d": 8
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1876.353
+  },
+  "place_id": "chandapur",
+  "citations": [
+   "dud-cofounders",
+   "tareen-shahjahanpur"
+  ]
+ },
+ {
+  "id": "shahjahanpur-1877",
+  "name": {
+   "en": "Mela Khuda Shanasi (religious fair), Shahjahanpur — second"
+  },
+  "date": {
+   "hijri": {
+    "y": 1294
+   },
+   "gregorian": {
+    "y": 1877,
+    "m": 3
+   },
+   "precision": "month",
+   "approx": false,
+   "sort": 1877.167
+  },
+  "place_id": "chandapur",
+  "citations": [
+   "dud-cofounders",
+   "tareen-shahjahanpur"
+  ]
+ },
+ {
+  "id": "deoband-founding",
+  "name": {
+   "en": "Founding of Darul Uloom Deoband"
+  },
+  "date": {
+   "hijri": {
+    "y": 1283,
+    "m": 1,
+    "d": 15
+   },
+   "gregorian": {
+    "y": 1866,
+    "m": 5,
+    "d": 30
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1866.413
+  },
+  "place_id": "deoband",
+  "citations": [
+   "dud-cofounders"
+  ]
+ },
+ {
+  "id": "silk-letter",
+  "name": {
+   "en": "Silk Letter Movement"
+  },
+  "date": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1913
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1913,
+   "text": {
+    "en": "1913–1920"
+   }
+  },
+  "citations": [
+   "unverified"
+  ]
+ }
+]

@@ -1,0 +1,512 @@
+[
+ {
+  "id": "unverified",
+  "type": "note",
+  "title": "Not yet checked against a source (general knowledge)"
+ },
+ {
+  "id": "wiki-qn",
+  "type": "web",
+  "title": "Wikipedia — Qasim Nanawtawi",
+  "url": "https://en.wikipedia.org/wiki/Qasim_Nanawtawi"
+ },
+ {
+  "id": "wiki-ar-qn",
+  "type": "web",
+  "title": "Wikipedia (Arabic) — محمد قاسم النانوتوي",
+  "url": "https://ar.wikipedia.org/wiki/محمد_قاسم_النانوتوي"
+ },
+ {
+  "id": "deoband-org-qn",
+  "type": "web",
+  "title": "deoband.org — The Proof of Islam, Shaykh Qasim al-Nanotwi (tr. of Nuzhat al-Khawatir)",
+  "url": "https://www.deoband.org/2013/03/biographical-notes/the-proof-of-islam-shaykh-qasim-al-nanotwi/"
+ },
+ {
+  "id": "tarajm-qn",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — entry on Qasim Nanautavi (tarajm.com)",
+  "url": "https://tarajm.com/people/95362",
+  "note": "its Gregorian years are wrong; Hijri used"
+ },
+ {
+  "id": "dud-cofounders",
+  "type": "web",
+  "title": "Darul Uloom Deoband — co-founders list (official site)",
+  "url": "https://dud.edu.in/index.php/en/co-founders-list"
+ },
+ {
+  "id": "dud-ar-qn",
+  "type": "web",
+  "title": "Darul Uloom Deoband (Arabic) — al-Imam Muhammad Qasim al-Nanautawi",
+  "url": "https://darululoom-deoband.com/arabicarticles/archives/3529"
+ },
+ {
+  "id": "rekhta-qn",
+  "type": "web",
+  "title": "Rekhta — Mohammad Qasim Nanotvi profile",
+  "url": "https://www.rekhta.org/poets/mohammad-qasim-nanotvi/profile"
+ },
+ {
+  "id": "ummid-qn",
+  "type": "web",
+  "title": "Ummid.com — Qasim Nanautawi, the scholar who awakened Muslims through education",
+  "url": "https://ummid.com/news/2022/july/31.07.2022/qasim-nanautawi-the-scholar-who-awakened-muslims-through-education.html"
+ },
+ {
+  "id": "wiki-shahi",
+  "type": "web",
+  "title": "Wikipedia — Madrasa Shahi",
+  "url": "https://en.wikipedia.org/wiki/Madrasa_Shahi"
+ },
+ {
+  "id": "madarisweb-asanid",
+  "type": "web",
+  "title": "madarisweb — Nanautavi's hadith chains (asanid)",
+  "url": "https://www.madarisweb.com/ar/articles/3710"
+ },
+ {
+  "id": "deoband-org-gangohi",
+  "type": "web",
+  "title": "deoband.org — The Epitome of Shari'a and Tariqa (Gangohi)",
+  "url": "https://www.deoband.org/2009/04/biographical-notes/the-epitome-of-sharia-and-tariqa/"
+ },
+ {
+  "id": "wiki-siddiqi",
+  "type": "web",
+  "title": "Wikipedia — Siddiqi family of Nanauta",
+  "url": "https://en.wikipedia.org/wiki/Siddiqi_family_of_Nanauta"
+ },
+ {
+  "id": "tareen-shahjahanpur",
+  "type": "article",
+  "title": "SherAli Tareen, 'The Polemic of Shahjahanpur', Islamic Studies",
+  "url": "https://journals.iiu.edu.pk/index.php/islamicstudies/article/view/3530"
+ },
+ {
+  "id": "hira-shahjahanpur",
+  "type": "web",
+  "title": "Hira Online — introduction to Mubahatha Shahjahanpur",
+  "url": "https://hira-online.com/تعارف-مباحثہ-شاہ-جہاں-پور/"
+ },
+ {
+  "id": "wiki-mamluk",
+  "type": "web",
+  "title": "Wikipedia — Mamluk Ali Nanautawi",
+  "url": "https://en.wikipedia.org/wiki/Mamluk_Ali_Nanautawi"
+ },
+ {
+  "id": "tarajm-mamluk",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Mamluk Ali (tarajm.com)",
+  "url": "https://tarajm.com/people/94896"
+ },
+ {
+  "id": "ulum-abdulghani",
+  "type": "web",
+  "title": "Ulum al-Hadith — Shah Abd al-Ghani al-Mujaddidi",
+  "url": "https://ulumalhadith.com/?p=6844"
+ },
+ {
+  "id": "darulmaarif-abdulghani",
+  "type": "web",
+  "title": "Dar al-Ma'arif — Shah Abd al-Ghani",
+  "url": "https://darulmaarif.com/?p=957"
+ },
+ {
+  "id": "wiki-ahmadali",
+  "type": "web",
+  "title": "Wikipedia — Ahmad Ali Saharanpuri",
+  "url": "https://en.wikipedia.org/wiki/Ahmad_Ali_Saharanpuri"
+ },
+ {
+  "id": "ilmgate-ahmadali",
+  "type": "web",
+  "title": "ilmgate — An introduction to Mawlana Ahmad Ali of Saharanpur",
+  "url": "https://www.ilmgate.org/an-introduction-to-hadhrat-mawlana-ahmad-ali-the-hadith-scholar-of-saharanpur/"
+ },
+ {
+  "id": "deoband-bukhari",
+  "type": "web",
+  "title": "deoband.org — World's first critical edition of Sahih al-Bukhari",
+  "url": "https://www.deoband.org/2022/01/biographical-notes/worlds-first-critical-edition-sahih-albukhari/"
+ },
+ {
+  "id": "wiki-imdad",
+  "type": "web",
+  "title": "Wikipedia — Imdadullah Muhajir Makki",
+  "url": "https://en.wikipedia.org/wiki/Imdadullah_Muhajir_Makki"
+ },
+ {
+  "id": "tarajm-imdad",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Imdadullah (tarajm.com)",
+  "url": "https://tarajm.com/people/93918"
+ },
+ {
+  "id": "deoband-imdad",
+  "type": "web",
+  "title": "deoband.org — Shaykh Imdad Allah al-Faruqi al-Thanawi",
+  "url": "https://www.deoband.org/2009/03/biographical-notes/shaykh-imdad-allah-al-faruqi-al-thanawi/"
+ },
+ {
+  "id": "wiki-azurda",
+  "type": "web",
+  "title": "Wikipedia — Sadruddin Khan Azurda Dehlawi",
+  "url": "https://en.wikipedia.org/wiki/Sadruddin_Khan_Azurda_Dehlawi"
+ },
+ {
+  "id": "rekhta-azurda",
+  "type": "web",
+  "title": "Rekhta — Mufti Sadruddin Aazurda profile",
+  "url": "https://www.rekhta.org/poets/mufti-sadruddin-aazurda/profile?lang=ur"
+ },
+ {
+  "id": "kashmirlife-azurda",
+  "type": "web",
+  "title": "Kashmir Life — Delhi's Kashmir teacher",
+  "url": "https://kashmirlife.net/delhis-kashmir-teacher-vol-18-issue-12-439483/"
+ },
+ {
+  "id": "wiki-mahtab",
+  "type": "web",
+  "title": "Wikipedia — Mahtab Ali Deobandi",
+  "url": "https://en.wikipedia.org/wiki/Mahtab_Ali_Deobandi"
+ },
+ {
+  "id": "wiki-mahmud",
+  "type": "web",
+  "title": "Wikipedia — Mahmud Hasan Deobandi",
+  "url": "https://en.wikipedia.org/wiki/Mahmud_Hasan_Deobandi"
+ },
+ {
+  "id": "tarajm-mahmud",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Mahmud Hasan (tarajm.com)",
+  "url": "https://tarajm.com/people/93876"
+ },
+ {
+  "id": "wiki-amrohi",
+  "type": "web",
+  "title": "Wikipedia — Ahmad Hasan Amrohi",
+  "url": "https://en.wikipedia.org/wiki/Ahmad_Hasan_Amrohi"
+ },
+ {
+  "id": "tarajm-amrohi",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Ahmad Hasan Amrohi (tarajm.com)",
+  "url": "https://tarajm.com/people/95768"
+ },
+ {
+  "id": "shamela-budur",
+  "type": "web",
+  "title": "al-Budur al-Mudiyya (Shamela) — Murtaza Hasan entry",
+  "url": "https://shamela.ws/book/819/6980"
+ },
+ {
+  "id": "tarajm-fakhr",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Fakhrul Hasan Gangohi (tarajm.com)",
+  "url": "https://tarajm.com/people/96252"
+ },
+ {
+  "id": "tarajm-abdulali",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Abdul Ali Meeruti (tarajm.com)",
+  "url": "https://tarajm.com/people/96055"
+ },
+ {
+  "id": "tarajm-mansur",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Mansur Ali Muradabadi (tarajm.com)",
+  "url": "https://tarajm.com/people/96364"
+ },
+ {
+  "id": "tarajm-abdurrahman",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Abdur Rahman Amrohi (tarajm.com)",
+  "url": "https://tarajm.com/people/96049"
+ },
+ {
+  "id": "tarajm-ismail",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Ismail Kawli (tarajm.com)",
+  "url": "https://tarajm.com/people/95807"
+ },
+ {
+  "id": "tarajm-abdullah",
+  "type": "web",
+  "title": "Nuzhat al-Khawatir — Abdullah Ansari Anbahtawi (tarajm.com)",
+  "url": "https://tarajm.com/people/96151"
+ },
+ {
+  "id": "wiki-abdulwahid",
+  "type": "web",
+  "title": "Wikipedia — Abdul Wahid Bengali",
+  "url": "https://en.wikipedia.org/wiki/Abdul_Wahid_Bengali"
+ },
+ {
+  "id": "wiki-hafizahmad",
+  "type": "web",
+  "title": "Wikipedia — Hafiz Muhammad Ahmad",
+  "url": "https://en.wikipedia.org/wiki/Hafiz_Muhammad_Ahmad"
+ },
+ {
+  "id": "wiki-gangohi",
+  "type": "web",
+  "title": "Wikipedia — Rashid Ahmad Gangohi",
+  "url": "https://en.wikipedia.org/wiki/Rashid_Ahmad_Gangohi"
+ },
+ {
+  "id": "ilmgate-gangohi",
+  "type": "web",
+  "title": "ilmgate — Academic education and spiritual training of Rasheed Ahmad Gangohi",
+  "url": "https://www.ilmgate.org/the-academic-education-and-spiritual-training-of-hadrat-rasheed-ahmad-gangohi/"
+ },
+ {
+  "id": "wiki-yaqub",
+  "type": "web",
+  "title": "Wikipedia — Yaqub Nanautawi",
+  "url": "https://en.wikipedia.org/wiki/Yaqub_Nanautawi"
+ },
+ {
+  "id": "dud-yaqub",
+  "type": "web",
+  "title": "Darul Uloom Deoband — Muhammad Yaqub Nanautawi (co-founders list)",
+  "url": "https://dud.edu.in/index.php/en/co-founders-list?id=26"
+ },
+ {
+  "id": "wiki-abid",
+  "type": "web",
+  "title": "Wikipedia — Sayyid Muhammad Abid",
+  "url": "https://en.wikipedia.org/wiki/Sayyid_Muhammad_Abid"
+ },
+ {
+  "id": "dud-rectors",
+  "type": "web",
+  "title": "Darul Uloom Deoband — former rectors",
+  "url": "https://dud.edu.in/index.php/en/former-rectors"
+ },
+ {
+  "id": "wiki-founding",
+  "type": "web",
+  "title": "Wikipedia — Foundation of Darul Uloom Deoband",
+  "url": "https://en.wikipedia.org/wiki/Foundation_of_Darul_Uloom_Deoband"
+ },
+ {
+  "id": "wiki-zulfiqar",
+  "type": "web",
+  "title": "Wikipedia — Zulfiqar Ali Deobandi",
+  "url": "https://en.wikipedia.org/wiki/Zulfiqar_Ali_Deobandi"
+ },
+ {
+  "id": "dud-zulfiqar",
+  "type": "web",
+  "title": "Darul Uloom Deoband — Zulfiqar Ali (co-founders list)",
+  "url": "https://dud.edu.in/index.php/en/co-founders-list?id=27"
+ },
+ {
+  "id": "wiki-fazlurrahman",
+  "type": "web",
+  "title": "Wikipedia — Fazlur Rahman Usmani",
+  "url": "https://en.wikipedia.org/wiki/Fazlur_Rahman_Usmani"
+ },
+ {
+  "id": "wiki-sirsyed",
+  "type": "web",
+  "title": "Wikipedia — Syed Ahmad Khan",
+  "url": "https://en.wikipedia.org/wiki/Syed_Ahmad_Khan"
+ },
+ {
+  "id": "tareen-2024",
+  "type": "web",
+  "title": "SherAli Tareen, 'Theological foundations of Muslim modernism and traditionalism in South Asia', Modern Asian Studies 58(2), 2024",
+  "url": "https://www.cambridge.org/core/journals/modern-asian-studies/article/theological-foundations-of-muslim-modernism-and-traditionalism-in-south-asia/CF73849C02B3C3C5B8C4142B48BC21C8"
+ },
+ {
+  "id": "wiki-mazhar",
+  "type": "web",
+  "title": "Wikipedia — Mazhar Nanautawi",
+  "url": "https://en.wikipedia.org/wiki/Mazhar_Nanautawi"
+ },
+ {
+  "id": "deoband-mazhar",
+  "type": "web",
+  "title": "deoband.org — Scholar of deep learning: Shaykh Mazhar Nanautwi",
+  "url": "https://deoband.org/2009/11/biographical-notes/scholar-of-deep-learning-shaykh-mazhar-nanautwi/"
+ },
+ {
+  "id": "ilmgate-mazhar",
+  "type": "web",
+  "title": "ilmgate — A short biography of Mawlana Muhammad Mazhar Nanautwi",
+  "url": "https://www.ilmgate.org/a-short-biography-of-mawlana-muhammad-mazhar-nanautwi/"
+ },
+ {
+  "id": "wiki-shamli",
+  "type": "web",
+  "title": "Wikipedia — Battle of Shamli",
+  "url": "https://en.wikipedia.org/wiki/Battle_of_Shamli"
+ },
+ {
+  "id": "wiki-munir",
+  "type": "web",
+  "title": "Wikipedia — Muhammad Munir Nanautavi",
+  "url": "https://en.wikipedia.org/wiki/Muhammad_Munir_Nanautavi"
+ },
+ {
+  "id": "wiki-rafiuddin",
+  "type": "web",
+  "title": "Wikipedia — Rafiuddin Deobandi",
+  "url": "https://en.wikipedia.org/wiki/Rafiuddin_Deobandi"
+ },
+ {
+  "id": "wiki-fazlehaq",
+  "type": "web",
+  "title": "Wikipedia — Fazl-e-Haque Deobandi",
+  "url": "https://en.wikipedia.org/wiki/Fazl-e-Haque_Deobandi"
+ },
+ {
+  "id": "basair-ahsan",
+  "type": "web",
+  "title": "Basair — on Tahdhir al-Nas and Muhammad Ahsan Nanautavi",
+  "url": "https://www.basair.net/?p=5368"
+ },
+ {
+  "id": "loc-qn",
+  "type": "web",
+  "title": "Library of Congress — Introducing Imam Muhammad Qasim al-Nanautwi (PDF)",
+  "url": "https://tile.loc.gov/storage-services/service/gdc/gdcovop/2014311081/2014311081.pdf"
+ },
+ {
+  "id": "ajis-hujjat",
+  "type": "article",
+  "title": "Atif Suhail Siddiqui, 'Theological and Intellectual Roots in Deobandi Thought: Ḥujjat al-Islām', AJIS 37 (2020)",
+  "url": "https://mail.ajis.org/index.php/ajiss/article/view/703"
+ },
+ {
+  "id": "azhaar-sadaqat",
+  "type": "article",
+  "title": "Wali Ul Haq & Rashid Ahmad, critical review of Sadaqat-i-Islam, Al-Azhaar 6:1 (2020)",
+  "url": "https://al-azhaar.org/index.php/alazhar/article/download/42/13/15"
+ },
+ {
+  "id": "rekhta-hujjat",
+  "type": "web",
+  "title": "Rekhta — Hujjat-ul-Islam (Mukammal)",
+  "url": "https://www.rekhta.org/ebooks/detail/hujjat-ul-islam-mukammal-mohammad-qasim-nanotvi-ebooks"
+ },
+ {
+  "id": "ilmgate-zajr",
+  "type": "web",
+  "title": "ilmgate — Reprimanding men for denying the athar of Ibn Abbas",
+  "url": "https://www.ilmgate.org/reprimanding-men-for-denying-the-athar-of-ibn-%E2%80%98abbas/"
+ },
+ {
+  "id": "wiki-husam",
+  "type": "web",
+  "title": "Wikipedia — Husamul Haramain",
+  "url": "https://en.wikipedia.org/wiki/Husamul_Haramain"
+ },
+ {
+  "id": "rekhta-dilpazir",
+  "type": "web",
+  "title": "Rekhta — Taqreer-e-Dilpazeer (1928)",
+  "url": "https://www.rekhta.org/ebooks/detail/taqreer-e-dil-pazeer-molvi-mohammad-qasim-ebooks"
+ },
+ {
+  "id": "rekhta-qibla",
+  "type": "web",
+  "title": "Rekhta — Qibla Numa (1907)",
+  "url": "https://www.rekhta.org/ebooks/detail/qibla-numa-molvi-mohammad-qasim-ebooks"
+ },
+ {
+  "id": "rekhta-intisar",
+  "type": "web",
+  "title": "Rekhta — Intesar-ul-Islam (1878)",
+  "url": "https://www.rekhta.org/ebooks/detail/intesar-ul-islam-molvi-mohammad-qasim-ebooks"
+ },
+ {
+  "id": "rekhta-mubahasa",
+  "type": "web",
+  "title": "Rekhta — Mubahasa Shahjahanpur (1891)",
+  "url": "https://www.rekhta.org/ebooks/detail/mubahasa-shahjahanpur-molvi-mohammad-qasim-ebooks-1"
+ },
+ {
+  "id": "rekhta-guftgu",
+  "type": "web",
+  "title": "Rekhta — Guftagu-e-Mazhabi: Waqia-e-Mela Khuda Shanasi (1876)",
+  "url": "https://www.rekhta.org/ebooks/detail/guftagua-e-mazhabi-waqia-e-mela-khuda-shanasi-unknown-author-ebooks/"
+ },
+ {
+  "id": "rekhta-tasfiya",
+  "type": "web",
+  "title": "Rekhta — Tasfiyat ul-Aqaid (1902)",
+  "url": "https://www.rekhta.org/ebooks/detail/tasfiyat-ul-aqaid-molvi-mohammad-qasim-ebooks"
+ },
+ {
+  "id": "chughtai-tasfiya",
+  "type": "web",
+  "title": "Chughtai Library — Tasfiyat al-Aqaid record",
+  "url": "https://chughtailibrary.com/digital_library/repository_detail.php?id=43643"
+ },
+ {
+  "id": "rekhta-hadiyya",
+  "type": "web",
+  "title": "Rekhta — Hadiyat-us-Shia (1867)",
+  "url": "https://www.rekhta.org/ebooks/detail/hadiyat-us-shia-maulwi-mohammad-qasim-ebooks"
+ },
+ {
+  "id": "ilmgate-hayat",
+  "type": "web",
+  "title": "ilmgate — On the life of the Prophet in his grave",
+  "url": "https://ilmgate.org/on-the-life-of-the-prophet-in-his-grave"
+ },
+ {
+  "id": "rekhta-qasimululoom",
+  "type": "web",
+  "title": "Rekhta — Qasimul Uloom vol. 1 (1875)",
+  "url": "https://www.rekhta.org/ebooks/detail/qasimul-uloom-volume-001-maulvi-qasim-ebooks"
+ },
+ {
+  "id": "archive-ajwiba",
+  "type": "web",
+  "title": "Archive.org — Ajuba Arbaeen",
+  "url": "https://archive.org/details/AjubaArbaeen"
+ },
+ {
+  "id": "rekhta-dalil",
+  "type": "web",
+  "title": "Rekhta — al-Daleel al-Muhkam",
+  "url": "https://www.rekhta.org/ebooks/detail/daleel-al-muhkam-ala-adam-qira-at-al-fatiha-mohammad-qasim-nanotvi-ebooks"
+ },
+ {
+  "id": "rekhta-tawthiq",
+  "type": "web",
+  "title": "Rekhta — Tauseeq-ul-Kalam",
+  "url": "https://www.rekhta.org/ebooks/detail/tauseeq-ul-kalam-fi-insat-e-khalaf-al-imam-mohammad-qasim-nanotvi-ebooks"
+ },
+ {
+  "id": "rekhta-masabih",
+  "type": "web",
+  "title": "Rekhta — Masabeehul-Taraweeh",
+  "url": "https://www.rekhta.org/ebooks/detail/masabeehul-taraweeh-mohammad-qasim-nanotvi-ebooks"
+ },
+ {
+  "id": "rekhta-qasaid",
+  "type": "web",
+  "title": "Rekhta — Qasaid-e-Qasmi (2021)",
+  "url": "https://www.rekhta.org/ebooks/detail/qasaid-e-qasmi-mohammad-qasim-nanotvi-ebooks-2"
+ },
+ {
+  "id": "rekhta-jamal",
+  "type": "web",
+  "title": "Rekhta — Jamal-e-Qasmi",
+  "url": "https://www.rekhta.org/ebooks/detail/jamal-e-qasmi-aaftab-e-ziya-ebooks"
+ },
+ {
+  "id": "rekhta-fuyuz",
+  "type": "web",
+  "title": "Rekhta — Fuyooz-e-Qasmiya",
+  "url": "https://www.rekhta.org/ebooks/detail/fuyooz-e-qasmiya-molvi-mohammad-qasim-ebooks"
+ }
+]

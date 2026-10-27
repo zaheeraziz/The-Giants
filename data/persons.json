@@ -1,0 +1,1412 @@
+[
+ {
+  "id": "qasim-nanautavi",
+  "slug": "qasim-nanautavi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "Born in Nanauta near Saharanpur into the Ṣiddīqī family. He studied in Deoband, Saharanpur and then Delhi, where Mamlūk ʿAlī took him through the whole curriculum and Shāh ʿAbd al-Ghanī taught him hadith. He fought at Shāmlī in 1857, and in 1866 helped found the madrasa at Deoband that became Darul Uloom. In his last years he debated Christian missionaries and the Arya Samaj at the Shahjahanpur fairs and set up madrasas across the region."
+  },
+  "legacy": {
+   "en": "Co-founder of Darul Uloom Deoband, the root of the Deobandi movement and of thousands of madrasas worldwide."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Māturīdī",
+   "Chishtī-Ṣābirī",
+   "Deobandī"
+  ],
+  "note": {
+   "en": "Sha'ban–Ramadan 1248 AH falls around Dec 1832 – Feb 1833, so some sources give 1833."
+  },
+  "citations": [
+   "wiki-qn",
+   "deoband-org-qn",
+   "dud-ar-qn"
+  ]
+ },
+ {
+  "id": "shah-ishaq",
+  "slug": "shah-ishaq",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Grandson of Shāh Walīullāh; leading hadith teacher of Delhi, later in Mecca."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "shah-abdul-aziz",
+  "slug": "shah-abdul-aziz",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Eldest son of Shāh Walīullāh; the central hadith teacher of Delhi."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "ilahi-bakhsh-kandhlawi",
+  "slug": "ilahi-bakhsh-kandhlawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Jurist and student of Shāh ʿAbd al-ʿAzīz."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "rashiduddin-khan",
+  "slug": "rashiduddin-khan",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Delhi scholar in the Walīullāhī circle."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "muhammad-qalandar",
+  "slug": "muhammad-qalandar",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Teacher of Mamlūk ʿAlī and Imdādullāh."
+  }
+ },
+ {
+  "id": "abu-said-mujaddidi",
+  "slug": "abu-said-mujaddidi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Naqshbandī-Mujaddidī shaykh; father of Shāh ʿAbd al-Ghanī."
+  }
+ },
+ {
+  "id": "abid-sindhi",
+  "slug": "abid-sindhi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Hadith master of Medina."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "wajihuddin-saharanpuri",
+  "slug": "wajihuddin-saharanpuri",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Saharanpur scholar; taught Aḥmad ʿAlī most of Bukhārī."
+  }
+ },
+ {
+  "id": "nur-muhammad-jhanjhanawi",
+  "slug": "nur-muhammad-jhanjhanawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Chishtī-Ṣābirī shaykh of Imdādullāh."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "shah-rafiuddin-dehlawi",
+  "slug": "shah-rafiuddin-dehlawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Son of Shāh Walīullāh; jurist and Qur'an translator."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "fazl-imam-khairabadi",
+  "slug": "fazl-imam-khairabadi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Master of the rational sciences."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "khalil-ahmad",
+  "slug": "khalil-ahmad",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Hadith scholar; author of Badhl al-Majhūd; grandson of Mamlūk ʿAlī."
+  }
+ },
+ {
+  "id": "ashraf-ali-thanwi",
+  "slug": "ashraf-ali-thanwi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Ḥakīm al-Ummat; prolific Deobandi author."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "shibli-nomani",
+  "slug": "shibli-nomani",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Historian; founder of Dār al-Muṣannifīn."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "mehr-ali-shah",
+  "slug": "mehr-ali-shah",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Chishtī shaykh of Golra."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "muhammad-ali-mongeri",
+  "slug": "muhammad-ali-mongeri",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Founder of Nadwat al-ʿUlamāʾ."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "nur-muhammad-ludhianwi",
+  "slug": "nur-muhammad-ludhianwi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Author of the Nūrānī Qāʿida."
+  }
+ },
+ {
+  "id": "nazir-ahmad",
+  "slug": "nazir-ahmad",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Urdu novelist and translator."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "zakaullah",
+  "slug": "zakaullah",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Historian and educationist."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "ghalib",
+  "slug": "ghalib",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "The great Urdu and Persian poet of Delhi."
+  },
+  "citations": [
+   "unverified"
+  ],
+  "honorific": false
+ },
+ {
+  "id": "fazl-e-haq-khairabadi",
+  "slug": "fazl-e-haq-khairabadi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Logician and 1857 leader, exiled to the Andamans."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "momin",
+  "slug": "momin",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Delhi poet."
+  },
+  "citations": [
+   "unverified"
+  ],
+  "honorific": false
+ },
+ {
+  "id": "sahbai",
+  "slug": "sahbai",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Delhi poet and teacher."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "rahmatullah-kairanawi",
+  "slug": "rahmatullah-kairanawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Author of Iẓhār al-Ḥaqq; debated Pfander at Agra (1854); founded Madrasa Ṣawlatiyya in Mecca."
+  }
+ },
+ {
+  "id": "khairuddin-dehlawi",
+  "slug": "khairuddin-dehlawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Father of Abul Kalam Azad."
+  }
+ },
+ {
+  "id": "yusuf-ali-khan-rampur",
+  "slug": "yusuf-ali-khan-rampur",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Ruler of Rampur."
+  },
+  "honorific": false
+ },
+ {
+  "id": "siddiq-hasan-khan",
+  "slug": "siddiq-hasan-khan",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Scholar and consort of the Begum of Bhopal."
+  },
+  "citations": [
+   "unverified"
+  ],
+  "honorific": false
+ },
+ {
+  "id": "shefta",
+  "slug": "shefta",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Poet and critic."
+  },
+  "honorific": false
+ },
+ {
+  "id": "faiz-hasan-saharanpuri",
+  "slug": "faiz-hasan-saharanpuri",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Arabic litterateur."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "nasiruddin-naqshbandi",
+  "slug": "nasiruddin-naqshbandi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Naqshbandī shaykh of Imdādullāh."
+  }
+ },
+ {
+  "id": "muhammad-thanawi",
+  "slug": "muhammad-thanawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Scholar of Thana Bhawan in Imdādullāh's circle."
+  }
+ },
+ {
+  "id": "abdul-jalil-barrada",
+  "slug": "abdul-jalil-barrada",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Medinan scholar and student of Shāh ʿAbd al-Ghanī."
+  }
+ },
+ {
+  "id": "masum-mujaddidi",
+  "slug": "masum-mujaddidi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Mujaddidī shaykh."
+  }
+ },
+ {
+  "id": "ahmad-said-mujaddidi",
+  "slug": "ahmad-said-mujaddidi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Elder brother of Shāh ʿAbd al-Ghanī; head of the Delhi khanqah."
+  }
+ },
+ {
+  "id": "muhammad-anwarullah-faruqi",
+  "slug": "muhammad-anwarullah-faruqi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Founder of Jāmiʿa Niẓāmiyya, Hyderabad."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "mamluk-ali",
+  "slug": "mamluk-ali",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A scholar of the Ṣiddīqī family of Nanauta who spent his career teaching in Delhi. He joined Delhi College as an Arabic lecturer in 1825 and became its head Arabic teacher in 1841, and also taught at the Dār al-Baqāʾ madrasa. He was known for an exceptional memory and for teaching both the rational and the transmitted sciences."
+  },
+  "legacy": {
+   "en": "Teacher of the whole founding generation of Deoband: Nānautavī, Gangohī, Yaʿqūb and Maẓhar Nānautavī."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Māturīdī",
+   "Walīullāhī"
+  ],
+  "citations": [
+   "wiki-mamluk",
+   "tarajm-mamluk"
+  ]
+ },
+ {
+  "id": "abdul-ghani-mujaddidi",
+  "slug": "abdul-ghani-mujaddidi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Naqshbandī-Mujaddidī shaykh and hadith master, descended from Shaykh Aḥmad Sirhindī, who led his family's khanqah lineage in Delhi. He first went on Hajj in 1849, and after the siege of Delhi in 1857 he settled in Medina with his family, where he taught hadith until his death."
+  },
+  "legacy": {
+   "en": "The key hadith link, through Shāh Isḥāq and Shāh ʿAbd al-ʿAzīz, between the Walīullāhī tradition and the founders of Deoband."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Naqshbandī-Mujaddidī"
+  ],
+  "citations": [
+   "ulum-abdulghani",
+   "darulmaarif-abdulghani"
+  ]
+ },
+ {
+  "id": "ahmad-ali-saharanpuri",
+  "slug": "ahmad-ali-saharanpuri",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A hadith scholar trained in Delhi and in Mecca, where he spent two years with Shāh Muḥammad Isḥāq. In 1845 he set up the Matbaʿ Aḥmadī press in Delhi and produced India's first annotated edition of Ṣaḥīḥ al-Bukhārī, printed 1264–1270 AH. He later taught at Maẓāhir ʿUlūm in Saharanpur, becoming its head teacher."
+  },
+  "legacy": {
+   "en": "His notes on Bukhārī still surround the text in the standard South Asian edition."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Naqshbandī-Mujaddidī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-ahmadali",
+   "ilmgate-ahmadali"
+  ]
+ },
+ {
+  "id": "imdadullah",
+  "slug": "imdadullah",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Chishtī-Ṣābirī master from Nanauta, born Imdād Ḥusayn, who led the Muslims of Thana Bhawan in the 1857 rising, including the fighting at Shāmlī. He then migrated to Mecca in 1276 AH and guided disciples there for four decades. He wrote mostly devotional poetry and Sufi manuals in Urdu and Persian."
+  },
+  "legacy": {
+   "en": "Spiritual father of the whole Deoband founding circle."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Chishtī-Ṣābirī",
+   "Naqshbandī",
+   "Qādirī",
+   "Suhrawardī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-imdad",
+   "tarajm-imdad",
+   "deoband-imdad"
+  ]
+ },
+ {
+  "id": "sadruddin-azurda",
+  "slug": "sadruddin-azurda",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Delhi jurist and poet of Kashmiri descent. The East India Company made him Ṣadr al-Ṣudūr, the highest judicial office then open to an Indian, and he taught students at his own expense. After co-signing the 1857 fatwa he was tried and lost his property and a library said to hold some 300,000 volumes, though he was later acquitted."
+  },
+  "legacy": {
+   "en": "A bridge between the Walīullāhī madrasa world, Delhi's literary salons and the scholars of 1857."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Walīullāhī"
+  ],
+  "citations": [
+   "wiki-azurda",
+   "rekhta-azurda",
+   "kashmirlife-azurda"
+  ]
+ },
+ {
+  "id": "mahtab-ali",
+  "slug": "mahtab-ali",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A scholar of the ʿUthmānī family of Deoband who studied at Delhi College under Mamlūk ʿAlī and Āzurdah, then taught Arabic privately at Karāmat Ḥusayn's house without taking paid work. He was consulted at the founding of Darul Uloom, was its second recorded donor and sat on its first council."
+  },
+  "legacy": {
+   "en": "Nānautavī's first Arabic teacher, and uncle of Shaykh al-Hind Maḥmūd Ḥasan."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-mahtab",
+   "ummid-qn"
+  ]
+ },
+ {
+  "id": "nawaz-saharanpuri",
+  "slug": "nawaz-saharanpuri",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A teacher in Saharanpur known only as an early instructor of Nānautavī, who studied with him at about age twelve. No independent biography has been found."
+  },
+  "tags": [
+   "Ḥanafī"
+  ],
+  "note": {
+   "en": "Thin record. Do not confuse with Nawaz Deobandi, the modern editor of Sawāneḥ ʿUlamāʾ-e Deoband."
+  },
+  "citations": [
+   "wiki-qn",
+   "deoband-org-qn"
+  ]
+ },
+ {
+  "id": "anwar-shah-kashmiri",
+  "slug": "anwar-shah-kashmiri",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Hadith master; principal of Deoband."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "husain-ahmad-madani",
+  "slug": "husain-ahmad-madani",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Shaykh al-Islām; head teacher of Deoband."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "ubaidullah-sindhi",
+  "slug": "ubaidullah-sindhi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Revolutionary of the Silk Letter Movement."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "kifayatullah",
+  "slug": "kifayatullah",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Muftī of India; first president of Jamiat Ulema-e-Hind."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "ilyas-kandhlawi",
+  "slug": "ilyas-kandhlawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Founder of the Tablighi Jamaat."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "izaz-ali-amrohi",
+  "slug": "izaz-ali-amrohi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Deoband teacher of literature and fiqh."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "manazir-gilani",
+  "slug": "manazir-gilani",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Author of Sawāniḥ Qāsmī, the major life of Nānautavī."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "qari-tayyib",
+  "slug": "qari-tayyib",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Nānautavī's grandson; rector of Deoband for about fifty years."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "mulla-mahmud",
+  "slug": "mulla-mahmud",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "First teacher of Darul Uloom Deoband, appointed by Nānautavī."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "shabbir-usmani",
+  "slug": "shabbir-usmani",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Exegete and hadith commentator; author of Fatḥ al-Mulhim."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "aziz-rahman-usmani",
+  "slug": "aziz-rahman-usmani",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "First Grand Muftī of Darul Uloom Deoband."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "habib-rahman-usmani",
+  "slug": "habib-rahman-usmani",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Rector of Deoband, 1928–29."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "murtaza-chandpuri",
+  "slug": "murtaza-chandpuri",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Deobandi debater."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "sanaullah-amritsari",
+  "slug": "sanaullah-amritsari",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Ahl-e Hadith scholar and debater."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "fazlur-rahman-ganjmuradabadi",
+  "slug": "fazlur-rahman-ganjmuradabadi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Naqshbandī shaykh of Ganj Moradabad."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "abdur-rahman-panipati",
+  "slug": "abdur-rahman-panipati",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Hadith scholar of Panipat."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "hussain-yamani",
+  "slug": "hussain-yamani",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Yemeni hadith scholar in Bhopal."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "hakim-mahmud-khan",
+  "slug": "hakim-mahmud-khan",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Delhi physician."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "habibullah-qurayshi",
+  "slug": "habibullah-qurayshi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Co-founder of the Hathazari madrasa."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "azizur-rahman-sufi",
+  "slug": "azizur-rahman-sufi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Co-founder of the Hathazari madrasa."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "shah-ahmad-hasan",
+  "slug": "shah-ahmad-hasan",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Chittagong scholar."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "mukhtar-ansari",
+  "slug": "mukhtar-ansari",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Physician and nationalist leader in Delhi."
+  },
+  "citations": [
+   "unverified"
+  ],
+  "honorific": false
+ },
+ {
+  "id": "mahmud-hasan",
+  "slug": "mahmud-hasan",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "Son of Ḏhū al-Fiqār ʿAlī, one of Deoband's founders. He was the madrasa's first student, and later its principal (1890–1915) and senior hadith teacher. He planned the anti-British Silk Letter scheme, was arrested in the Hijaz and held in Malta from 1917 to 1920, and on his return backed the Khilafat and non-cooperation campaigns."
+  },
+  "legacy": {
+   "en": "Trained almost every leading Deobandi scholar of the next generation and tied the seminary to the freedom movement."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Chishtī-Ṣābirī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-mahmud",
+   "tarajm-mahmud"
+  ]
+ },
+ {
+  "id": "ahmad-hasan-amrohi",
+  "slug": "ahmad-hasan-amrohi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "Born in Amroha. He read the rational and religious sciences with Nānautavī in Meerut, then graduated from Deoband alongside Maḥmūd Ḥasan in 1873. He was the first principal of Madrasa Shahi in Moradabad (1879–85), revived the madrasa at Amroha's Jama Masjid, and debated Arya Samaj and Ahmadi speakers."
+  },
+  "legacy": {
+   "en": "Called 'the second Qāsim' for how closely he carried on Nānautavī's theology and madrasa-building."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Māturīdī",
+   "Chishtī-Ṣābirī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-amrohi",
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "id": "fakhrul-hasan-gangohi",
+  "slug": "fakhrul-hasan-gangohi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A close companion of Nānautavī who travelled with him and lived in his household. He studied hadith with Gangohī and medicine in Delhi, graduated from Deoband in 1873 and spent his last years practising medicine in Kanpur. He wrote down Nānautavī's public debates with Christian and Hindu speakers."
+  },
+  "legacy": {
+   "en": "The main eyewitness recorder of Nānautavī's debates, and author of a standard short commentary on Abū Dāwūd."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "note": {
+   "en": "Not to be confused with Fakhrul Hasan Muradabadi (d. 1400 AH)."
+  },
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "id": "abdul-ali-meeruti",
+  "slug": "abdul-ali-meeruti",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "From a village near Meerut, he studied at Deoband under Nānautavī and the Saharanpur hadith teachers. From 1312 AH he taught hadith for decades at the Ḥusayn Bakhsh madrasa in Delhi and became one of the city's leading hadith teachers."
+  },
+  "legacy": {
+   "en": "Carried Nānautavī's hadith teaching into Delhi's madrasas; Muftī Kifāyatullāh was among his students."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "citations": [
+   "tarajm-abdulali",
+   "dud-ar-qn"
+  ]
+ },
+ {
+  "id": "mansur-ali-khan",
+  "slug": "mansur-ali-khan",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A physician and scholar from Moradabad who studied with Nānautavī and lived with him for a time, and took hadith from Aḥmad ʿAlī Sahāranpūrī. He taught for many years at the medical school in Hyderabad, then retired to Mecca, where he died."
+  },
+  "legacy": {
+   "en": "His Madhhab-e Manṣūr is an early source for Nānautavī's hadith studies."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "citations": [
+   "tarajm-mansur",
+   "madarisweb-asanid"
+  ]
+ },
+ {
+  "id": "abdur-rahman-amrohi",
+  "slug": "abdur-rahman-amrohi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A hadith scholar described as one of Nānautavī's last students, with whom he read Tirmidhī. He went on to study hadith under Aḥmad Ḥasan Amrohī at Moradabad, later led teaching at Amroha's madrasa, and taught hadith at Dabhel."
+  },
+  "legacy": {
+   "en": "Took over Amroha's hadith chair, linking Nānautavī's teaching to the twentieth century."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Chishtī",
+   "Deobandī"
+  ],
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "id": "ismail-koli",
+  "slug": "ismail-koli",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "An Aligarh scholar who, after his early studies, read the Ṣaḥīḥ and Sunan collections with Nānautavī. Nuzhat al-Khawāṭir describes him as relying directly on the Qur'an and hadith, and he wrote against Ahmadi claims."
+  },
+  "legacy": {
+   "en": "Wrote one of the early rebuttals of the claim to be 'like the Messiah'."
+  },
+  "tags": [
+   "Ḥanafī"
+  ],
+  "citations": [
+   "tarajm-ismail"
+  ]
+ },
+ {
+  "id": "abdullah-ambehtvi",
+  "slug": "abdullah-ambehtvi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A nephew of Yaʿqūb Nānautavī and a relative of Nānautavī by marriage. He studied with both, and in 1311 AH was made religious preacher at the Aligarh college because of that connection."
+  },
+  "legacy": {
+   "en": "A Deoband-linked religious presence inside Sir Sayyid's Aligarh college."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "citations": [
+   "tarajm-abdullah"
+  ]
+ },
+ {
+  "id": "abdul-wahid-bengali",
+  "slug": "abdul-wahid-bengali",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Chittagong scholar who spent about fourteen years at Deoband studying with Qāsim and Yaʿqūb Nānautavī. Back in Bengal he helped start the Deobandi movement there and co-founded the Hathazari madrasa in 1896."
+  },
+  "legacy": {
+   "en": "Brought the Deoband model to East Bengal; Hathazari is now one of the largest Qawmi madrasas."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Naqshbandī-Mujaddidī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "id": "hafiz-muhammad-ahmad",
+  "slug": "hafiz-muhammad-ahmad",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "Nānautavī's son. He was rector (muhtamim) of Darul Uloom Deoband from 1895 to 1928, and Grand Muftī of Hyderabad State from 1922 to 1925. He was about eighteen when his father died; his recorded teachers are Maḥmūd Ḥasan, Yaʿqūb Nānautavī and Gangohī."
+  },
+  "legacy": {
+   "en": "Led Deoband through its expansion into a major institution for more than thirty years."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "id": "yahya-kandhlawi",
+  "slug": "yahya-kandhlawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Recorded Gangohī's hadith lectures."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "ashiq-ilahi",
+  "slug": "ashiq-ilahi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Gangohī's biographer (Tadhkirat al-Rashīd)."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "abdur-rahim-raipuri",
+  "slug": "abdur-rahim-raipuri",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Khalīfa of Gangohī; Raipur khanqah."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "mumtaz-ali",
+  "slug": "mumtaz-ali",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Publisher and social reformer."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "karim-bakhsh-rampuri",
+  "slug": "karim-bakhsh-rampuri",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Sufi shaykh."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "hali",
+  "slug": "hali",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Poet; biographer of Sir Sayyid."
+  },
+  "citations": [
+   "unverified"
+  ],
+  "honorific": false
+ },
+ {
+  "id": "mohsin-ul-mulk",
+  "slug": "mohsin-ul-mulk",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Sir Sayyid's successor at Aligarh."
+  },
+  "citations": [
+   "unverified"
+  ],
+  "honorific": false
+ },
+ {
+  "id": "chiragh-ali",
+  "slug": "chiragh-ali",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Modernist writer."
+  },
+  "citations": [
+   "unverified"
+  ],
+  "honorific": false
+ },
+ {
+  "id": "saadat-ali-saharanpuri",
+  "slug": "saadat-ali-saharanpuri",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Founder of the Saharanpur madrasa (Maẓāhir ʿUlūm)."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "hafiz-yusuf-thanawi",
+  "slug": "hafiz-yusuf-thanawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Son of Ḥāfiẓ Ḍāmin; asked Imdādullāh to write Ḍiyāʾ al-Qulūb."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "nihal-ahmad",
+  "slug": "nihal-ahmad",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Among the early founders of Darul Uloom."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "ghulam-ali-dehlawi",
+  "slug": "ghulam-ali-dehlawi",
+  "kind": "scholar",
+  "status": "stub",
+  "summary": {
+   "en": "Naqshbandī-Mujaddidī shaykh of Delhi."
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "rashid-gangohi",
+  "slug": "rashid-gangohi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Ḥanafī jurist and hadith teacher from Gangoh who studied in Delhi under Mamlūk ʿAlī and Shāh ʿAbd al-Ghanī, then became a Sufi deputy of Ḥājī Imdādullāh. He taught the six hadith collections at Gangoh for decades and issued the rulings that set much of the Deobandi legal method. After 1857 he was held for six months on suspicion of rebellion, then released."
+  },
+  "legacy": {
+   "en": "With Nānautavī, one of the two pillars of Deoband: Nānautavī shaped its institution, Gangohī its method."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Māturīdī",
+   "Chishtī-Ṣābirī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-gangohi",
+   "deoband-org-gangohi",
+   "ilmgate-gangohi"
+  ]
+ },
+ {
+  "id": "yaqub-nanautavi",
+  "slug": "yaqub-nanautavi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "Son of Mamlūk ʿAlī. He studied in Delhi under his father and Shāh ʿAbd al-Ghanī, taught in government colleges and served as a schools inspector, then left that career. In 1866 he became the first head teacher of Darul Uloom Deoband and taught hadith there for about nineteen years."
+  },
+  "legacy": {
+   "en": "First principal of Deoband (1866–1883), teacher of Maḥmūd Ḥasan and Ashraf ʿAlī Thānawī, and Nānautavī's first biographer."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Chishtī-Ṣābirī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-yaqub",
+   "dud-yaqub"
+  ]
+ },
+ {
+  "id": "sayyid-abid",
+  "slug": "sayyid-abid",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Sayyid of Deoband who left his studies in Delhi when his father died and became a Sufi master, authorised by Imdādullāh. In 1866 he raised the first funds for the madrasa at the Chhatta Masjid and served three terms as its rector. He also had the Jama Masjid of Deoband built."
+  },
+  "legacy": {
+   "en": "Named founder and first proposer of Deoband in the madrasa's own documents of 1889–90."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Chishtī-Ṣābirī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-abid",
+   "dud-rectors",
+   "wiki-founding"
+  ]
+ },
+ {
+  "id": "zulfiqar-ali",
+  "slug": "zulfiqar-ali",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Delhi College graduate who taught at Bareilly College and became an inspector of schools, later an honorary magistrate in Deoband. He wrote Urdu commentaries on classical Arabic poetry and an Arabic account of the Deoband madrasa, and sat on its council from 1866 to 1903."
+  },
+  "legacy": {
+   "en": "Father of Shaykh al-Hind Maḥmūd Ḥasan, Deoband's first student."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-zulfiqar",
+   "dud-zulfiqar"
+  ]
+ },
+ {
+  "id": "fazlur-rahman-usmani",
+  "slug": "fazlur-rahman-usmani",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Delhi College graduate under Mamlūk ʿAlī who worked as a deputy inspector of schools in several districts. He wrote poetry and chronograms in Persian and Urdu, including a Persian poem on the 1883 plague in Deoband, and sat on the Deoband council for life."
+  },
+  "legacy": {
+   "en": "Head of the ʿUthmānī family of Deoband; father of ʿAzīz al-Raḥmān, Ḥabīb al-Raḥmān and Shabbīr Aḥmad ʿUthmānī."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-fazlurrahman"
+  ]
+ },
+ {
+  "id": "mazhar-nanautavi",
+  "slug": "mazhar-nanautavi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Delhi-trained scholar who studied under Mamlūk ʿAlī and Shāh Muḥammad Isḥāq and worked as a teacher and copy-editor. A bullet wound at Shāmlī in 1857 left his leg paralysed. From 1867 he was head teacher of the Saharanpur madrasa later named Maẓāhir ʿUlūm, and taught there for nineteen years."
+  },
+  "legacy": {
+   "en": "Founding head teacher of Maẓāhir ʿUlūm, Saharanpur; teacher of Khalīl Aḥmad Sahāranpūrī."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Chishtī-Ṣābirī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-mazhar",
+   "deoband-mazhar",
+   "ilmgate-mazhar"
+  ]
+ },
+ {
+  "id": "munir-nanautavi",
+  "slug": "munir-nanautavi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "The youngest of the Nānautavī brothers, with Maẓhar and Aḥsan. He studied in Delhi and taught at Bareilly College from 1861 while running the family's Matbaʿ-e Ṣiddīqī press. He served briefly as rector of Darul Uloom Deoband, and once sold his own land to replace stolen madrasa funds."
+  },
+  "legacy": {
+   "en": "Rector of Deoband in the early 1890s and Urdu translator of al-Ghazālī."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Naqshbandī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-munir"
+  ]
+ },
+ {
+  "id": "hafiz-zamin",
+  "slug": "hafiz-zamin",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A ḥāfiẓ and Sufi of Thana Bhawan in Imdādullāh's circle who joined the 1857 rising there. He was killed at Shāmlī, and accounts say the rebels' position collapsed after his death."
+  },
+  "legacy": {
+   "en": "Remembered in Deobandi tradition as the martyr of Shāmlī."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Chishtī-Ṣābirī"
+  ],
+  "citations": [
+   "wiki-shamli",
+   "deoband-imdad"
+  ]
+ },
+ {
+  "id": "rafi-uddin-deobandi",
+  "slug": "rafi-uddin-deobandi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Naqshbandī-Mujaddidī deputy of Shāh ʿAbd al-Ghanī who had no formal madrasa degree. He was rector of Deoband for about nineteen years over two terms, and its first building, the Nau Darah, was finished under him. He migrated to the Hijaz in 1888 and died in Medina."
+  },
+  "legacy": {
+   "en": "Rector during Deoband's formative building phase."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Naqshbandī-Mujaddidī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-rafiuddin",
+   "dud-rectors"
+  ]
+ },
+ {
+  "id": "fazl-e-haq-deobandi",
+  "slug": "fazl-e-haq-deobandi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A disciple of Nānautavī and one of Deoband's early founders. The first public appeal for donations, in Muḥarram 1283, was issued under his supervision, and he sat on the council until 1311 AH, serving briefly as rector. He wrote a biography of Nānautavī that was never published but is quoted by Gīlānī."
+  },
+  "tags": [
+   "Ḥanafī",
+   "Deobandī"
+  ],
+  "citations": [
+   "wiki-fazlehaq"
+  ]
+ },
+ {
+  "id": "ahsan-nanautavi",
+  "slug": "ahsan-nanautavi",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "Elder brother of Maẓhar and Munīr. He ran the family's Matbaʿ-e Ṣiddīqī press in Bareilly, translated al-Ghazālī's Iḥyāʾ and annotated works of Shāh Walīullāh. His question prompted Nānautavī's Taḥdhīr al-Nās, which he titled and printed in Bareilly."
+  },
+  "tags": [
+   "Ḥanafī"
+  ],
+  "citations": [
+   "basair-ahsan",
+   "ilmgate-mazhar"
+  ]
+ },
+ {
+  "id": "sir-syed",
+  "slug": "sir-syed",
+  "kind": "scholar",
+  "status": "full",
+  "summary": {
+   "en": "A Delhi-born reformer and East India Company judicial officer who wrote on archaeology, the causes of the 1857 revolt and a modernist commentary on the Qur'an. He founded the Muhammadan Anglo-Oriental College at Aligarh in 1875 and the journal Tahdhīb al-Akhlāq, reading scripture in the light of 'the law of nature'."
+  },
+  "legacy": {
+   "en": "Founder of the Aligarh movement, the modernist counterpart to Deoband."
+  },
+  "tags": [
+   "modernist",
+   "Aligarh"
+  ],
+  "citations": [
+   "wiki-sirsyed",
+   "tareen-2024"
+  ],
+  "honorific": false
+ }
+]

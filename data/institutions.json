@@ -1,0 +1,154 @@
+[
+ {
+  "id": "darul-uloom-deoband",
+  "name": {
+   "en": "Darul Uloom Deoband",
+   "ar": "دار العلوم دیوبند"
+  },
+  "type": "madrasa",
+  "place_id": "deoband",
+  "founded": {
+   "hijri": {
+    "y": 1283,
+    "m": 1,
+    "d": 15
+   },
+   "gregorian": {
+    "y": 1866,
+    "m": 5,
+    "d": 30
+   },
+   "precision": "day",
+   "approx": false,
+   "sort": 1866.413
+  },
+  "citations": [
+   "dud-cofounders",
+   "wiki-qn"
+  ]
+ },
+ {
+  "id": "madrasa-shahi",
+  "name": {
+   "en": "Madrasa Shahi (Madrasatul Ghuraba), Moradabad",
+   "ar": "مدرسہ شاہی مرادآباد"
+  },
+  "type": "madrasa",
+  "place_id": "moradabad",
+  "founded": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1879
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1879
+  },
+  "citations": [
+   "wiki-shahi"
+  ]
+ },
+ {
+  "id": "mazahir-uloom",
+  "name": {
+   "en": "Mazahir Uloom, Saharanpur",
+   "ar": "مظاہر علوم سہارنپور"
+  },
+  "type": "madrasa",
+  "place_id": "saharanpur",
+  "founded": {
+   "hijri": {
+    "y": 1283
+   },
+   "gregorian": {
+    "y": 1866
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1866
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "delhi-college",
+  "name": {
+   "en": "Delhi College"
+  },
+  "type": "college",
+  "place_id": "delhi",
+  "founded": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1825
+   },
+   "precision": "year",
+   "approx": true,
+   "sort": 1825
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "matba-ahmadi",
+  "name": {
+   "en": "Matbaʿ Aḥmadī press, Delhi"
+  },
+  "type": "press",
+  "place_id": "delhi",
+  "founded": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1845
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1845
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "hathazari",
+  "name": {
+   "en": "Al-Jamiatul Ahlia Darul Ulum Moinul Islam, Hathazari"
+  },
+  "type": "madrasa",
+  "place_id": "hathazari",
+  "founded": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1896
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1896
+  },
+  "citations": [
+   "unverified"
+  ]
+ },
+ {
+  "id": "aligarh-college",
+  "name": {
+   "en": "Muhammadan Anglo-Oriental College, Aligarh"
+  },
+  "type": "college",
+  "place_id": "aligarh-college",
+  "founded": {
+   "hijri": {},
+   "gregorian": {
+    "y": 1875
+   },
+   "precision": "year",
+   "approx": false,
+   "sort": 1875
+  },
+  "citations": [
+   "unverified"
+  ]
+ }
+]

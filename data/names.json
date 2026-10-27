@@ -1,0 +1,1592 @@
+[
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Qāsim Nānautavī",
+  "primary": true
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد قاسم النانوتوي",
+  "primary": true
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "title",
+  "lang": "en",
+  "translit": "Ḥujjat al-Islām"
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "ism",
+  "lang": "ar",
+  "value": "محمد قاسم"
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "ism",
+  "lang": "en",
+  "translit": "Muḥammad Qāsim"
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "nasab",
+  "lang": "en",
+  "translit": "Muḥammad Qāsim ibn Asad ʿAlī ibn Ghulām Shāh"
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "nisba",
+  "lang": "en",
+  "translit": "al-Ṣiddīqī"
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "nisba",
+  "lang": "en",
+  "translit": "al-Nānautavī"
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "type": "shuhra",
+  "lang": "ur",
+  "value": "محمد قاسم نانوتوی"
+ },
+ {
+  "person_id": "shah-ishaq",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shāh Muḥammad Isḥāq Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "shah-ishaq",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شاہ محمد اسحاق دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "shah-abdul-aziz",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shāh ʿAbd al-ʿAzīz Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "shah-abdul-aziz",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شاہ عبد العزیز دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "ilahi-bakhsh-kandhlawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muftī Ilāhī Bakhsh Kāndhlawī",
+  "primary": true
+ },
+ {
+  "person_id": "ilahi-bakhsh-kandhlawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "الٰہی بخش کاندھلوی",
+  "primary": true
+ },
+ {
+  "person_id": "rashiduddin-khan",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Rashīd al-Dīn Khān Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "rashiduddin-khan",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "رشید الدین خان دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "muhammad-qalandar",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Qalandar Jalālābādī",
+  "primary": true
+ },
+ {
+  "person_id": "muhammad-qalandar",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد قلندر جلال آبادی",
+  "primary": true
+ },
+ {
+  "person_id": "abu-said-mujaddidi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Abū Saʿīd Mujaddidī",
+  "primary": true
+ },
+ {
+  "person_id": "abu-said-mujaddidi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "ابو سعید مجددی",
+  "primary": true
+ },
+ {
+  "person_id": "abid-sindhi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad ʿĀbid Sindhī",
+  "primary": true
+ },
+ {
+  "person_id": "abid-sindhi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد عابد سندھی",
+  "primary": true
+ },
+ {
+  "person_id": "wajihuddin-saharanpuri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Wajīh al-Dīn Sahāranpūrī",
+  "primary": true
+ },
+ {
+  "person_id": "wajihuddin-saharanpuri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "وجیہ الدین سہارنپوری",
+  "primary": true
+ },
+ {
+  "person_id": "nur-muhammad-jhanjhanawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Miyānjī Nūr Muḥammad Jhanjhānawī",
+  "primary": true
+ },
+ {
+  "person_id": "nur-muhammad-jhanjhanawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "میاں جی نور محمد جھنجھانوی",
+  "primary": true
+ },
+ {
+  "person_id": "shah-rafiuddin-dehlawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shāh Rafīʿ al-Dīn Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "shah-rafiuddin-dehlawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شاہ رفیع الدین دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "fazl-imam-khairabadi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Faḍl-i Imām Khayrābādī",
+  "primary": true
+ },
+ {
+  "person_id": "fazl-imam-khairabadi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "فضل امام خیرآبادی",
+  "primary": true
+ },
+ {
+  "person_id": "khalil-ahmad",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Khalīl Aḥmad Sahāranpūrī",
+  "primary": true
+ },
+ {
+  "person_id": "khalil-ahmad",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "خلیل احمد سہارنپوری",
+  "primary": true
+ },
+ {
+  "person_id": "ashraf-ali-thanwi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ashraf ʿAlī Thānawī",
+  "primary": true
+ },
+ {
+  "person_id": "ashraf-ali-thanwi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "اشرف علی تھانوی",
+  "primary": true
+ },
+ {
+  "person_id": "shibli-nomani",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shiblī Nuʿmānī",
+  "primary": true
+ },
+ {
+  "person_id": "shibli-nomani",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شبلی نعمانی",
+  "primary": true
+ },
+ {
+  "person_id": "mehr-ali-shah",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Pīr Mehr ʿAlī Shāh",
+  "primary": true
+ },
+ {
+  "person_id": "mehr-ali-shah",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "پیر مہر علی شاہ",
+  "primary": true
+ },
+ {
+  "person_id": "muhammad-ali-mongeri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad ʿAlī Mongerī",
+  "primary": true
+ },
+ {
+  "person_id": "muhammad-ali-mongeri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد علی مونگیری",
+  "primary": true
+ },
+ {
+  "person_id": "nur-muhammad-ludhianwi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Nūr Muḥammad Ludhiānwī",
+  "primary": true
+ },
+ {
+  "person_id": "nur-muhammad-ludhianwi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "نور محمد لدھیانوی",
+  "primary": true
+ },
+ {
+  "person_id": "nazir-ahmad",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Naẕīr Aḥmad Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "nazir-ahmad",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "نذیر احمد دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "zakaullah",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ẕakāʾullāh Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "zakaullah",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "ذکاء اللہ دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "ghalib",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Mīrzā Ghālib",
+  "primary": true
+ },
+ {
+  "person_id": "ghalib",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مرزا غالب",
+  "primary": true
+ },
+ {
+  "person_id": "fazl-e-haq-khairabadi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Faḍl-i Ḥaqq Khayrābādī",
+  "primary": true
+ },
+ {
+  "person_id": "fazl-e-haq-khairabadi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "فضل حق خیرآبادی",
+  "primary": true
+ },
+ {
+  "person_id": "momin",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Momin Khān Momin",
+  "primary": true
+ },
+ {
+  "person_id": "momin",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مومن خان مومن",
+  "primary": true
+ },
+ {
+  "person_id": "sahbai",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Imām Bakhsh Ṣahbāʾī",
+  "primary": true
+ },
+ {
+  "person_id": "sahbai",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "امام بخش صہبائی",
+  "primary": true
+ },
+ {
+  "person_id": "rahmatullah-kairanawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Raḥmatullāh Kayrānawī",
+  "primary": true
+ },
+ {
+  "person_id": "rahmatullah-kairanawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "رحمت اللہ کیرانوی",
+  "primary": true
+ },
+ {
+  "person_id": "khairuddin-dehlawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Khayr al-Dīn Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "khairuddin-dehlawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "خیر الدین دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "yusuf-ali-khan-rampur",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Nawwāb Yūsuf ʿAlī Khān of Rampur",
+  "primary": true
+ },
+ {
+  "person_id": "yusuf-ali-khan-rampur",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "نواب یوسف علی خان",
+  "primary": true
+ },
+ {
+  "person_id": "siddiq-hasan-khan",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Nawwāb Ṣiddīq Ḥasan Khān",
+  "primary": true
+ },
+ {
+  "person_id": "siddiq-hasan-khan",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "صدیق حسن خان",
+  "primary": true
+ },
+ {
+  "person_id": "shefta",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Nawwāb Muṣṭafā Khān Sheftā",
+  "primary": true
+ },
+ {
+  "person_id": "shefta",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مصطفیٰ خان شیفتہ",
+  "primary": true
+ },
+ {
+  "person_id": "faiz-hasan-saharanpuri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Fayḍ al-Ḥasan Sahāranpūrī",
+  "primary": true
+ },
+ {
+  "person_id": "faiz-hasan-saharanpuri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "فیض الحسن سہارنپوری",
+  "primary": true
+ },
+ {
+  "person_id": "nasiruddin-naqshbandi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Nāṣir al-Dīn Naqshbandī",
+  "primary": true
+ },
+ {
+  "person_id": "nasiruddin-naqshbandi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "ناصر الدین نقشبندی",
+  "primary": true
+ },
+ {
+  "person_id": "muhammad-thanawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shaykh Muḥammad Thānawī",
+  "primary": true
+ },
+ {
+  "person_id": "muhammad-thanawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شیخ محمد تھانوی",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-jalil-barrada",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Sayyid ʿAbd al-Jalīl Barrāda",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-jalil-barrada",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عبد الجليل برادة",
+  "primary": true
+ },
+ {
+  "person_id": "masum-mujaddidi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Maʿṣūm Mujaddidī",
+  "primary": true
+ },
+ {
+  "person_id": "masum-mujaddidi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد معصوم المجددي",
+  "primary": true
+ },
+ {
+  "person_id": "ahmad-said-mujaddidi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Aḥmad Saʿīd Mujaddidī",
+  "primary": true
+ },
+ {
+  "person_id": "ahmad-said-mujaddidi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "احمد سعید مجددی",
+  "primary": true
+ },
+ {
+  "person_id": "muhammad-anwarullah-faruqi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Anwārullāh Fārūqī",
+  "primary": true
+ },
+ {
+  "person_id": "muhammad-anwarullah-faruqi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "انوار اللہ فاروقی",
+  "primary": true
+ },
+ {
+  "person_id": "mamluk-ali",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Mamlūk ʿAlī Nānautavī",
+  "primary": true
+ },
+ {
+  "person_id": "mamluk-ali",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مملوک العلی نانوتوی",
+  "primary": true
+ },
+ {
+  "person_id": "mamluk-ali",
+  "type": "nisba",
+  "lang": "en",
+  "translit": "al-Ṣiddīqī"
+ },
+ {
+  "person_id": "mamluk-ali",
+  "type": "nasab",
+  "lang": "en",
+  "translit": "Mamlūk al-ʿAlī ibn Aḥmad ʿAlī"
+ },
+ {
+  "person_id": "abdul-ghani-mujaddidi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shāh ʿAbd al-Ghanī Mujaddidī",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-ghani-mujaddidi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شاہ عبد الغنی مجددی دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-ghani-mujaddidi",
+  "type": "nisba",
+  "lang": "en",
+  "translit": "al-Mujaddidī al-Dihlawī thumma al-Madanī"
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Aḥmad ʿAlī Sahāranpūrī",
+  "primary": true
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "احمد علی سہارنپوری",
+  "primary": true
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "type": "title",
+  "lang": "en",
+  "translit": "Muḥaddith-e Sahāranpūrī"
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "type": "nasab",
+  "lang": "en",
+  "translit": "Aḥmad ʿAlī ibn Luṭf Allāh"
+ },
+ {
+  "person_id": "imdadullah",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥājī Imdādullāh Muhājir Makkī",
+  "primary": true
+ },
+ {
+  "person_id": "imdadullah",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حاجی امداد اللہ مہاجر مکی",
+  "primary": true
+ },
+ {
+  "person_id": "imdadullah",
+  "type": "title",
+  "lang": "en",
+  "translit": "Shaykh al-ʿArab wa al-ʿAjam"
+ },
+ {
+  "person_id": "imdadullah",
+  "type": "ism",
+  "lang": "en",
+  "translit": "Imdād Ḥusayn (birth name)"
+ },
+ {
+  "person_id": "imdadullah",
+  "type": "laqab",
+  "lang": "en",
+  "translit": "Aʿlā Ḥaḍrat"
+ },
+ {
+  "person_id": "imdadullah",
+  "type": "nisba",
+  "lang": "en",
+  "translit": "al-Fārūqī al-Thānawī"
+ },
+ {
+  "person_id": "sadruddin-azurda",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muftī Ṣadruddīn Āzurdah",
+  "primary": true
+ },
+ {
+  "person_id": "sadruddin-azurda",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مفتی صدر الدین آزردہ",
+  "primary": true
+ },
+ {
+  "person_id": "sadruddin-azurda",
+  "type": "laqab",
+  "lang": "en",
+  "translit": "Āzurdah (pen name)"
+ },
+ {
+  "person_id": "sadruddin-azurda",
+  "type": "nasab",
+  "lang": "en",
+  "translit": "Muḥammad Ṣadr al-Dīn Khān ibn Luṭfullāh"
+ },
+ {
+  "person_id": "mahtab-ali",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Mahtāb ʿAlī Deobandī",
+  "primary": true
+ },
+ {
+  "person_id": "mahtab-ali",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مہتاب علی دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "nawaz-saharanpuri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Nawāz Sahāranpūrī",
+  "primary": true
+ },
+ {
+  "person_id": "nawaz-saharanpuri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد نواز سہارنپوری",
+  "primary": true
+ },
+ {
+  "person_id": "anwar-shah-kashmiri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Anwar Shāh Kashmīrī",
+  "primary": true
+ },
+ {
+  "person_id": "anwar-shah-kashmiri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "انور شاہ کشمیری",
+  "primary": true
+ },
+ {
+  "person_id": "husain-ahmad-madani",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥusayn Aḥmad Madanī",
+  "primary": true
+ },
+ {
+  "person_id": "husain-ahmad-madani",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حسین احمد مدنی",
+  "primary": true
+ },
+ {
+  "person_id": "ubaidullah-sindhi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "ʿUbaydullāh Sindhī",
+  "primary": true
+ },
+ {
+  "person_id": "ubaidullah-sindhi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عبید اللہ سندھی",
+  "primary": true
+ },
+ {
+  "person_id": "kifayatullah",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muftī Kifāyatullāh Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "kifayatullah",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "کفایت اللہ دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "ilyas-kandhlawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Ilyās Kāndhlawī",
+  "primary": true
+ },
+ {
+  "person_id": "ilyas-kandhlawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد الیاس کاندھلوی",
+  "primary": true
+ },
+ {
+  "person_id": "izaz-ali-amrohi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Iʿzāz ʿAlī Amrohī",
+  "primary": true
+ },
+ {
+  "person_id": "izaz-ali-amrohi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "اعزاز علی امروہی",
+  "primary": true
+ },
+ {
+  "person_id": "manazir-gilani",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Manāẓir Aḥsan Gīlānī",
+  "primary": true
+ },
+ {
+  "person_id": "manazir-gilani",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مناظر احسن گیلانی",
+  "primary": true
+ },
+ {
+  "person_id": "qari-tayyib",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Qārī Muḥammad Ṭayyib",
+  "primary": true
+ },
+ {
+  "person_id": "qari-tayyib",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "قاری محمد طیب",
+  "primary": true
+ },
+ {
+  "person_id": "mulla-mahmud",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Mullā Maḥmūd Deobandī",
+  "primary": true
+ },
+ {
+  "person_id": "mulla-mahmud",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "ملا محمود دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "shabbir-usmani",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shabbīr Aḥmad ʿUthmānī",
+  "primary": true
+ },
+ {
+  "person_id": "shabbir-usmani",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شبیر احمد عثمانی",
+  "primary": true
+ },
+ {
+  "person_id": "aziz-rahman-usmani",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "ʿAzīz al-Raḥmān ʿUthmānī",
+  "primary": true
+ },
+ {
+  "person_id": "aziz-rahman-usmani",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عزیز الرحمٰن عثمانی",
+  "primary": true
+ },
+ {
+  "person_id": "habib-rahman-usmani",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥabīb al-Raḥmān ʿUthmānī",
+  "primary": true
+ },
+ {
+  "person_id": "habib-rahman-usmani",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حبیب الرحمٰن عثمانی",
+  "primary": true
+ },
+ {
+  "person_id": "murtaza-chandpuri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Murtaḍā Ḥasan Chāndpūrī",
+  "primary": true
+ },
+ {
+  "person_id": "murtaza-chandpuri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مرتضیٰ حسن چاندپوری",
+  "primary": true
+ },
+ {
+  "person_id": "sanaullah-amritsari",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Thanāʾullāh Amritsarī",
+  "primary": true
+ },
+ {
+  "person_id": "sanaullah-amritsari",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "ثناء اللہ امرتسری",
+  "primary": true
+ },
+ {
+  "person_id": "fazlur-rahman-ganjmuradabadi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Faḍl al-Raḥmān Ganj Murādābādī",
+  "primary": true
+ },
+ {
+  "person_id": "fazlur-rahman-ganjmuradabadi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "فضل رحمان گنج مرادآبادی",
+  "primary": true
+ },
+ {
+  "person_id": "abdur-rahman-panipati",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "ʿAbd al-Raḥmān Pānīpatī",
+  "primary": true
+ },
+ {
+  "person_id": "abdur-rahman-panipati",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عبد الرحمن پانی پتی",
+  "primary": true
+ },
+ {
+  "person_id": "hussain-yamani",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥusayn ibn Muḥsin al-Anṣārī al-Yamānī",
+  "primary": true
+ },
+ {
+  "person_id": "hussain-yamani",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حسين بن محسن الأنصاري اليماني",
+  "primary": true
+ },
+ {
+  "person_id": "hakim-mahmud-khan",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥakīm Maḥmūd Khān Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "hakim-mahmud-khan",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حکیم محمود خان",
+  "primary": true
+ },
+ {
+  "person_id": "habibullah-qurayshi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥabībullāh Qurayshī",
+  "primary": true
+ },
+ {
+  "person_id": "habibullah-qurayshi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حبیب اللہ قریشی",
+  "primary": true
+ },
+ {
+  "person_id": "azizur-rahman-sufi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ṣūfī ʿAzīz al-Raḥmān",
+  "primary": true
+ },
+ {
+  "person_id": "azizur-rahman-sufi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "صوفی عزیز الرحمن",
+  "primary": true
+ },
+ {
+  "person_id": "shah-ahmad-hasan",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shāh Aḥmad Ḥasan",
+  "primary": true
+ },
+ {
+  "person_id": "shah-ahmad-hasan",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شاہ احمد حسن",
+  "primary": true
+ },
+ {
+  "person_id": "mukhtar-ansari",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Mukhtār Aḥmad Anṣārī",
+  "primary": true
+ },
+ {
+  "person_id": "mukhtar-ansari",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "مختار احمد انصاری",
+  "primary": true
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Maḥmūd Ḥasan Deobandī",
+  "primary": true
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمود حسن دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "type": "title",
+  "lang": "en",
+  "translit": "Shaykh al-Hind"
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "type": "laqab",
+  "lang": "en",
+  "translit": "Asīr-e Mālṭā (prisoner of Malta)"
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "type": "nisba",
+  "lang": "en",
+  "translit": "al-ʿUthmānī"
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Aḥmad Ḥasan Amrohī",
+  "primary": true
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "سید احمد حسن محدث امروہی",
+  "primary": true
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "type": "title",
+  "lang": "en",
+  "translit": "Qāsim-e Thānī (the second Qāsim)"
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "type": "laqab",
+  "lang": "en",
+  "translit": "Sayyid al-ʿUlamāʾ"
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "type": "nisba",
+  "lang": "en",
+  "translit": "al-Ḥusaynī al-Amrohī"
+ },
+ {
+  "person_id": "fakhrul-hasan-gangohi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Fakhr al-Ḥasan Gangohī",
+  "primary": true
+ },
+ {
+  "person_id": "fakhrul-hasan-gangohi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "فخر الحسن گنگوہی",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-ali-meeruti",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "ʿAbd al-ʿAlī Meeruthī",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-ali-meeruti",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عبد العلی میرٹھی",
+  "primary": true
+ },
+ {
+  "person_id": "mansur-ali-khan",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥakīm Manṣūr ʿAlī Khān Murādābādī",
+  "primary": true
+ },
+ {
+  "person_id": "mansur-ali-khan",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "منصور علی خان مرادآبادی",
+  "primary": true
+ },
+ {
+  "person_id": "abdur-rahman-amrohi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥāfiẓ ʿAbd al-Raḥmān Amrohī",
+  "primary": true
+ },
+ {
+  "person_id": "abdur-rahman-amrohi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حافظ عبد الرحمن امروہی",
+  "primary": true
+ },
+ {
+  "person_id": "ismail-koli",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ismāʿīl ibn ʿAbd al-Jalīl Kōlī",
+  "primary": true
+ },
+ {
+  "person_id": "ismail-koli",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "اسماعیل کولی علی گڑھی",
+  "primary": true
+ },
+ {
+  "person_id": "abdullah-ambehtvi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "ʿAbd Allāh Anṣārī Anbahṭawī",
+  "primary": true
+ },
+ {
+  "person_id": "abdullah-ambehtvi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عبد اللہ انصاری انبہٹوی",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "ʿAbd al-Wāḥid Bangālī",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عبد الواحد بنگالی",
+  "primary": true
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "type": "title",
+  "lang": "en",
+  "translit": "Munāẓir-e Islām"
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "type": "shuhra",
+  "lang": "bn",
+  "value": "আব্দুল ওয়াহেদ বাঙ্গালী"
+ },
+ {
+  "person_id": "hafiz-muhammad-ahmad",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥāfiẓ Muḥammad Aḥmad",
+  "primary": true
+ },
+ {
+  "person_id": "hafiz-muhammad-ahmad",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حافظ محمد احمد",
+  "primary": true
+ },
+ {
+  "person_id": "hafiz-muhammad-ahmad",
+  "type": "title",
+  "lang": "en",
+  "translit": "Shams al-ʿUlamāʾ"
+ },
+ {
+  "person_id": "yahya-kandhlawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Yaḥyā Kāndhlawī",
+  "primary": true
+ },
+ {
+  "person_id": "yahya-kandhlawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد یحییٰ کاندھلوی",
+  "primary": true
+ },
+ {
+  "person_id": "ashiq-ilahi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "ʿĀshiq Ilāhī Mīrathī",
+  "primary": true
+ },
+ {
+  "person_id": "ashiq-ilahi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عاشق الٰہی میرٹھی",
+  "primary": true
+ },
+ {
+  "person_id": "abdur-rahim-raipuri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "ʿAbd al-Raḥīm Rāipūrī",
+  "primary": true
+ },
+ {
+  "person_id": "abdur-rahim-raipuri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "عبد الرحیم رائپوری",
+  "primary": true
+ },
+ {
+  "person_id": "mumtaz-ali",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Sayyid Mumtāz ʿAlī",
+  "primary": true
+ },
+ {
+  "person_id": "mumtaz-ali",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "سید ممتاز علی",
+  "primary": true
+ },
+ {
+  "person_id": "karim-bakhsh-rampuri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Karīm Bakhsh Rāmpūrī",
+  "primary": true
+ },
+ {
+  "person_id": "karim-bakhsh-rampuri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "کریم بخش رامپوری",
+  "primary": true
+ },
+ {
+  "person_id": "hali",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Alṭāf Ḥusayn Ḥālī",
+  "primary": true
+ },
+ {
+  "person_id": "hali",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "الطاف حسین حالی",
+  "primary": true
+ },
+ {
+  "person_id": "mohsin-ul-mulk",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Nawwāb Muḥsin al-Mulk",
+  "primary": true
+ },
+ {
+  "person_id": "mohsin-ul-mulk",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محسن الملک",
+  "primary": true
+ },
+ {
+  "person_id": "chiragh-ali",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Chirāgh ʿAlī",
+  "primary": true
+ },
+ {
+  "person_id": "chiragh-ali",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "چراغ علی",
+  "primary": true
+ },
+ {
+  "person_id": "saadat-ali-saharanpuri",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Saʿādat ʿAlī Sahāranpūrī",
+  "primary": true
+ },
+ {
+  "person_id": "saadat-ali-saharanpuri",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "سعادت علی سہارنپوری",
+  "primary": true
+ },
+ {
+  "person_id": "hafiz-yusuf-thanawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥāfiẓ Muḥammad Yūsuf",
+  "primary": true
+ },
+ {
+  "person_id": "hafiz-yusuf-thanawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حافظ محمد یوسف",
+  "primary": true
+ },
+ {
+  "person_id": "nihal-ahmad",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Nihāl Aḥmad Deobandī",
+  "primary": true
+ },
+ {
+  "person_id": "nihal-ahmad",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "نہال احمد دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "ghulam-ali-dehlawi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Shāh Ghulām ʿAlī Dihlawī",
+  "primary": true
+ },
+ {
+  "person_id": "ghulam-ali-dehlawi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "شاہ غلام علی دہلوی",
+  "primary": true
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Rashīd Aḥmad Gangohī",
+  "primary": true
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "رشید احمد گنگوہی",
+  "primary": true
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "title",
+  "lang": "en",
+  "translit": "Quṭb al-Irshād"
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "kunya",
+  "lang": "en",
+  "translit": "Abū Masʿūd"
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "nasab",
+  "lang": "en",
+  "translit": "Rashīd Aḥmad ibn Hidāyat Aḥmad"
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "laqab",
+  "lang": "en",
+  "translit": "Faqīh al-Nafs"
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "type": "nisba",
+  "lang": "en",
+  "translit": "al-Anṣārī al-Gangohī"
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Yaʿqūb Nānautavī",
+  "primary": true
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد یعقوب نانوتوی",
+  "primary": true
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "type": "laqab",
+  "lang": "en",
+  "translit": "Gumnām (pen name)"
+ },
+ {
+  "person_id": "sayyid-abid",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥājī Sayyid Muḥammad ʿĀbid",
+  "primary": true
+ },
+ {
+  "person_id": "sayyid-abid",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حاجی سید محمد عابد دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "sayyid-abid",
+  "type": "ism",
+  "lang": "en",
+  "translit": "ʿĀbid Ḥusayn"
+ },
+ {
+  "person_id": "zulfiqar-ali",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḏhū al-Fiqār ʿAlī Deobandī",
+  "primary": true
+ },
+ {
+  "person_id": "zulfiqar-ali",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "ذوالفقار علی دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "fazlur-rahman-usmani",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Faḍl al-Raḥmān ʿUthmānī",
+  "primary": true
+ },
+ {
+  "person_id": "fazlur-rahman-usmani",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "فضل الرحمٰن عثمانی دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "mazhar-nanautavi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Maẓhar Nānautavī",
+  "primary": true
+ },
+ {
+  "person_id": "mazhar-nanautavi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد مظہر نانوتوی",
+  "primary": true
+ },
+ {
+  "person_id": "munir-nanautavi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Munīr Nānautavī",
+  "primary": true
+ },
+ {
+  "person_id": "munir-nanautavi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد منیر نانوتوی",
+  "primary": true
+ },
+ {
+  "person_id": "hafiz-zamin",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Ḥāfiẓ Muḥammad Ḍāmin Shahīd",
+  "primary": true
+ },
+ {
+  "person_id": "hafiz-zamin",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "حافظ محمد ضامن شہید",
+  "primary": true
+ },
+ {
+  "person_id": "rafi-uddin-deobandi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Rafīʿ al-Dīn Deobandī",
+  "primary": true
+ },
+ {
+  "person_id": "rafi-uddin-deobandi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "رفیع الدین دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "fazl-e-haq-deobandi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Sayyid Faḍl-i Ḥaqq Deobandī",
+  "primary": true
+ },
+ {
+  "person_id": "fazl-e-haq-deobandi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "سید فضل حق دیوبندی",
+  "primary": true
+ },
+ {
+  "person_id": "ahsan-nanautavi",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Muḥammad Aḥsan Nānautavī",
+  "primary": true
+ },
+ {
+  "person_id": "ahsan-nanautavi",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "محمد احسن نانوتوی",
+  "primary": true
+ },
+ {
+  "person_id": "sir-syed",
+  "type": "shuhra",
+  "lang": "en",
+  "translit": "Sir Sayyid Aḥmad Khān",
+  "primary": true
+ },
+ {
+  "person_id": "sir-syed",
+  "type": "shuhra",
+  "lang": "ar",
+  "value": "سر سید احمد خان",
+  "primary": true
+ }
+]

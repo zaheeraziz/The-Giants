@@ -1,0 +1,638 @@
+[
+ {
+  "person_id": "qasim-nanautavi",
+  "place_id": "nanauta",
+  "role": "born",
+  "confidence": "reported",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "place_id": "deoband",
+  "role": "studied",
+  "note": {
+   "en": "Arabic grammar at Karamat Husain's madrasa"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "place_id": "saharanpur",
+  "role": "studied",
+  "note": {
+   "en": "Persian"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "place_id": "delhi",
+  "role": "studied",
+  "note": {
+   "en": "c.1844–51"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "place_id": "meerut",
+  "role": "lived",
+  "note": {
+   "en": "worked at presses in Meerut, 1860s"
+  },
+  "confidence": "reported",
+  "citations": [
+   "deoband-org-qn"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "place_id": "deoband",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "qasim-nanautavi",
+  "place_id": "deoband",
+  "role": "buried",
+  "note": {
+   "en": "Qabrastān-e Qāsmī, north of Darul Uloom Deoband"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "mamluk-ali",
+  "place_id": "delhi",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "person_id": "mamluk-ali",
+  "place_id": "delhi",
+  "role": "buried",
+  "note": {
+   "en": "Mehdiyan, near the graveyard of Shāh Walīullāh"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mamluk"
+  ]
+ },
+ {
+  "person_id": "abdul-ghani-mujaddidi",
+  "place_id": "delhi",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "person_id": "abdul-ghani-mujaddidi",
+  "place_id": "medina",
+  "role": "taught",
+  "note": {
+   "en": "from 1857"
+  },
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "person_id": "abdul-ghani-mujaddidi",
+  "place_id": "medina",
+  "role": "buried",
+  "note": {
+   "en": "Jannat al-Baqīʿ, Medina"
+  },
+  "confidence": "reported",
+  "citations": [
+   "ulum-abdulghani"
+  ]
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "place_id": "saharanpur",
+  "role": "lived",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "place_id": "delhi",
+  "role": "lived",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "place_id": "mecca",
+  "role": "lived",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "place_id": "meerut",
+  "role": "lived",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "person_id": "ahmad-ali-saharanpuri",
+  "place_id": "kolkata",
+  "role": "lived",
+  "confidence": "reported",
+  "citations": [
+   "wiki-ahmadali"
+  ]
+ },
+ {
+  "person_id": "imdadullah",
+  "place_id": "thana-bhawan",
+  "role": "lived",
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "person_id": "imdadullah",
+  "place_id": "mecca",
+  "role": "lived",
+  "note": {
+   "en": "from 1276 AH"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "person_id": "imdadullah",
+  "place_id": "mecca",
+  "role": "buried",
+  "note": {
+   "en": "Jannat al-Muʿallā, Mecca, beside Raḥmatullāh Kayrānawī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-imdad"
+  ]
+ },
+ {
+  "person_id": "sadruddin-azurda",
+  "place_id": "delhi",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "wiki-azurda"
+  ]
+ },
+ {
+  "person_id": "sadruddin-azurda",
+  "place_id": "rampur",
+  "role": "lived",
+  "note": {
+   "en": "late years"
+  },
+  "confidence": "uncertain",
+  "citations": [
+   "kashmirlife-azurda"
+  ]
+ },
+ {
+  "person_id": "mahtab-ali",
+  "place_id": "deoband",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahtab"
+  ]
+ },
+ {
+  "person_id": "nawaz-saharanpuri",
+  "place_id": "saharanpur",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "wiki-qn"
+  ]
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "place_id": "deoband",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "place_id": "malta",
+  "role": "lived",
+  "note": {
+   "en": "prisoner, 1917–20"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "person_id": "mahmud-hasan",
+  "place_id": "deoband",
+  "role": "buried",
+  "note": {
+   "en": "Qabrastān-e Qāsmī, Deoband, beside Nānautavī"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-mahmud"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "place_id": "meerut",
+  "role": "studied",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "place_id": "deoband",
+  "role": "studied",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "place_id": "khurja",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "place_id": "moradabad",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "place_id": "sambhal",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "place_id": "kanpur",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-amrohi"
+  ]
+ },
+ {
+  "person_id": "ahmad-hasan-amrohi",
+  "place_id": "amroha",
+  "role": "buried",
+  "note": {
+   "en": "Jama Masjid precinct, Amroha"
+  },
+  "confidence": "uncertain",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "person_id": "fakhrul-hasan-gangohi",
+  "place_id": "deoband",
+  "role": "studied",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "person_id": "fakhrul-hasan-gangohi",
+  "place_id": "kanpur",
+  "role": "lived",
+  "note": {
+   "en": "physician"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-fakhr"
+  ]
+ },
+ {
+  "person_id": "abdul-ali-meeruti",
+  "place_id": "delhi",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdulali"
+  ]
+ },
+ {
+  "person_id": "abdul-ali-meeruti",
+  "place_id": "delhi",
+  "role": "buried",
+  "note": {
+   "en": "Graveyard of Shāh Walīullāh's family (Mehdiyan), Delhi"
+  },
+  "confidence": "attested",
+  "citations": [
+   "tarajm-abdulali"
+  ]
+ },
+ {
+  "person_id": "mansur-ali-khan",
+  "place_id": "moradabad",
+  "role": "born",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mansur"
+  ]
+ },
+ {
+  "person_id": "mansur-ali-khan",
+  "place_id": "hyderabad",
+  "role": "taught",
+  "note": {
+   "en": "medical school"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-mansur"
+  ]
+ },
+ {
+  "person_id": "abdur-rahman-amrohi",
+  "place_id": "bombay",
+  "role": "born",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "person_id": "abdur-rahman-amrohi",
+  "place_id": "dabhel",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "person_id": "abdur-rahman-amrohi",
+  "place_id": "amroha",
+  "role": "buried",
+  "note": {
+   "en": "Jama Masjid, Amroha, beside Aḥmad Ḥasan Amrohī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdurrahman"
+  ]
+ },
+ {
+  "person_id": "abdullah-ambehtvi",
+  "place_id": "ambehta",
+  "role": "born",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdullah"
+  ]
+ },
+ {
+  "person_id": "abdullah-ambehtvi",
+  "place_id": "aligarh-college",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "tarajm-abdullah"
+  ]
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "place_id": "deoband",
+  "role": "studied",
+  "note": {
+   "en": "about fourteen years"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "person_id": "abdul-wahid-bengali",
+  "place_id": "chittagong",
+  "role": "buried",
+  "note": {
+   "en": "Munshipara, Kharandwip"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-abdulwahid"
+  ]
+ },
+ {
+  "person_id": "hafiz-muhammad-ahmad",
+  "place_id": "hyderabad",
+  "role": "buried",
+  "note": {
+   "en": "Khiṭṭa-e Ṣāliḥīn, Hyderabad"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-hafizahmad"
+  ]
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "place_id": "delhi",
+  "role": "studied",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "place_id": "gangoh",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "person_id": "rashid-gangohi",
+  "place_id": "gangoh",
+  "role": "buried",
+  "note": {
+   "en": "Beside his khanqah in Gangoh"
+  },
+  "confidence": "reported",
+  "citations": [
+   "wiki-gangohi"
+  ]
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "place_id": "deoband",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "dud-yaqub"
+  ]
+ },
+ {
+  "person_id": "yaqub-nanautavi",
+  "place_id": "nanauta",
+  "role": "buried",
+  "note": {
+   "en": "Garden north of the Saharanpur road, Nanauta"
+  },
+  "confidence": "reported",
+  "citations": [
+   "dud-yaqub"
+  ]
+ },
+ {
+  "person_id": "zulfiqar-ali",
+  "place_id": "bareilly",
+  "role": "taught",
+  "confidence": "reported",
+  "citations": [
+   "wiki-zulfiqar"
+  ]
+ },
+ {
+  "person_id": "zulfiqar-ali",
+  "place_id": "deoband",
+  "role": "buried",
+  "note": {
+   "en": "Qabrastān-e Qāsmī, east of Nānautavī's grave"
+  },
+  "confidence": "attested",
+  "citations": [
+   "dud-zulfiqar"
+  ]
+ },
+ {
+  "person_id": "mazhar-nanautavi",
+  "place_id": "deoband",
+  "role": "buried",
+  "note": {
+   "en": "Qabrastān-e Qāsmī, beside Ḏhū al-Fiqār ʿAlī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "deoband-mazhar"
+  ]
+ },
+ {
+  "person_id": "hafiz-zamin",
+  "place_id": "thana-bhawan",
+  "role": "lived",
+  "confidence": "reported",
+  "citations": [
+   "wiki-shamli"
+  ]
+ },
+ {
+  "person_id": "rafi-uddin-deobandi",
+  "place_id": "medina",
+  "role": "buried",
+  "note": {
+   "en": "Jannat al-Baqīʿ, Medina"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-rafiuddin"
+  ]
+ },
+ {
+  "person_id": "ahsan-nanautavi",
+  "place_id": "bareilly",
+  "role": "lived",
+  "note": {
+   "en": "ran the press"
+  },
+  "confidence": "reported",
+  "citations": [
+   "basair-ahsan"
+  ]
+ },
+ {
+  "person_id": "ahsan-nanautavi",
+  "place_id": "deoband",
+  "role": "buried",
+  "note": {
+   "en": "Qabrastān-e Qāsmī, beside Ḏhū al-Fiqār ʿAlī"
+  },
+  "confidence": "reported",
+  "citations": [
+   "dud-zulfiqar"
+  ]
+ },
+ {
+  "person_id": "sir-syed",
+  "place_id": "aligarh-college",
+  "role": "buried",
+  "note": {
+   "en": "Beside the Sir Syed Masjid, Aligarh Muslim University"
+  },
+  "confidence": "attested",
+  "citations": [
+   "wiki-sirsyed"
+  ]
+ }
+]

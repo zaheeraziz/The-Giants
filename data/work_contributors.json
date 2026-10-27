@@ -1,0 +1,482 @@
+[
+ {
+  "work_id": "injah-al-hajah",
+  "person_id": "abdul-ghani-mujaddidi",
+  "role": "author"
+ },
+ {
+  "work_id": "takhrij-maktubat",
+  "person_id": "abdul-ghani-mujaddidi",
+  "role": "author"
+ },
+ {
+  "work_id": "khulasat-al-jawahir",
+  "person_id": "abdul-ghani-mujaddidi",
+  "role": "author"
+ },
+ {
+  "work_id": "hawashi-bukhari-ahmadali",
+  "person_id": "ahmad-ali-saharanpuri",
+  "role": "author"
+ },
+ {
+  "work_id": "hawashi-tirmidhi",
+  "person_id": "ahmad-ali-saharanpuri",
+  "role": "author"
+ },
+ {
+  "work_id": "hawashi-mishkat",
+  "person_id": "ahmad-ali-saharanpuri",
+  "role": "author"
+ },
+ {
+  "work_id": "sahih-muslim-edition",
+  "person_id": "ahmad-ali-saharanpuri",
+  "role": "editor"
+ },
+ {
+  "work_id": "ziya-al-qulub",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "ghiza-e-ruh",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "faisla-haft-masala",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "jihad-e-akbar",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "irshad-e-murshid",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "tuhfat-al-ushshaq",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "gulzar-e-marifat",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "hashiya-masnavi",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "kulliyat-imdadiya",
+  "person_id": "imdadullah",
+  "role": "author"
+ },
+ {
+  "work_id": "azurda-diwan",
+  "person_id": "sadruddin-azurda",
+  "role": "author"
+ },
+ {
+  "work_id": "azurda-musaddas",
+  "person_id": "sadruddin-azurda",
+  "role": "author"
+ },
+ {
+  "work_id": "azurda-shahr-ashob",
+  "person_id": "sadruddin-azurda",
+  "role": "author"
+ },
+ {
+  "work_id": "tarjuma-shaykh-al-hind",
+  "person_id": "mahmud-hasan",
+  "role": "author"
+ },
+ {
+  "work_id": "adilla-e-kamila",
+  "person_id": "mahmud-hasan",
+  "role": "author"
+ },
+ {
+  "work_id": "izah-al-adilla",
+  "person_id": "mahmud-hasan",
+  "role": "author"
+ },
+ {
+  "work_id": "al-abwab-wal-tarajim",
+  "person_id": "mahmud-hasan",
+  "role": "author"
+ },
+ {
+  "work_id": "ahsan-al-qira",
+  "person_id": "mahmud-hasan",
+  "role": "author"
+ },
+ {
+  "work_id": "juhd-al-muqill",
+  "person_id": "mahmud-hasan",
+  "role": "author"
+ },
+ {
+  "work_id": "abu-dawud-edition",
+  "person_id": "mahmud-hasan",
+  "role": "editor"
+ },
+ {
+  "work_id": "ifadat-e-ahmadiyya",
+  "person_id": "ahmad-hasan-amrohi",
+  "role": "author"
+ },
+ {
+  "work_id": "izalat-al-waswas",
+  "person_id": "ahmad-hasan-amrohi",
+  "role": "author"
+ },
+ {
+  "work_id": "al-malumat-al-ilahiyya",
+  "person_id": "ahmad-hasan-amrohi",
+  "role": "author"
+ },
+ {
+  "work_id": "amrohi-fatawa",
+  "person_id": "ahmad-hasan-amrohi",
+  "role": "author"
+ },
+ {
+  "work_id": "al-taliq-al-mahmud",
+  "person_id": "fakhrul-hasan-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "hashiya-ibn-majah-fakhr",
+  "person_id": "fakhrul-hasan-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "hashiya-talkhis",
+  "person_id": "fakhrul-hasan-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "madhhab-e-mansur",
+  "person_id": "mansur-ali-khan",
+  "role": "author"
+ },
+ {
+  "work_id": "mayar-al-adwiya",
+  "person_id": "mansur-ali-khan",
+  "role": "author"
+ },
+ {
+  "work_id": "al-fath-al-mubin-mansur",
+  "person_id": "mansur-ali-khan",
+  "role": "author"
+ },
+ {
+  "work_id": "hashiya-mukhtasar-maani",
+  "person_id": "abdur-rahman-amrohi",
+  "role": "author"
+ },
+ {
+  "work_id": "hawashi-mutawwal",
+  "person_id": "abdur-rahman-amrohi",
+  "role": "author"
+ },
+ {
+  "work_id": "hashiya-baydawi",
+  "person_id": "abdur-rahman-amrohi",
+  "role": "author"
+ },
+ {
+  "work_id": "al-qawl-al-sarih-masih",
+  "person_id": "ismail-koli",
+  "role": "author"
+ },
+ {
+  "work_id": "al-qawl-al-sawab-mawlid",
+  "person_id": "ismail-koli",
+  "role": "author"
+ },
+ {
+  "work_id": "fatawa-rashidiyya",
+  "person_id": "rashid-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "lami-al-darari",
+  "person_id": "rashid-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "al-kawkab-al-durri",
+  "person_id": "rashid-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "imdad-al-suluk",
+  "person_id": "rashid-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "hidayat-al-shia-gangohi",
+  "person_id": "rashid-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "zubdat-al-manasik",
+  "person_id": "rashid-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "sabil-al-rashad",
+  "person_id": "rashid-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "tasfiyat-al-qulub",
+  "person_id": "rashid-gangohi",
+  "role": "author"
+ },
+ {
+  "work_id": "sawanih-qasimi-yaqub",
+  "person_id": "yaqub-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "maktubat-yaqubi",
+  "person_id": "yaqub-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "bayaz-yaqubi",
+  "person_id": "yaqub-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "al-hadiyya-al-saniyya",
+  "person_id": "zulfiqar-ali",
+  "role": "author"
+ },
+ {
+  "work_id": "tashil-al-dirasa",
+  "person_id": "zulfiqar-ali",
+  "role": "author"
+ },
+ {
+  "work_id": "tashil-al-bayan",
+  "person_id": "zulfiqar-ali",
+  "role": "author"
+ },
+ {
+  "work_id": "taliqat-muallaqat",
+  "person_id": "zulfiqar-ali",
+  "role": "author"
+ },
+ {
+  "work_id": "itr-al-warda",
+  "person_id": "zulfiqar-ali",
+  "role": "author"
+ },
+ {
+  "work_id": "al-irshad-zulfiqar",
+  "person_id": "zulfiqar-ali",
+  "role": "author"
+ },
+ {
+  "work_id": "tadhkirat-al-balagha",
+  "person_id": "zulfiqar-ali",
+  "role": "author"
+ },
+ {
+  "work_id": "tashil-al-hisab",
+  "person_id": "zulfiqar-ali",
+  "role": "author"
+ },
+ {
+  "work_id": "qissa-gham-diban",
+  "person_id": "fazlur-rahman-usmani",
+  "role": "author"
+ },
+ {
+  "work_id": "ghayat-al-awtar",
+  "person_id": "mazhar-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "siraj-al-salikin",
+  "person_id": "munir-nanautavi",
+  "role": "translator"
+ },
+ {
+  "work_id": "fawaid-e-gharibah",
+  "person_id": "munir-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "athar-al-sanadid",
+  "person_id": "sir-syed",
+  "role": "author"
+ },
+ {
+  "work_id": "asbab-e-baghawat",
+  "person_id": "sir-syed",
+  "role": "author"
+ },
+ {
+  "work_id": "tafsir-sir-syed",
+  "person_id": "sir-syed",
+  "role": "author"
+ },
+ {
+  "work_id": "khutubat-e-ahmadiyya",
+  "person_id": "sir-syed",
+  "role": "author"
+ },
+ {
+  "work_id": "tahzib-al-akhlaq",
+  "person_id": "sir-syed",
+  "role": "author"
+ },
+ {
+  "work_id": "tabyin-al-kalam",
+  "person_id": "sir-syed",
+  "role": "author"
+ },
+ {
+  "work_id": "hujjat-al-islam",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "tahdhir-al-nas",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "hashiya-bukhari-qn",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "taqrir-e-dilpazir",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "qibla-numa",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "intisar-al-islam",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "mubahasa-shahjahanpur",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "guftgu-e-mazhabi",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "tasfiyat-al-aqaid",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "hadiyyat-al-shia",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "aab-e-hayat",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "qasim-al-ulum",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "munazara-e-ajiba",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "ajwiba-e-arbain",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "tuhfa-lahmiya",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "dalil-al-muhkam",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "tawthiq-al-kalam",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "masabih-al-tarawih",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "qasaid-e-qasmi",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "jamal-e-qasmi",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "fuyuz-e-qasimiya",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "lataif-e-qasmi",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "al-haqq-al-sarih",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "barahin-e-qasimiya",
+  "person_id": "qasim-nanautavi",
+  "role": "author"
+ },
+ {
+  "work_id": "mubahasa-shahjahanpur",
+  "person_id": "fakhrul-hasan-gangohi",
+  "role": "compiler"
+ },
+ {
+  "work_id": "tahdhir-al-nas",
+  "person_id": "ahsan-nanautavi",
+  "role": "editor"
+ }
+]

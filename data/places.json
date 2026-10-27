@@ -1,0 +1,300 @@
+[
+ {
+  "id": "hind",
+  "name": {
+   "en": "Hindustan",
+   "ar": "الهند"
+  },
+  "type": "region",
+  "region": "Hind"
+ },
+ {
+  "id": "hijaz",
+  "name": {
+   "en": "Hijaz",
+   "ar": "الحجاز"
+  },
+  "type": "region",
+  "region": "Hijaz"
+ },
+ {
+  "id": "bengal",
+  "name": {
+   "en": "Bengal"
+  },
+  "type": "region",
+  "parent_id": "hind",
+  "region": "Hind"
+ },
+ {
+  "id": "saharanpur",
+  "name": {
+   "en": "Saharanpur"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "nanauta",
+  "name": {
+   "en": "Nanauta"
+  },
+  "type": "town",
+  "parent_id": "saharanpur"
+ },
+ {
+  "id": "deoband",
+  "name": {
+   "en": "Deoband"
+  },
+  "type": "town",
+  "parent_id": "saharanpur"
+ },
+ {
+  "id": "gangoh",
+  "name": {
+   "en": "Gangoh"
+  },
+  "type": "town",
+  "parent_id": "saharanpur"
+ },
+ {
+  "id": "ambehta",
+  "name": {
+   "en": "Ambehta"
+  },
+  "type": "town",
+  "parent_id": "saharanpur"
+ },
+ {
+  "id": "delhi",
+  "name": {
+   "en": "Delhi"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "meerut",
+  "name": {
+   "en": "Meerut"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "moradabad",
+  "name": {
+   "en": "Moradabad"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "amroha",
+  "name": {
+   "en": "Amroha"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "thana-bhawan",
+  "name": {
+   "en": "Thana Bhawan"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "shamli",
+  "name": {
+   "en": "Shamli"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "shahjahanpur",
+  "name": {
+   "en": "Shahjahanpur"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "chandapur",
+  "name": {
+   "en": "Chandapur, near Shahjahanpur"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "kanpur",
+  "name": {
+   "en": "Kanpur"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "aligarh",
+  "name": {
+   "en": "Koil (Aligarh)"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "bareilly",
+  "name": {
+   "en": "Bareilly"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "rampur",
+  "name": {
+   "en": "Rampur"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "roorkee",
+  "name": {
+   "en": "Roorkee"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "hyderabad",
+  "name": {
+   "en": "Hyderabad (Deccan)"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "bombay",
+  "name": {
+   "en": "Bombay"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "khurja",
+  "name": {
+   "en": "Khurja"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "sambhal",
+  "name": {
+   "en": "Sambhal"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "ganj-moradabad",
+  "name": {
+   "en": "Ganj Moradabad"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "lucknow",
+  "name": {
+   "en": "Lucknow"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "kairana",
+  "name": {
+   "en": "Kairana"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "jhinjhana",
+  "name": {
+   "en": "Jhinjhana"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "chittagong",
+  "name": {
+   "en": "Chittagong"
+  },
+  "type": "town",
+  "parent_id": "bengal"
+ },
+ {
+  "id": "hathazari",
+  "name": {
+   "en": "Hathazari"
+  },
+  "type": "town",
+  "parent_id": "bengal"
+ },
+ {
+  "id": "kolkata",
+  "name": {
+   "en": "Kolkata"
+  },
+  "type": "town",
+  "parent_id": "bengal"
+ },
+ {
+  "id": "mecca",
+  "name": {
+   "en": "Mecca"
+  },
+  "type": "town",
+  "parent_id": "hijaz"
+ },
+ {
+  "id": "medina",
+  "name": {
+   "en": "Medina"
+  },
+  "type": "town",
+  "parent_id": "hijaz"
+ },
+ {
+  "id": "malta",
+  "name": {
+   "en": "Malta"
+  },
+  "type": "town"
+ },
+ {
+  "id": "dabhel",
+  "name": {
+   "en": "Dabhel"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ },
+ {
+  "id": "aligarh-college",
+  "name": {
+   "en": "Aligarh"
+  },
+  "type": "town",
+  "parent_id": "hind"
+ }
+]
