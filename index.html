@@ -25,6 +25,7 @@
   --gold:#D6B05A; --gold-soft:#2A2415; --lapis:#86A9EA; --lapis-soft:#1A2641; --line:#283049;
   --ok:#6CC28E; --warn:#E0A84A; --risk:#E27A70; color-scheme:dark}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-display);font-size:16px;line-height:1.5;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 64px}
 button{font:inherit;color:inherit;cursor:pointer}
@@ -99,6 +100,8 @@ button{font:inherit;color:inherit;cursor:pointer}
 .tile .bk{font-family:var(--f-mono);font-size:.6rem;letter-spacing:.05em;text-transform:uppercase;color:var(--lapis)}
 .tile.friend{background:var(--surface);border-top-color:var(--lapis);box-shadow:inset 0 0 0 1px var(--line)}
 .tile.friend:hover{box-shadow:inset 0 0 0 1px var(--lapis)}
+.tile.friend .bk{font-family:var(--f-display);text-transform:none;letter-spacing:0;font-size:.74rem;line-height:1.3;color:var(--muted);
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .tile.book:hover{box-shadow:inset 0 0 0 1px var(--gold)}
 .tile.stub{box-shadow:inset 0 0 0 1px var(--line)}
 .more{position:relative}
@@ -152,14 +155,114 @@ button{font:inherit;color:inherit;cursor:pointer}
   .facts{grid-template-columns:minmax(0,1fr)}
   .facts dt{padding-top:6px}
 }
+
+/* ---------- top bar controls ---------- */
+.iconbtn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:10px;
+  padding:7px 12px;min-height:40px;font-size:.88rem;color:var(--ink)}
+.iconbtn:hover{border-color:var(--gold)}
+.iconbtn svg{width:16px;height:16px;flex:none}
+.only-m{display:none}
+
+/* ---------- bottom sheet (details on phones, search everywhere) ---------- */
+.sheet{position:fixed;inset:0;z-index:40;display:flex;flex-direction:column;justify-content:flex-end}
+.sheet-backdrop{position:absolute;inset:0;border:0;padding:0;margin:0;background:rgb(8 12 22 / .45);cursor:default}
+.sheet-panel{position:relative;background:var(--surface);color:var(--ink);border-radius:18px 18px 0 0;max-height:88vh;max-height:88dvh;
+  overflow:auto;overscroll-behavior:contain;box-shadow:0 -12px 40px rgb(0 0 0 / .22);
+  padding:6px max(16px,env(safe-area-inset-right,0px)) calc(24px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));
+  animation:sheetin .26s cubic-bezier(.2,.8,.2,1);transition:transform .2s ease}
+.sheet-panel.dragging{transition:none}
+.grab{width:42px;height:5px;border-radius:3px;background:var(--line);margin:4px auto 12px}
+.sheet .detail{border:0;padding:0;margin:0;max-width:none;width:100%;background:none;border-radius:0}
+.sheet .detail .close{top:0;right:0}
+@keyframes sheetin{from{transform:translateY(40%);opacity:.4}to{transform:none;opacity:1}}
+html.lock,html.lock body{overflow:hidden}
+@media (min-width:901px){
+  .sheet{justify-content:center;align-items:center;padding:24px}
+  .sheet-panel{border-radius:16px;width:min(600px,100%);max-height:80vh;padding:18px 22px}
+  .grab{display:none}
+}
+
+/* search */
+.search-input{width:100%;font:inherit;font-size:16px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);margin-top:12px}
+.search-input:focus{outline:2px solid var(--gold);outline-offset:1px}
+.search-note{font-size:.8rem;color:var(--muted);margin:10px 0 0}
+
+/* lists used on phones and in search */
+.mlist{list-style:none;margin:10px 0 0;padding:0;width:100%;display:flex;flex-direction:column;gap:8px}
+.mitem{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;row-gap:1px;align-items:center;text-align:left;
+  font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--line);border-radius:12px;padding:10px 14px;min-height:56px;cursor:pointer}
+.mitem:active{background:var(--gold-soft)}
+.mitem>span{grid-column:1;min-width:0}
+.mitem .bt{font-weight:600;line-height:1.25}
+.mitem.book .bt{font-style:italic}
+.mitem .ba{color:var(--gold);font-size:1.02rem;line-height:1.3}
+.mitem .bk{font-size:.8rem;color:var(--muted);line-height:1.3}
+.mitem .chev{grid-column:2;grid-row:1 / span 3;color:var(--muted);font-size:1.3rem}
+.mitem.book{border-left-color:var(--gold)}
+.mitem.friend{border-left-color:var(--lapis)}
+.mitem.stub{border-style:dashed;border-left-style:solid}
+.showall{width:100%;margin-top:8px;border:1px dashed var(--gold);background:none;border-radius:12px;padding:10px;min-height:44px;font-size:.9rem;color:var(--ink)}
+
+/* ---------- phone layout ---------- */
+@media (max-width:900px){
+  .only-m{display:inline-flex}
+  .only-d{display:none}
+  body{padding-block:0 48px}
+  body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:var(--paper)}
+  .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-bottom:1px solid var(--line);
+    margin-left:calc(-1 * max(16px,env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(16px,env(safe-area-inset-right,0px)));
+    padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px));
+    flex-wrap:nowrap;align-items:center;gap:10px;max-width:none}
+  .top h1{font-size:1.1rem;margin-right:auto}
+  .top .ar{display:none}
+  .trail{display:none}
+  .stage.m{padding-top:16px;align-items:stretch}
+
+  .mhead{display:flex;align-items:baseline;gap:8px;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  .mhead .ar{font-size:1rem;letter-spacing:0;text-transform:none;color:var(--gold)}
+  .mhead .n{font-family:var(--f-mono);letter-spacing:0}
+  .mhead .swipe{margin-left:auto;letter-spacing:.04em;text-transform:none;font-size:.75rem}
+  .strip{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+    margin:8px calc(-1 * max(16px,env(safe-area-inset-right,0px))) 0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));
+    padding:2px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));
+    scroll-padding-left:max(16px,env(safe-area-inset-left,0px));scrollbar-width:none}
+  .strip::-webkit-scrollbar{display:none}
+  .strip .t{flex:none;width:158px;max-width:none;scroll-snap-align:start;justify-content:flex-start;min-height:44px}
+  .strip .t:hover{transform:none}
+  .strip .t .n,.strip .t .w{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+  .strip .t .n{-webkit-line-clamp:2}
+  .strip .t .w{-webkit-line-clamp:2}
+  .mstem{display:flex;justify-content:center}
+  .mstem .stem{height:26px}
+  .arrow.up .stem::before{top:-2px}
+  .mcenter{display:flex;flex-direction:column;align-items:center}
+  .mcenter .center{padding:6px 8px 0}
+  .mcenter .dates{margin-top:10px}
+  .mcenter .tap{font-size:.75rem;color:var(--muted);margin-top:8px}
+
+  .tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:26px;border:1px solid var(--line);border-radius:12px;padding:4px;background:var(--surface)}
+  .tab{border:0;background:none;border-radius:9px;padding:8px 6px;min-height:44px;font-size:.92rem;display:flex;gap:6px;justify-content:center;align-items:center}
+  .tab .n{font-family:var(--f-mono);font-size:.78rem;color:var(--muted)}
+  .tab[aria-selected="true"]{background:var(--gold-soft);font-weight:600}
+  .tab.left[aria-selected="true"]{background:var(--lapis-soft)}
+  .stage.m .hint{text-align:left}
+}
 </style>
 </head>
 <body>
-<div class="top">
+<header class="top">
+  <button type="button" class="iconbtn only-m" id="back" hidden aria-label="Back">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Back</button>
   <h1>The Giants</h1><span class="ar" lang="ar">الأعلام</span>
   <nav class="trail" id="trail" aria-label="Path"></nav>
-</div>
+  <button type="button" class="iconbtn" id="searchBtn" aria-label="Search scholars">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m10.4 10.4 3.6 3.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><span class="only-d">Search</span></button>
+</header>
 <main class="stage" id="stage" aria-live="polite"></main>
+<div class="sheet" id="sheet" hidden>
+  <button type="button" class="sheet-backdrop" data-close aria-label="Close"></button>
+  <div class="sheet-panel" id="sheetPanel" role="dialog" aria-modal="true" tabindex="-1"><div class="grab" aria-hidden="true"></div><div id="sheetBody"></div></div>
+</div>
 
 <script src="data/bundle.js"></script>
 <script>
@@ -265,10 +368,26 @@ function peopleBlock(list, max) {
     rest.map(x => `<li><button type="button" data-go="${x.id}"><span class="bt">${esc(display(x.id))}</span><span class="bk">${esc(relLabel(x.r))}</span></button></li>`).join("")}</ul></details>` : "");
 }
 
+const MQ = matchMedia("(max-width: 900px)");
+const isM = () => MQ.matches;
+let mTab = "companions", mAll = { companions: false, works: false };
+
 function render(id) {
   if (!P[id]) id = G.start;
+  if (id !== current) mAll = { companions: false, works: false };
   current = id;
+  if (open?.kind === "search") open = null;
+  closeSheet();
+  if (isM()) renderMobile(id); else renderDesktop(id);
+  const i = trail.indexOf(id); if (i >= 0) trail = trail.slice(0, i + 1); else trail.push(id); trail = trail.slice(-6);
+  $("trail").innerHTML = trail.map((t, k) => k === trail.length - 1 ? `<strong>${esc(display(t))}</strong>` :
+    `<button type="button" data-go="${t}">${esc(display(t))}</button><span aria-hidden="true">›</span>`).join("");
+  $("back").hidden = trail.length < 2;
+}
+
+function renderDesktop(id) {
   const p = P[id];
+  $("stage").className = "stage";
   const T = teachersOf(id), S = studentsOf(id), C = companionsOf(id), W = worksOf(id);
   const born = life(id, "birth"), died = life(id, "death");
   const title = (NAMES[id] || []).find(n => n.type === "title" && n.lang === "en");
@@ -311,12 +430,113 @@ function render(id) {
 
   $("stage").innerHTML = `${top}<div class="row">${left}${mid}${right}</div>
     <div id="detail"></div>${bottom}
-    <p class="hint">Click any name to move it to the centre. Click the centre name for the full record, or a book for its details.</p>`;
+    <p class="hint">Click any name to move it to the centre. Click the centre name for the full record, or a book for its details. Press / to search.</p>`;
+  reopen(id);
+}
+function reopen(id) {
   if (open?.kind === "person" && open.id === id) showPerson(id); else if (open?.kind === "work") showWork(open.id); else open = null;
+}
 
-  const i = trail.indexOf(id); if (i >= 0) trail = trail.slice(0, i + 1); else trail.push(id); trail = trail.slice(-6);
-  $("trail").innerHTML = trail.map((t, k) => k === trail.length - 1 ? `<strong>${esc(display(t))}</strong>` :
-    `<button type="button" data-go="${t}">${esc(display(t))}</button><span aria-hidden="true">›</span>`).join("");
+/* ---------- phone layout: teachers row above, students row below, companions and works as tabs ---------- */
+function renderMobile(id) {
+  const T = teachersOf(id), S = studentsOf(id);
+  const born = life(id, "birth"), died = life(id, "death");
+  const title = (NAMES[id] || []).find(n => n.type === "title" && n.lang === "en");
+  const strip = list => `<div class="strip">${list.map(x => personCard(x.id, relLabel(x.r))).join("")}</div>`;
+  const swipe = n => n > 2 ? `<span class="swipe">Swipe →</span>` : "";
+  $("stage").className = "stage m";
+  $("stage").innerHTML = `
+    <section aria-label="Teachers">
+      <div class="mhead"><span>Teachers</span><span class="ar" lang="ar">الشيوخ</span><span class="n">${T.length}</span>${swipe(T.length)}</div>
+      ${T.length ? strip(T) : `<div class="none">No teachers recorded yet</div>`}
+    </section>
+    <div class="mstem arrow up" aria-hidden="true"><div class="stem"${T.length ? "" : ' style="opacity:.35"'}></div></div>
+    <div class="mcenter">
+      <button type="button" class="center swap" id="me" aria-expanded="false">
+        <span class="ar" lang="ar">${esc(display(id, "ar"))}</span><span class="n">${esc(display(id))}</span>
+        ${title ? `<span class="title">${esc(title.translit || title.value)}</span>` : ""}
+      </button>
+      <dl class="dates"><dt>Born</dt><dd>${esc(born ? fmtDate(born.date, true) : "Unknown")}</dd><dt>Died</dt><dd>${esc(died ? fmtDate(died.date, true) : "Unknown")}</dd></dl>
+      <span class="tap">Tap the name for the full record</span>
+    </div>
+    <div class="mstem arrow down" aria-hidden="true"><div class="stem"${S.length ? "" : ' style="opacity:.35"'}></div></div>
+    <section aria-label="Students and disciples">
+      ${S.length ? strip(S) : `<div class="none">No students recorded yet</div>`}
+      <div class="mhead"><span>Students &amp; disciples</span><span class="ar" lang="ar">التلاميذ</span><span class="n">${S.length}</span>${swipe(S.length)}</div>
+    </section>
+    <div class="tabs" role="tablist" aria-label="Companions and works">
+      <button type="button" class="tab left" role="tab" data-tab="companions" aria-selected="${mTab === "companions"}" aria-controls="tabpanel">← Companions <span class="n">${companionsOf(id).length}</span></button>
+      <button type="button" class="tab" role="tab" data-tab="works" aria-selected="${mTab === "works"}" aria-controls="tabpanel">Works <span class="n">${worksOf(id).length}</span> →</button>
+    </div>
+    <div id="tabpanel" role="tabpanel">${tabPanel(id)}</div>`;
+  reopen(id);
+}
+function tabPanel(id) {
+  const MAX = 5;
+  if (mTab === "works") {
+    const W = worksOf(id);
+    if (!W.length) return `<div class="none">No works recorded yet</div>`;
+    const list = mAll.works ? W : W.slice(0, MAX);
+    return `<ul class="mlist">${list.map(x => `<li><button type="button" class="mitem book" data-work="${x.w.id}">
+        <span class="bt">${esc(x.w.title.translit)}</span>${x.w.title.original ? `<span class="ba" lang="${esc(x.w.languages?.[0] || "ar")}">${esc(x.w.title.original)}</span>` : ""}
+        <span class="bk">${esc((x.w.genres || []).join(", "))} · ${esc((x.w.languages || []).map(l => ({ur:"Urdu",ar:"Arabic",fa:"Persian",en:"English"})[l] || l).join("/"))}</span><span class="chev" aria-hidden="true">›</span></button></li>`).join("")}</ul>
+      ${W.length > MAX && !mAll.works ? `<button type="button" class="showall" data-showall="works">Show all ${W.length} works ▾</button>` : ""}`;
+  }
+  const C = companionsOf(id);
+  if (!C.length) return `<div class="none">No companions recorded yet</div>`;
+  const list = mAll.companions ? C : C.slice(0, MAX);
+  return `<ul class="mlist">${list.map(x => `<li><button type="button" class="mitem friend${P[x.id]?.status === "stub" ? " stub" : ""}" data-go="${x.id}">
+      <span class="bt">${esc(display(x.id))}</span><span class="ba" lang="ar">${esc(display(x.id, "ar"))}</span>
+      <span class="bk">${esc(relLabel(x.r))}</span><span class="chev" aria-hidden="true">›</span></button></li>`).join("")}</ul>
+    ${C.length > MAX && !mAll.companions ? `<button type="button" class="showall" data-showall="companions">Show all ${C.length} companions ▾</button>` : ""}`;
+}
+
+/* ---------- detail target: inline on desktop, bottom sheet on phones ---------- */
+function setDetail(html) {
+  if (isM()) { $("sheetBody").innerHTML = html; openSheet(); }
+  else $("detail").innerHTML = html;
+}
+function clearDetail() {
+  open = null; closeSheet();
+  if ($("detail")) $("detail").innerHTML = "";
+  $("me")?.setAttribute("aria-expanded", "false");
+}
+let lastFocus = null;
+function openSheet() {
+  if ($("sheet").hidden) lastFocus = document.activeElement;
+  $("sheet").hidden = false; document.documentElement.classList.add("lock");
+  $("sheetPanel").style.transform = ""; $("sheetPanel").scrollTop = 0;
+  if (!$("sheetPanel").contains(document.activeElement)) $("sheetPanel").focus({ preventScroll: true });
+}
+function closeSheet() {
+  if ($("sheet").hidden) return;
+  $("sheet").hidden = true; $("sheetBody").innerHTML = ""; document.documentElement.classList.remove("lock");
+  if (lastFocus && document.contains(lastFocus)) lastFocus.focus({ preventScroll: true });
+}
+
+/* ---------- search: every name form, English or Arabic/Urdu script ---------- */
+const fold = t => String(t || "").normalize("NFD").replace(/[\u0300-\u036f\u064b-\u065f\u0670ʿʾ'’‘`-]/g, "")
+  .replace(/[أإآٱ]/g, "ا").replace(/[ىی]/g, "ي").replace(/[ةۃ]/g, "ه").replace(/ہ/g, "ه").replace(/ک/g, "ك").toLowerCase().replace(/\s+/g, " ").trim();
+const SEARCH = G.persons.map(p => ({ id: p.id, full: p.status !== "stub",
+  keys: (NAMES[p.id] || []).map(n => fold(n.translit || n.value)).concat(fold(display(p.id)), fold(display(p.id, "ar"))) }));
+function showSearch() {
+  open = { kind: "search" };
+  $("sheetBody").innerHTML = `<section class="detail" aria-label="Search">
+    <button type="button" class="close" data-close>Close</button>
+    <h2>Search</h2>
+    <input id="q" class="search-input" type="search" placeholder="Name in English, Arabic or Urdu" autocomplete="off" aria-label="Search scholars">
+    <p class="search-note" id="qnote"></p><ul class="mlist" id="qres"></ul></section>`;
+  openSheet(); runSearch(""); $("q").focus();
+}
+function runSearch(q) {
+  const f = fold(q);
+  const hits = f ? SEARCH.filter(x => x.keys.some(k => k.includes(f))).sort((a, b) => b.full - a.full)
+                 : SEARCH.filter(x => x.full);
+  $("qnote").textContent = f ? `${hits.length} match${hits.length === 1 ? "" : "es"}` : `Scholars with full records (${hits.length})`;
+  $("qres").innerHTML = hits.slice(0, 40).map(x => `<li><button type="button" class="mitem${x.full ? "" : " stub"}" data-go="${x.id}">
+      <span class="bt">${esc(display(x.id))}</span><span class="ba" lang="ar">${esc(display(x.id, "ar"))}</span>
+      <span class="bk">${esc(shortDeath(x.id))}${x.full ? "" : " · linked record"}</span><span class="chev" aria-hidden="true">›</span></button></li>`).join("")
+    || `<li class="none">No one by that name yet.</li>`;
 }
 
 function sourcesList(ids) {
@@ -334,7 +554,7 @@ function showPerson(id) {
   const inst = PINST[id] || [], evs = PEVT[id] || [];
   const cites = [...(p.citations || []), ...(born?.citations || []), ...(died?.citations || []), ...ns.flatMap(n => n.citations || []),
     ...(OUT[id] || []).flatMap(r => r.citations || []), ...(INC[id] || []).flatMap(r => r.citations || [])];
-  $("detail").innerHTML = `<section class="detail swap" aria-label="Record">
+  setDetail(`<section class="detail swap" aria-label="Record">
     <button type="button" class="close" data-close>Close</button>
     <h2>${esc(display(id))}</h2><div class="sub" lang="ar">${esc(display(id, "ar"))}</div>
     ${p.summary?.en ? `<p>${esc(p.summary.en)}</p>` : `<p>Full record not yet written. This person appears in the network of others.</p>`}
@@ -351,7 +571,7 @@ function showPerson(id) {
       ${p.note?.en ? `<dt>Note</dt><dd>${esc(p.note.en)}</dd>` : ""}
     </dl>
     ${sourcesList(cites)}
-  </section>`;
+  </section>`);
   $("me")?.setAttribute("aria-expanded", "true");
 }
 
@@ -359,7 +579,7 @@ function showWork(wid) {
   const w = WK[wid]; if (!w) return; open = { kind: "work", id: wid };
   const contrib = G.work_contributors.filter(c => c.work_id === wid);
   const rels = (G.work_relations || []).filter(r => r.from === wid || r.to === wid);
-  $("detail").innerHTML = `<section class="detail swap" aria-label="Book">
+  setDetail(`<section class="detail swap" aria-label="Book">
     <button type="button" class="close" data-close>Close</button>
     <h2><em>${esc(w.title.translit)}</em></h2>${w.title.original ? `<div class="sub" lang="${esc(w.languages?.[0] || "ar")}">${esc(w.title.original)}</div>` : ""}
     ${w.title.meaning ? `<p>“${esc(w.title.meaning)}”</p>` : ""}
@@ -374,19 +594,47 @@ function showWork(wid) {
           return `${esc(lbl)} <em>${esc(WK[other]?.title?.translit || other)}</em>`; }).join("<br>")}</dd>` : ""}
     </dl>
     ${sourcesList(w.citations || [])}
-  </section>`;
+  </section>`);
 }
 
-function go(id) { open = null; if (location.hash.slice(1) === id) render(id); else location.hash = id; }
+function go(id) { open = null; closeSheet(); if (location.hash.slice(1) === id) render(id); else location.hash = id; }
 addEventListener("hashchange", () => render(location.hash.slice(1)));
+MQ.addEventListener("change", () => { const was = open; closeSheet(); open = was?.kind === "search" ? null : was; render(current); });
 document.addEventListener("click", e => {
   const g = e.target.closest("[data-go]"); if (g) { go(g.dataset.go); window.scrollTo({ top: 0, behavior: "smooth" }); return; }
-  const w = e.target.closest("[data-work]"); if (w) { w.closest("details")?.removeAttribute("open"); showWork(w.dataset.work); $("detail").scrollIntoView({ block: "nearest", behavior: "smooth" }); return; }
-  if (e.target.closest("[data-close]")) { open = null; $("detail").innerHTML = ""; $("me")?.setAttribute("aria-expanded", "false"); return; }
+  const w = e.target.closest("[data-work]"); if (w) { w.closest("details")?.removeAttribute("open"); showWork(w.dataset.work); if (!isM()) $("detail").scrollIntoView({ block: "nearest", behavior: "smooth" }); return; }
+  if (e.target.closest("[data-close]")) { clearDetail(); return; }
+  const t = e.target.closest("[data-tab]"); if (t) { mTab = t.dataset.tab;
+    document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === mTab))); $("tabpanel").innerHTML = tabPanel(current); return; }
+  const sa = e.target.closest("[data-showall]"); if (sa) { mAll[sa.dataset.showall] = true; $("tabpanel").innerHTML = tabPanel(current); return; }
+  if (e.target.closest("#searchBtn")) { showSearch(); return; }
+  if (e.target.closest("#back")) { history.back(); return; }
   if (e.target.closest("#me")) { const id = current;
-    if (open?.kind === "person") { open = null; $("detail").innerHTML = ""; $("me").setAttribute("aria-expanded", "false"); } else showPerson(id); }
+    if (open?.kind === "person") clearDetail(); else showPerson(id); }
   if (!e.target.closest("details")) document.querySelectorAll("details[open]").forEach(d => d.removeAttribute("open"));
 });
+document.addEventListener("input", e => { if (e.target.id === "q") runSearch(e.target.value); });
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && (!$("sheet").hidden || open)) clearDetail();
+  if (e.key === "/" && !/input|textarea/i.test(document.activeElement?.tagName || "")) { e.preventDefault(); showSearch(); }
+});
+// keyboard focus stays inside the open sheet
+$("sheet").addEventListener("keydown", e => {
+  if (e.key !== "Tab") return;
+  const f = [...$("sheet").querySelectorAll('button, a[href], input, [tabindex]:not([tabindex="-1"])')].filter(x => !x.hidden && x.offsetParent !== null);
+  if (!f.length) return; const first = f[0], last = f[f.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+});
+// drag the sheet down to close it
+(() => {
+  const panel = $("sheetPanel"); let y0 = null, dy = 0;
+  panel.addEventListener("touchstart", e => { y0 = panel.scrollTop <= 0 ? e.touches[0].clientY : null; dy = 0; }, { passive: true });
+  panel.addEventListener("touchmove", e => { if (y0 === null) return; dy = e.touches[0].clientY - y0;
+    if (dy > 0) { panel.classList.add("dragging"); panel.style.transform = `translateY(${dy}px)`; } }, { passive: true });
+  panel.addEventListener("touchend", () => { panel.classList.remove("dragging");
+    if (y0 !== null && dy > 90) clearDetail(); else panel.style.transform = ""; y0 = null; });
+})();
 render(location.hash.slice(1) && P[location.hash.slice(1)] ? location.hash.slice(1) : G.start);
 </script>
 </body>
