@@ -3,7 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The Giants</title>
+<title>The Giants · Sheikh Qāsim Nānautavī</title>
+<meta name="description" content="A concept for exploring Muslim scholars and their networks: teachers above, students below, works and companions beside. Tap any name to walk the chain.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Giants">
+<meta property="og:title" content="The Giants · Sheikh Qāsim Nānautavī">
+<meta property="og:description" content="A concept for exploring Muslim scholars and their networks. Tap any name to walk the chain.">
+<meta property="og:url" content="https://zaheeraziz.github.io/The-Giants/">
+<meta property="og:image" content="https://zaheeraziz.github.io/The-Giants/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Giants: Sheikh Qāsim Nānautavī with his teachers above and students below">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F4F6FA">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: one scholar at the centre of the page; an arrow climbs up to their teachers. */
@@ -133,6 +145,45 @@ button{font:inherit;color:inherit;cursor:pointer}
 .swap{animation:swap .35s ease}
 @keyframes swap{from{opacity:.3;transform:translateY(8px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.swap{animation:none}.t{transition:none}}
+
+/* concept banner */
+.concept{max-width:960px;margin:10px auto 0;font-size:.8rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+.concept b{font-family:var(--f-mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);border-radius:999px;padding:2px 8px;font-weight:500}
+.sec{display:flex;flex-direction:column;align-items:center;width:100%}
+.back{margin-top:14px;border:1px solid var(--gold);background:var(--surface);border-radius:999px;padding:8px 16px;font-size:.88rem}
+.stubnote{font-style:italic;color:var(--muted);font-size:.9rem;margin-top:6px}
+
+/* phones: one column; teachers, the Sheikh, students, then works and companions */
+@media (max-width:640px){
+  body{padding-block:14px 48px;font-size:15px}
+  .top h1{font-size:1.1rem}
+  .trail{margin-left:0;width:100%;font-size:.8rem}
+  .trail:has(> strong:only-child){display:none}
+  .stage{padding-top:22px}
+  .row{display:contents}
+  .sec-t{order:1}.row>.mid{order:2}.bio{order:3}.sec-s{order:4}.side.right{order:5}.side.left{order:6}.hint{order:7}
+  .harrow{display:none}
+  .side.right,.side.left{padding-top:28px;width:100%}
+  .teachers{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;scroll-snap-type:x mandatory;
+    width:calc(100% + 32px);margin-inline:-16px;padding:4px 16px 8px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .teachers::-webkit-scrollbar{display:none}
+  .teachers.fits{justify-content:center}
+  .t{flex:0 0 auto;width:min(68vw,230px);scroll-snap-align:start;padding:10px 12px;text-align:center}
+  .t .n{font-size:.95rem;line-height:1.25}
+  .bracket{margin-top:8px;height:14px}
+  .stem{height:40px}
+  .arrow.down{margin-top:12px}
+  .center{padding-top:4px}
+  .dates{font-size:.82rem}
+  .bio{margin-top:16px;padding:14px 16px}
+  .label{justify-content:center}
+  .shelf{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .book{padding:9px 10px}
+  .book .bt{font-size:.88rem}
+  .more ul{position:static;translate:none;width:100%;max-height:none;margin-top:6px;box-shadow:none}
+  .more summary{padding:10px}
+  .hint{text-align:center;margin-top:24px}
+}
 </style>
 </head>
 <body>
@@ -141,43 +192,13 @@ button{font:inherit;color:inherit;cursor:pointer}
   <h1>The Giants</h1><span class="ar" lang="ar">الأعلام</span>
   <nav class="trail" id="trail" aria-label="Path"></nav>
 </div>
+<p class="concept"><b>Concept</b><span>A preview of the idea. Names, dates and links are illustrative and will be reviewed by scholars.</span></p>
 <main class="stage" id="stage" aria-live="polite"></main>
 
 <script>
-/* Seed records. b/d = AH, bce/dce = CE, ba = birth approximate. To verify against Siyar Aʿlām al-Nubalāʾ and Tahdhīb al-Tahdhīb. */
+/* Concept demo: Sheikh Qāsim Nānautavī and one level around him. b/d = AH, bce/dce = CE.
+   Illustrative data, to be reviewed and corrected with scholars. */
 const S={
- jafar:{n:"Jaʿfar al-Ṣādiq",ar:"جعفر الصادق",b:83,d:148,bce:702,dce:765,city:"Medina",bio:"Great-grandson of al-Ḥusayn and a jurist of Medina whose circle drew transmitters who later anchored several schools."},
- abuhanifa:{n:"Abū Ḥanīfa",ar:"أبو حنيفة النعمان",b:80,d:150,bce:699,dce:767,city:"Kufa",bio:"Kufan merchant and jurist who taught law through debate in his circle. Founder of the Ḥanafī school."},
- malik:{n:"Mālik ibn Anas",ar:"مالك بن أنس",b:93,d:179,bce:711,dce:795,city:"Medina",bio:"The Imam of Medina. He grounded law in hadith and Medinan practice and compiled al-Muwaṭṭaʾ. Founder of the Mālikī school."},
- shafii:{n:"al-Shāfiʿī",ar:"محمد بن إدريس الشافعي",b:150,d:204,bce:767,dce:820,city:"Mecca → Baghdad → Fusṭāṭ",bio:"Studied under Mālik in Medina and al-Shaybānī in Baghdad, then joined both traditions in one method. Author of al-Risāla; founder of the Shāfiʿī school."},
- ahmad:{n:"Aḥmad ibn Ḥanbal",ar:"أحمد بن حنبل",b:164,d:241,bce:780,dce:855,city:"Baghdad",bio:"Baghdad traditionist who travelled widely for hadith and compiled the Musnad. The Ḥanbalī school formed around his rulings."},
- shaybani:{n:"al-Shaybānī",ar:"محمد بن الحسن الشيباني",b:132,d:189,bce:749,dce:805,city:"Kufa → Baghdad",bio:"Student of Abū Ḥanīfa who also studied with Mālik. He put Ḥanafī doctrine into writing."},
- abuyusuf:{n:"Abū Yūsuf",ar:"أبو يوسف",b:113,d:182,bce:731,dce:798,city:"Baghdad",bio:"Leading student of Abū Ḥanīfa and the first chief judge, under Hārūn al-Rashīd. Author of Kitāb al-Kharāj."},
- ibnuyayna:{n:"Sufyān ibn ʿUyayna",ar:"سفيان بن عيينة",b:107,d:198,bce:725,dce:814,city:"Mecca",bio:"Hadith master of Mecca for decades, sought out by students during the pilgrimage season."},
- thawri:{n:"Sufyān al-Thawrī",ar:"سفيان الثوري",b:97,d:161,bce:716,dce:778,city:"Kufa",bio:"Kufan jurist and traditionist, called the Commander of the Faithful in hadith."},
- zuhri:{n:"Ibn Shihāb al-Zuhrī",ar:"ابن شهاب الزهري",b:51,ba:1,d:124,bce:671,dce:742,city:"Medina → Damascus",bio:"Among the first to record hadith systematically in writing, at the request of ʿUmar ibn ʿAbd al-ʿAzīz."},
- bukhari:{n:"al-Bukhārī",ar:"محمد بن إسماعيل البخاري",b:194,d:256,bce:810,dce:870,city:"Bukhara",bio:"Travelled for hadith from his teens and spent some sixteen years compiling his Ṣaḥīḥ."},
- muslim:{n:"Muslim ibn al-Ḥajjāj",ar:"مسلم بن الحجاج",b:204,ba:1,d:261,bce:820,dce:875,city:"Nishapur",bio:"Nishapuri traditionist and student of al-Bukhārī; compiler of the second Ṣaḥīḥ."},
- tirmidhi:{n:"al-Tirmidhī",ar:"أبو عيسى الترمذي",b:209,d:279,bce:824,dce:892,city:"Tirmidh",bio:"Student of al-Bukhārī whose Jāmiʿ grades each hadith and records how jurists acted on it."},
- abudawud:{n:"Abū Dāwūd",ar:"أبو داود السجستاني",b:202,d:275,bce:817,dce:889,city:"Basra",bio:"Student of Aḥmad who gathered the hadith jurists rely on for rulings in his Sunan."},
- ibnmubarak:{n:"Ibn al-Mubārak",ar:"عبد الله بن المبارك",b:118,d:181,bce:736,dce:797,city:"Merv",bio:"Scholar, merchant and frontier fighter from Merv who studied with nearly every major teacher of his age."},
- muzani:{n:"al-Muzanī",ar:"إسماعيل بن يحيى المزني",b:175,d:264,bce:791,dce:878,city:"Fusṭāṭ",bio:"Al-Shāfiʿī's student in Egypt whose Mukhtaṣar became the school's base text."},
- madini:{n:"ʿAlī ibn al-Madīnī",ar:"علي بن المديني",b:161,d:234,bce:778,dce:849,city:"Basra",bio:"Basran master of hadith criticism and a principal teacher of al-Bukhārī."},
- ibnmain:{n:"Yaḥyā ibn Maʿīn",ar:"يحيى بن معين",b:158,d:233,bce:775,dce:848,city:"Baghdad",bio:"Pioneer of narrator criticism (al-jarḥ wa al-taʿdīl)."},
- ishaq:{n:"Isḥāq ibn Rāhwayh",ar:"إسحاق بن راهويه",b:161,d:238,bce:778,dce:853,city:"Nishapur",bio:"Khurasani jurist whose suggestion of a book of only sound hadith moved al-Bukhārī to begin his Ṣaḥīḥ."},
- hammad:{n:"Ḥammād ibn Abī Sulaymān",ar:"حماد بن أبي سليمان",d:120,dce:738,city:"Kufa",bio:"Leading jurist of Kufa and Abū Ḥanīfa's principal teacher."},
- waki:{n:"Wakīʿ ibn al-Jarrāḥ",ar:"وكيع بن الجراح",b:129,d:197,bce:746,dce:812,city:"Kufa",bio:"Kufan hadith master famed for his memory; teacher of al-Shāfiʿī and Aḥmad."},
- layth:{n:"al-Layth ibn Saʿd",ar:"الليث بن سعد",b:94,d:175,bce:713,dce:791,city:"Fusṭāṭ",bio:"Jurist of Egypt and correspondent of Mālik."},
- awzai:{n:"al-Awzāʿī",ar:"عبد الرحمن الأوزاعي",b:88,d:157,bce:707,dce:774,city:"Beirut",bio:"Jurist of Syria whose school was followed there and in early al-Andalus."},
- baqir:{n:"Muḥammad al-Bāqir",ar:"محمد الباقر",d:114,dce:732,city:"Medina",stub:1},
- nafi:{n:"Nāfiʿ mawlā Ibn ʿUmar",ar:"نافع مولى ابن عمر",d:117,dce:735,city:"Medina",stub:1},
- rabia:{n:"Rabīʿat al-Raʾy",ar:"ربيعة الرأي",d:136,dce:753,city:"Medina",stub:1},
- said:{n:"Saʿīd ibn al-Musayyib",ar:"سعيد بن المسيب",d:94,dce:713,city:"Medina",stub:1},
- urwa:{n:"ʿUrwa ibn al-Zubayr",ar:"عروة بن الزبير",d:94,dce:713,city:"Medina",stub:1},
- anas:{n:"Anas ibn Mālik",ar:"أنس بن مالك",d:93,dce:712,city:"Basra",stub:1},
- ata:{n:"ʿAṭāʾ ibn Abī Rabāḥ",ar:"عطاء بن أبي رباح",d:114,dce:732,city:"Mecca",stub:1},
- amr:{n:"ʿAmr ibn Dīnār",ar:"عمرو بن دينار",d:126,dce:743,city:"Mecca",stub:1},
- nakhai:{n:"Ibrāhīm al-Nakhaʿī",ar:"إبراهيم النخعي",d:96,dce:714,city:"Kufa",stub:1},
  /* Deoband */
  nanautavi:{n:"Maulana Qāsim Nānautavī",ar:"محمد قاسم النانوتوي",b:1248,d:1297,bce:1832,dce:1880,city:"Nanauta → Delhi → Deoband",bio:"Born in Nanauta near Saharanpur and educated in Delhi. In 1866 he co-founded the madrasa at Deoband that became Darul Uloom Deoband. He is buried in the Qāsmī cemetery north of the Darul Uloom.",
    works:[
@@ -214,19 +235,7 @@ const S={
  abdulwahid:{n:"ʿAbd al-Wāḥid Bangālī",ar:"عبد الواحد البنغالي",city:"Bengal",stub:1}
 };
 /* [student, teacher] */
-const E=[["jafar","baqir"],["abuhanifa","hammad"],["abuhanifa","ata"],["abuhanifa","jafar"],["abuhanifa","nafi"],
- ["malik","nafi"],["malik","zuhri"],["malik","rabia"],["malik","jafar"],
- ["shafii","malik"],["shafii","shaybani"],["shafii","ibnuyayna"],["shafii","waki"],
- ["ahmad","shafii"],["ahmad","ibnuyayna"],["ahmad","abuyusuf"],["ahmad","waki"],
- ["shaybani","abuhanifa"],["shaybani","malik"],["shaybani","abuyusuf"],["shaybani","thawri"],["abuyusuf","abuhanifa"],
- ["ibnuyayna","zuhri"],["ibnuyayna","amr"],["ibnuyayna","jafar"],["thawri","jafar"],
- ["zuhri","said"],["zuhri","urwa"],["zuhri","anas"],
- ["bukhari","ahmad"],["bukhari","madini"],["bukhari","ibnmain"],["bukhari","ishaq"],
- ["muslim","ahmad"],["muslim","bukhari"],["muslim","ishaq"],
- ["tirmidhi","bukhari"],["tirmidhi","abudawud"],["tirmidhi","muslim"],["abudawud","ahmad"],["abudawud","ibnmain"],
- ["ibnmubarak","abuhanifa"],["ibnmubarak","malik"],["ibnmubarak","thawri"],["ibnmubarak","awzai"],["ibnmubarak","layth"],
- ["muzani","shafii"],["madini","ibnuyayna"],["ibnmain","ibnuyayna"],["ibnmain","waki"],["ishaq","ibnuyayna"],
- ["hammad","nakhai"],["waki","thawri"],["waki","abuhanifa"],["layth","zuhri"],["layth","nafi"],["awzai","zuhri"],
+const E=[
  ["nanautavi","mamlukali","Logic, philosophy, major texts"],["nanautavi","abdulghani","Hadith"],["nanautavi","ahmadali","Hadith"],
  ["nanautavi","imdadullah","Spiritual guide"],["nanautavi","sadruddin","Several texts"],["nanautavi","mahtabali","Arabic grammar"],["nanautavi","nawaz","Persian"],
  ["mahmudhasan","nanautavi","First student of Deoband; later its head"],["amrohi","nanautavi","Studied all the sciences with him"],
@@ -253,31 +262,32 @@ const T={},ST={},W={}; for(const id in S){T[id]=[];ST[id]=[];} E.forEach(([s,t,w
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const $=id=>document.getElementById(id);
 let trail=[], bioOpen=false;
+const tap=matchMedia("(hover:none)").matches;
 
 function render(id){
-  const s=S[id]; if(!s) return render("shafii");
+  const s=S[id]; if(!s) return render("nanautavi");
   const teachers=[...T[id]].sort((a,b)=>(S[a].d??9999)-(S[b].d??9999));
   const tdate=t=>S[t].d?`d. ${S[t].d} AH · ${S[t].dce} CE`:"Death date unknown";
   const students=[...ST[id]].sort((a,b)=>(S[a].d??9999)-(S[b].d??9999));
   const card=(t,w)=>`<button type="button" class="t${S[t].stub?" stub":""}" data-go="${t}"><span class="ar" lang="ar">${esc(S[t].ar)}</span><span class="n">${esc(S[t].n)}</span>${w?`<span class="w">${esc(w)}</span>`:""}<span class="d">${tdate(t)}</span></button>`;
   const comps=(C[id]||[]);
   const born=s.b?`${s.ba?"c. ":""}${s.b} AH · ${s.ba?"c. ":""}${s.bce} CE`:"Unknown";
-  const tHTML=teachers.length
-    ? `<div class="label"><span>Teachers</span><span class="ar" lang="ar">الشيوخ</span></div>
-       <div class="teachers">${teachers.map(t=>`<button type="button" class="t${S[t].stub?" stub":""}" data-go="${t}">
+  const tHTML='<section class="sec sec-t">'+(teachers.length
+    ? `<div class="label"><span>Teachers · ${teachers.length}</span><span class="ar" lang="ar">الشيوخ</span></div>
+       <div class="teachers${teachers.length<2?" fits":""}">${teachers.map(t=>`<button type="button" class="t${S[t].stub?" stub":""}" data-go="${t}">
           <span class="ar" lang="ar">${esc(S[t].ar)}</span><span class="n">${esc(S[t].n)}</span>${W[id+">"+t]?`<span class="w">${esc(W[id+">"+t])}</span>`:""}<span class="d">${tdate(t)}</span></button>`).join("")}</div>
        <div class="arrow"><div class="bracket${teachers.length===1?" one":""}"></div><div class="stem"></div></div>`
-    : `<div class="none">No teachers recorded yet</div><div class="arrow"><div class="stem" style="opacity:.35"></div></div>`;
+    : `<div class="none">${s.stub?"Next level — to be added":"No teachers recorded yet"}</div><div class="arrow"><div class="stem" style="opacity:.35"></div></div>`)+'</section>';
 
   $("stage").innerHTML=`${tHTML}
     <div class="row">
      <div class="side left">
       <div class="works">
-        <div class="label"><span>Companions &amp; friends</span><span class="ar" lang="ar">الأقران</span></div>
+        <div class="label"><span>Companions &amp; friends · ${comps.length}</span><span class="ar" lang="ar">الأقران</span></div>
         ${comps.length?`<div class="shelfrow">
           <div class="shelf">${comps.slice(0,5).map(c=>`<button type="button" class="book friend${S[c.id].stub?" stub":""}" data-go="${c.id}" title="${esc(c.why)}"><span class="bt">${esc(S[c.id].n)}</span><span class="ba" lang="ar">${esc(S[c.id].ar)}</span><span class="bk">${esc(c.why)}</span></button>`).join("")}</div>
           ${comps.length>5?`<details class="more"><summary>+${comps.length-5} more</summary><ul>${comps.slice(5).map(c=>`<li><button type="button" data-go="${c.id}"><span class="bt">${esc(S[c.id].n)}</span><span class="bk">${esc(c.why)}</span></button></li>`).join("")}</ul></details>`:""}
-        </div>`:`<div class="none">No companions recorded yet</div>`}
+        </div>`:`<div class="none">${s.stub?"Next level — to be added":"No companions recorded yet"}</div>`}
       </div>
       <div class="harrow left" aria-hidden="true"></div>
      </div>
@@ -286,26 +296,27 @@ function render(id){
         <span class="ar" lang="ar">${esc(s.ar)}</span><span class="n">${esc(s.n)}</span>
       </button>
       <dl class="dates"><dt>Born</dt><dd>${born}</dd><dt>Died</dt><dd>${s.d?`${s.d} AH · ${s.dce} CE`:"Unknown"}</dd></dl>
+      ${s.stub&&id!=="nanautavi"?`<button type="button" class="back" data-go="nanautavi">← Back to Sheikh Qāsim Nānautavī</button>`:""}
      </div>
      <div class="side right">
       <div class="harrow" aria-hidden="true"></div>
       <div class="works">
-        <div class="label"><span>Major works</span><span class="ar" lang="ar">المؤلفات</span></div>
+        <div class="label"><span>Major works · ${(s.works||[]).length}</span><span class="ar" lang="ar">المؤلفات</span></div>
         ${(s.works||[]).length?`<div class="shelfrow">
           <div class="shelf" tabindex="0" aria-label="Major works">${s.works.slice(0,5).map(w=>`<div class="book" title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span>${w.ar?`<span class="ba" lang="ar">${esc(w.ar)}</span>`:""}<span class="bk">${esc(w.k)}</span></div>`).join("")}</div>
           ${s.works.length>5?`<details class="more"><summary>+${s.works.length-5} more</summary><ul>${s.works.slice(5).map(w=>`<li title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span><span class="bk">${esc(w.k)}</span></li>`).join("")}</ul></details>`:""}
-        </div>`:`<div class="none">No works recorded yet</div>`}
+        </div>`:`<div class="none">${s.stub?"Next level — to be added":"No works recorded yet"}</div>`}
       </div>
      </div>
     </div>
-    <div class="bio" id="bio" ${bioOpen?"":"hidden"}><p>${esc(s.bio||"Appears in the chains of others; full record not yet written.")}</p>
+    <div class="bio" id="bio" ${bioOpen?"":"hidden"}><p>${esc(s.bio||"Full record to be written with scholars. Shown here to illustrate the network.")}</p>
       <p class="meta">${esc(s.city)}</p></div>
-    ${students.length
+    <section class="sec sec-s">${students.length
       ? `<div class="arrow down"><div class="stem"></div><div class="bracket${students.length===1?" one":""}"></div></div>
-         <div class="teachers">${students.map(t=>card(t,W[t+">"+id])).join("")}</div>
-         <div class="label below"><span>Students &amp; disciples</span><span class="ar" lang="ar">التلاميذ</span></div>`
-      : `<div class="arrow down"><div class="stem" style="opacity:.35"></div></div><div class="none">No students recorded yet</div>`}
-    <p class="hint">Click any name above or below to move it to the centre. Click the centre name for a short bio.</p>`;
+         <div class="teachers${students.length<2?" fits":""}">${students.map(t=>card(t,W[t+">"+id])).join("")}</div>
+         <div class="label below"><span>Students &amp; disciples · ${students.length}</span><span class="ar" lang="ar">التلاميذ</span></div>`
+      : `<div class="arrow down"><div class="stem" style="opacity:.35"></div></div><div class="none">${s.stub?"Next level — to be added":"No students recorded yet"}</div>`}</section>
+    <p class="hint">${tap?"Tap":"Click"} any name to bring that scholar to the centre. ${tap?"Tap":"Click"} the centre name for a short bio.</p>`;
 
   $("me").onclick=()=>{bioOpen=!bioOpen;$("bio").hidden=!bioOpen;$("me").setAttribute("aria-expanded",bioOpen);};
   const i=trail.indexOf(id); if(i>=0) trail=trail.slice(0,i+1); else trail.push(id); trail=trail.slice(-6);
@@ -314,7 +325,7 @@ function render(id){
 function go(id){ if(location.hash.slice(1)===id) render(id); else location.hash=id; }
 addEventListener("hashchange",()=>render(location.hash.slice(1)));
 document.addEventListener("click",e=>{const g=e.target.closest("[data-go]"); if(g){bioOpen=false;go(g.dataset.go);}});
-try{history.replaceState(null,"","#nanautavi")}catch(e){} render("nanautavi");
+{const h=location.hash.slice(1); const start=S[h]?h:"nanautavi"; try{history.replaceState(null,"","#"+start)}catch(e){} render(start);}
 </script>
 </body>
 </html>
