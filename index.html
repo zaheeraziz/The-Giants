@@ -337,7 +337,7 @@ function render(id){
       <dl class="dates"><dt>Born</dt><dd>${born}</dd><dt>Died</dt><dd>${s.d?`${s.d} AH · ${s.dce} CE`:"Unknown"}</dd></dl>
       ${s.stub&&id!=="nanautavi"?`<button type="button" class="back" data-go="nanautavi">← Back to Sheikh Qāsim Nānautavī</button>`:""}
       <div class="doors" role="group" aria-label="Show sections">
-        ${[["t","Teachers","الشيوخ",teachers.length,"↑"],["s","Students","التلاميذ",students.length,"↓"],["w","Works","المؤلفات",(s.works||[]).length,"→"],["c","Companions","الأقران",comps.length,"←"]].map(([k,l,a,n,ic])=>
+        ${[["t","Teachers","الشيوخ",teachers.length,"↑"],["s","Students","التلاميذ",students.length,"↓"],["w","Works","التصانيف",(s.works||[]).length,"→"],["c","Companions","الأقران",comps.length,"←"]].map(([k,l,a,n,ic])=>
           `<button type="button" class="door" data-door="${k}" aria-pressed="${$("stage").classList.contains("open-"+k)}" ${n?"":"disabled"}><span class="di" aria-hidden="true">${ic}</span><span class="dl">${l}<span class="ar" lang="ar">${a}</span></span><span class="dn">${n}</span></button>`).join("")}
         <button type="button" class="door all" data-door="all">${["t","s","w","c"].every(k=>$("stage").classList.contains("open-"+k))?"Hide all":"Show all"}</button>
       </div>
@@ -345,7 +345,7 @@ function render(id){
      <div class="side right">
       <div class="harrow" aria-hidden="true"></div>
       <div class="works">
-        <div class="label"><span>Major works · ${(s.works||[]).length}</span><span class="ar" lang="ar">المؤلفات</span></div>
+        <div class="label"><span>Major works · ${(s.works||[]).length}</span><span class="ar" lang="ar">التصانيف</span></div>
         ${(s.works||[]).length?`<div class="shelfrow">
           <div class="shelf" tabindex="0" aria-label="Major works">${s.works.slice(0,5).map(w=>`<div class="book" title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span>${w.ar?`<span class="ba" lang="ar">${esc(w.ar)}</span>`:""}<span class="bk">${esc(w.k)}</span></div>`).join("")}</div>
           ${s.works.length>5?`<details class="more"><summary>+${s.works.length-5} more</summary><ul>${s.works.slice(5).map(w=>`<li title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span><span class="bk">${esc(w.k)}</span></li>`).join("")}</ul></details>`:""}
