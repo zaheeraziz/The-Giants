@@ -185,21 +185,23 @@ button{font:inherit;color:inherit;cursor:pointer}
   .hint{text-align:center;margin-top:24px}
 }
 
-/* doors: on phones the page opens on the Sheikh alone; each box reveals its section */
-.doors{display:none}
+/* doors: the page opens on the Sheikh alone; each box reveals its section (one at a time) */
+.doors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;width:min(440px,100%);margin-top:20px}
+.door{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:left;transition:border-color .15s}
+.door:hover:not(:disabled){border-color:var(--gold)}
+.door .di{font-size:1.1rem;color:var(--gold);width:1.2em;text-align:center}
+.door .dl{display:flex;flex-direction:column;line-height:1.15;font-weight:600;font-size:.95rem;flex:1}
+.door .dl .ar{font-weight:400;font-size:.95rem;color:var(--gold)}
+.door .dn{font-family:var(--f-mono);font-size:.85rem;color:var(--muted)}
+.door[aria-pressed="true"]{border-color:var(--gold);background:var(--gold-soft)}
+.door:disabled{opacity:.45;cursor:default}
+.door.all{grid-column:1/-1;justify-content:center;border:0;background:none;color:var(--lapis);font-size:.9rem;padding:6px}
+.stage:not(.open-t) .sec-t,.stage:not(.open-s) .sec-s{display:none}
+.stage:not(.open-w) .side.right>*,.stage:not(.open-c) .side.left>*{display:none}
+.stage:not(.open-t) .row>.mid{padding-top:12px}
 @media (max-width:640px){
-  .doors{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%;margin-top:18px}
-  .door{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 12px;text-align:left}
-  .door .di{font-size:1.1rem;color:var(--gold);width:1.2em;text-align:center}
-  .door .dl{display:flex;flex-direction:column;line-height:1.15;font-weight:600;font-size:.95rem;flex:1}
-  .door .dl .ar{font-weight:400;font-size:.95rem;color:var(--gold)}
-  .door .dn{font-family:var(--f-mono);font-size:.85rem;color:var(--muted)}
-  .door[aria-pressed="true"]{border-color:var(--gold);background:var(--gold-soft)}
-  .door:disabled{opacity:.45;cursor:default}
-  .door.all{grid-column:1/-1;justify-content:center;border:0;background:none;color:var(--lapis);font-size:.9rem;padding:6px}
-  .stage:not(.open-t) .sec-t,.stage:not(.open-s) .sec-s,.stage:not(.open-w) .side.right,.stage:not(.open-c) .side.left{display:none}
-  .stage .sec-t{padding-bottom:4px}
-  .stage:not(.open-t) .row>.mid{padding-top:12px}
+  .doors{width:100%;margin-top:18px}
+  .stage:not(.open-w) .side.right,.stage:not(.open-c) .side.left{display:none}
 }
 </style>
 </head>
@@ -360,7 +362,7 @@ function render(id){
          <div class="teachers${students.length<2?" fits":""}">${students.map(t=>card(t,W[t+">"+id])).join("")}</div>
          <div class="label below"><span>Students &amp; disciples · ${students.length}</span><span class="ar" lang="ar">التلاميذ</span></div>`
       : `<div class="arrow down"><div class="stem" style="opacity:.35"></div></div><div class="none">${s.stub?"Next level — to be added":"No students recorded yet"}</div>`}</section>
-    <p class="hint">${tap?"Tap a box to open it. Tap":"Click"} any name to bring that scholar to the centre. ${tap?"Tap":"Click"} the centre name for a short bio.</p>`;
+    <p class="hint">${tap?"Tap":"Click"} a box to open it. ${tap?"Tap":"Click"} any name to bring that scholar to the centre. ${tap?"Tap":"Click"} the centre name for a short bio.</p>`;
 
   $("me").onclick=()=>{bioOpen=!bioOpen;$("bio").hidden=!bioOpen;$("me").setAttribute("aria-expanded",bioOpen);};
   const i=trail.indexOf(id); if(i>=0) trail=trail.slice(0,i+1); else trail.push(id); trail=trail.slice(innerWidth<=640?-3:-6);
