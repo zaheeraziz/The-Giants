@@ -26,4 +26,4 @@ See `docs/data-model.md` for the fuller model.
 
 ## Status
 
-Seed data. Many dates, works and links come from general knowledge and need checking against classical and Urdu biographical sources (e.g. al-Dhahabī's *Siyar*, Ibn Ḥajar's *Tahdhīb*, Gīlānī's *Sawāniḥ Qāsmī*). The page opens on Sheikh Qāsim Nānautavī.
+Concept demo: Sheikh Qāsim Nānautavī plus full records for the 20 scholars linked to him (one level down); people beyond that are stubs. Many dates, works and links come from general knowledge and need checking against classical and Urdu biographical sources (e.g. al-Dhahabī's *Siyar*, Ibn Ḥajar's *Tahdhīb*, Gīlānī's *Sawāniḥ Qāsmī*). The page opens on Sheikh Qāsim Nānautavī.
