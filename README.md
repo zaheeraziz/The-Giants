@@ -22,6 +22,10 @@ All data lives in the `<script>` block of `index.html`:
 - `E` — teacher links as `[student, teacher, what was taught]`, read both ways
 - `P` — companionships as `[a, b, relationship]`, read both ways
 
+- `SRC` — sources (web pages and books), one entry each; `CITE` — for each scholar, which sources back each fact (dates, bio, links, writings) and a confidence: reported, disputed or not yet sourced
+
+On the page, each fact carries a small numbered mark; tap it to see its sources. Each scholar's bio ends with a numbered source list. A dashed mark means sources disagree; a dotted "?" means no source has been found yet.
+
 See `docs/data-model.md` for the fuller model.
 
 ## Status
