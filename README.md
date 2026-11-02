@@ -4,7 +4,7 @@ A visual explorer of Muslim scholars and their networks. Each page puts one scho
 
 - **Top:** teachers, with an arrow up to them
 - **Bottom:** students and disciples
-- **Right:** major works (first five shown, the rest under "more")
+- **Right:** writings (التصانيف) (first five shown, the rest under "more")
 - **Left:** companions and friends
 - **Centre:** name (click for a short bio), with birth and death dates in AH and CE
 
