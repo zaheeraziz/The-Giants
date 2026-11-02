@@ -372,7 +372,7 @@ document.addEventListener("click",e=>{
   const d=e.target.closest("[data-door]");
   if(d){const st=$("stage"), k=d.dataset.door, all=["t","s","w","c"];
     if(k==="all"){const on=!all.every(x=>st.classList.contains("open-"+x)); all.forEach(x=>st.classList.toggle("open-"+x,on));}
-    else st.classList.toggle("open-"+k);
+    else {const was=st.classList.contains("open-"+k)&&all.filter(x=>st.classList.contains("open-"+x)).length===1; all.forEach(x=>st.classList.remove("open-"+x)); if(!was) st.classList.add("open-"+k);}
     document.querySelectorAll("[data-door]").forEach(b=>{const x=b.dataset.door; if(x==="all") b.textContent=all.every(y=>st.classList.contains("open-"+y))?"Hide all":"Show all"; else b.setAttribute("aria-pressed",st.classList.contains("open-"+x));});
     if(k==="t"&&st.classList.contains("open-t")) st.querySelector(".sec-t").scrollIntoView({behavior:"smooth",block:"start"});
     else if(k!=="all"&&st.classList.contains("open-"+k)){const el=st.querySelector({s:".sec-s",w:".side.right",c:".side.left"}[k]); el&&el.scrollIntoView({behavior:"smooth",block:"nearest"});}
