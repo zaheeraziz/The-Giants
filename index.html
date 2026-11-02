@@ -203,6 +203,34 @@ button{font:inherit;color:inherit;cursor:pointer}
   .doors{width:100%;margin-top:18px}
   .stage:not(.open-w) .side.right,.stage:not(.open-c) .side.left{display:none}
 }
+
+/* source marks */
+.ref{display:inline-flex;align-items:center;justify-content:center;min-width:1.35em;height:1.35em;padding:0 .3em;margin-left:.35em;vertical-align:.15em;
+  font-family:var(--f-mono);font-size:.62rem;font-weight:500;line-height:1;font-style:normal;letter-spacing:0;text-transform:none;
+  color:var(--lapis);background:var(--surface);border:1px solid var(--lapis);border-radius:999px;cursor:pointer}
+.ref.disp{color:var(--gold);border-color:var(--gold);border-style:dashed}
+.ref.unv{color:var(--muted);border-color:var(--muted);border-style:dotted}
+.t .ref,.book .ref{align-self:center;margin:4px 0 0}
+.book .ref{align-self:flex-start}
+.sources{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
+.sources .label{margin-bottom:6px}
+.sources ol{margin:0;padding-left:1.4em;font-size:.88rem}
+.sources li{margin:3px 0}
+.sources a,.refcard a{color:var(--lapis)}
+.pub{color:var(--muted);font-size:.82em;margin-left:6px}
+.sources .key{font-size:.75rem;color:var(--muted);margin-top:10px}
+.sources .key .ref{cursor:default;margin-left:0}
+.refcard{position:fixed;z-index:20;left:50%;bottom:max(16px,env(safe-area-inset-bottom));translate:-50% 0;width:min(440px,calc(100% - 32px));
+  background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 14px 40px rgb(0 0 0 / .22);padding:12px 16px 14px}
+.refcard[hidden]{display:none}
+.rc-head{display:flex;justify-content:space-between;align-items:center;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.rc-close{border:0;background:none;font-size:1.4rem;line-height:1;padding:0 4px;color:var(--muted)}
+.refcard ul{margin:6px 0 0;padding:0;list-style:none}
+.refcard li{display:flex;flex-direction:column;padding:6px 0;border-top:1px solid var(--line)}
+.refcard li:first-child{border-top:0}
+.refcard .pub{margin-left:0}
+.rc-note{margin:6px 0 4px;font-size:.88rem}
+.rc-note.disp b{color:var(--gold)}.rc-note.unv b{color:var(--muted)}
 </style>
 </head>
 <body>
@@ -213,6 +241,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 </div>
 <p class="concept"><b>Concept</b><span>A preview of the idea. Names, dates and links are illustrative and will be reviewed by scholars.</span></p>
 <main class="stage" id="stage" aria-live="polite"></main>
+<div class="refcard" id="refcard" role="dialog" aria-label="Sources" hidden><div class="rc-head"><span>Sources</span><button type="button" class="rc-close" aria-label="Close">×</button></div><div id="rc-body"></div></div>
 
 <script>
 /* Concept demo: Sheikh Qāsim Nānautavī and one level around him. b/d = AH, bce/dce = CE.
@@ -304,19 +333,30 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const $=id=>document.getElementById(id);
 let trail=[], bioOpen=false;
 const tap=matchMedia("(hover:none)").matches;
+/* sources: SRC = one entry per web page or book; CITE[scholar] = which sources back each fact */
+const SRC={}, CITE={}; /*SOURCES*/
 
 function render(id){
   const s=S[id]; if(!s) return render("nanautavi");
+  const CI=CITE[id], refs=[];
+  const num=k=>{let i=refs.indexOf(k); if(i<0){refs.push(k); i=refs.length-1;} return i+1;};
+  const mark=f=>{ if(!CI) return ""; f=f||{src:[],conf:"uncertain"}; const src=(f.src||[]).filter(k=>SRC[k]); const n=src.map(num);
+    const cls=f.conf==="disputed"?" disp":(!n.length||f.conf==="uncertain")?" unv":"";
+    return `<span class="ref${cls}" role="button" tabindex="0" data-ref="${src.join(" ")}" data-conf="${f.conf||""}" data-note="${esc(f.note||"")}" aria-label="Sources for this">${n.length?n.join(","):"?"}</span>`; };
+  const fT=t=>CI&&((CI.t||{})[t]||((CITE[t]||{}).s||{})[id]);
+  const fS=t=>CI&&((CI.s||{})[t]||((CITE[t]||{}).t||{})[id]);
+  const fC=o=>CI&&((CI.c||{})[o]||((CITE[o]||{}).c||{})[id]);
+  const fW=w=>CI&&(CI.w||{})[w.t];
   const teachers=[...T[id]].sort((a,b)=>(S[a].d??9999)-(S[b].d??9999));
   const tdate=t=>S[t].d?`d. ${S[t].d} AH · ${S[t].dce} CE`:"Death date unknown";
   const students=[...ST[id]].sort((a,b)=>(S[a].d??9999)-(S[b].d??9999));
-  const card=(t,w)=>`<button type="button" class="t${S[t].stub?" stub":""}" data-go="${t}"><span class="ar" lang="ar">${esc(S[t].ar)}</span><span class="n">${esc(S[t].n)}</span>${w?`<span class="w">${esc(w)}</span>`:""}<span class="d">${tdate(t)}</span></button>`;
+  const card=(t,w)=>`<button type="button" class="t${S[t].stub?" stub":""}" data-go="${t}"><span class="ar" lang="ar">${esc(S[t].ar)}</span><span class="n">${esc(S[t].n)}</span>${w?`<span class="w">${esc(w)}</span>`:""}<span class="d">${tdate(t)}</span>${mark(fS(t))}</button>`;
   const comps=(C[id]||[]);
   const born=s.b?`${s.ba?"c. ":""}${s.b} AH · ${s.ba?"c. ":""}${s.bce} CE`:"Unknown";
   const tHTML='<section class="sec sec-t">'+(teachers.length
     ? `<div class="label"><span>Teachers · ${teachers.length}</span><span class="ar" lang="ar">الشيوخ</span></div>
        <div class="teachers${teachers.length<2?" fits":""}">${teachers.map(t=>`<button type="button" class="t${S[t].stub?" stub":""}" data-go="${t}">
-          <span class="ar" lang="ar">${esc(S[t].ar)}</span><span class="n">${esc(S[t].n)}</span>${W[id+">"+t]?`<span class="w">${esc(W[id+">"+t])}</span>`:""}<span class="d">${tdate(t)}</span></button>`).join("")}</div>
+          <span class="ar" lang="ar">${esc(S[t].ar)}</span><span class="n">${esc(S[t].n)}</span>${W[id+">"+t]?`<span class="w">${esc(W[id+">"+t])}</span>`:""}<span class="d">${tdate(t)}</span>${mark(fT(t))}</button>`).join("")}</div>
        <div class="arrow"><div class="bracket${teachers.length===1?" one":""}"></div><div class="stem"></div></div>`
     : `<div class="none">${s.stub?"Next level — to be added":"No teachers recorded yet"}</div><div class="arrow"><div class="stem" style="opacity:.35"></div></div>`)+'</section>';
 
@@ -326,8 +366,8 @@ function render(id){
       <div class="works">
         <div class="label"><span>Companions &amp; friends · ${comps.length}</span><span class="ar" lang="ar">الأقران</span></div>
         ${comps.length?`<div class="shelfrow">
-          <div class="shelf">${comps.slice(0,5).map(c=>`<button type="button" class="book friend${S[c.id].stub?" stub":""}" data-go="${c.id}" title="${esc(c.why)}"><span class="bt">${esc(S[c.id].n)}</span><span class="ba" lang="ar">${esc(S[c.id].ar)}</span><span class="bk">${esc(c.why)}</span></button>`).join("")}</div>
-          ${comps.length>5?`<details class="more"><summary>+${comps.length-5} more</summary><ul>${comps.slice(5).map(c=>`<li><button type="button" data-go="${c.id}"><span class="bt">${esc(S[c.id].n)}</span><span class="bk">${esc(c.why)}</span></button></li>`).join("")}</ul></details>`:""}
+          <div class="shelf">${comps.slice(0,5).map(c=>`<button type="button" class="book friend${S[c.id].stub?" stub":""}" data-go="${c.id}" title="${esc(c.why)}"><span class="bt">${esc(S[c.id].n)}</span><span class="ba" lang="ar">${esc(S[c.id].ar)}</span><span class="bk">${esc(c.why)}</span>${mark(fC(c.id))}</button>`).join("")}</div>
+          ${comps.length>5?`<details class="more"><summary>+${comps.length-5} more</summary><ul>${comps.slice(5).map(c=>`<li><button type="button" data-go="${c.id}"><span class="bt">${esc(S[c.id].n)}</span><span class="bk">${esc(c.why)}</span>${mark(fC(c.id))}</button></li>`).join("")}</ul></details>`:""}
         </div>`:`<div class="none">${s.stub?"Next level — to be added":"No companions recorded yet"}</div>`}
       </div>
       <div class="harrow left" aria-hidden="true"></div>
@@ -336,7 +376,7 @@ function render(id){
       <button type="button" class="center swap" id="me" aria-expanded="${bioOpen}">
         <span class="ar" lang="ar">${esc(s.ar)}</span><span class="n">${esc(s.n)}</span>
       </button>
-      <dl class="dates"><dt>Born</dt><dd>${born}</dd><dt>Died</dt><dd>${s.d?`${s.d} AH · ${s.dce} CE`:"Unknown"}</dd></dl>
+      <dl class="dates"><dt>Born</dt><dd>${born}${mark(CI&&CI.born)}</dd><dt>Died</dt><dd>${s.d?`${s.d} AH · ${s.dce} CE`:"Unknown"}${mark(CI&&CI.died)}</dd></dl>
       ${s.stub&&id!=="nanautavi"?`<button type="button" class="back" data-go="nanautavi">← Back to Sheikh Qāsim Nānautavī</button>`:""}
       <div class="doors" role="group" aria-label="Show sections">
         ${[["t","Teachers","الشيوخ",teachers.length,"↑"],["s","Students","التلاميذ",students.length,"↓"],["w","Writings","التصانيف",(s.works||[]).length,"→"],["c","Companions","الأقران",comps.length,"←"]].map(([k,l,a,n,ic])=>
@@ -349,14 +389,16 @@ function render(id){
       <div class="works">
         <div class="label"><span>Writings · ${(s.works||[]).length}</span><span class="ar" lang="ar">التصانيف</span></div>
         ${(s.works||[]).length?`<div class="shelfrow">
-          <div class="shelf" tabindex="0" aria-label="Writings">${s.works.slice(0,5).map(w=>`<div class="book" title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span>${w.ar?`<span class="ba" lang="ar">${esc(w.ar)}</span>`:""}<span class="bk">${esc(w.k)}</span></div>`).join("")}</div>
-          ${s.works.length>5?`<details class="more"><summary>+${s.works.length-5} more</summary><ul>${s.works.slice(5).map(w=>`<li title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span><span class="bk">${esc(w.k)}</span></li>`).join("")}</ul></details>`:""}
+          <div class="shelf" tabindex="0" aria-label="Writings">${s.works.slice(0,5).map(w=>`<div class="book" title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span>${w.ar?`<span class="ba" lang="ar">${esc(w.ar)}</span>`:""}<span class="bk">${esc(w.k)}</span>${mark(fW(w))}</div>`).join("")}</div>
+          ${s.works.length>5?`<details class="more"><summary>+${s.works.length-5} more</summary><ul>${s.works.slice(5).map(w=>`<li title="${esc(w.n)}"><span class="bt">${esc(w.t)}</span><span class="bk">${esc(w.k)}</span>${mark(fW(w))}</li>`).join("")}</ul></details>`:""}
         </div>`:`<div class="none">${s.stub?"Next level — to be added":"No writings recorded yet"}</div>`}
       </div>
      </div>
     </div>
-    <div class="bio" id="bio" ${bioOpen?"":"hidden"}><p>${esc(s.bio||"Full record to be written with scholars. Shown here to illustrate the network.")}</p>
-      <p class="meta">${esc(s.city)}</p></div>
+    <div class="bio" id="bio" ${bioOpen?"":"hidden"}><p>${esc(s.bio||"Full record to be written with scholars. Shown here to illustrate the network.")}${mark(CI&&CI.bio)}</p>
+      <p class="meta">${esc(s.city)}</p>
+      ${CI?`<div class="sources"><div class="label"><span>Sources</span><span class="ar" lang="ar">المصادر</span></div><ol id="srclist"></ol>
+      <p class="key"><span class="ref">1</span> source · <span class="ref disp">1</span> sources disagree · <span class="ref unv">?</span> not yet sourced</p></div>`:""}</div>
     <section class="sec sec-s">${students.length
       ? `<div class="arrow down"><div class="stem"></div><div class="bracket${students.length===1?" one":""}"></div></div>
          <div class="teachers${students.length<2?" fits":""}">${students.map(t=>card(t,W[t+">"+id])).join("")}</div>
@@ -364,13 +406,23 @@ function render(id){
       : `<div class="arrow down"><div class="stem" style="opacity:.35"></div></div><div class="none">${s.stub?"Next level — to be added":"No students recorded yet"}</div>`}</section>
     <p class="hint">${tap?"Tap":"Click"} a box to open it. ${tap?"Tap":"Click"} any name to bring that scholar to the centre. ${tap?"Tap":"Click"} the centre name for a short bio.</p>`;
 
+  if($("srclist")) $("srclist").innerHTML=refs.map(k=>{const r=SRC[k]; return `<li><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a>${r.a?` <span class="pub">${esc(r.a)}</span>`:""}</li>`;}).join("");
   $("me").onclick=()=>{bioOpen=!bioOpen;$("bio").hidden=!bioOpen;$("me").setAttribute("aria-expanded",bioOpen);};
   const i=trail.indexOf(id); if(i>=0) trail=trail.slice(0,i+1); else trail.push(id); trail=trail.slice(innerWidth<=640?-3:-6);
   $("trail").innerHTML=trail.map((t,k)=>k===trail.length-1?`<strong>${esc(S[t].n)}</strong>`:`<button type="button" data-go="${t}">${esc(S[t].n)}</button><span aria-hidden="true">›</span>`).join("");
 }
 function go(id){ if(location.hash.slice(1)===id) render(id); else location.hash=id; }
 addEventListener("hashchange",()=>render(location.hash.slice(1)));
+function showRef(el){
+  const keys=el.dataset.ref?el.dataset.ref.split(" "):[], conf=el.dataset.conf, note=el.dataset.note, card=$("refcard");
+  const msg=conf==="disputed"?`<p class="rc-note disp"><b>Sources disagree.</b> ${note}</p>`:(!keys.length||conf==="uncertain")?`<p class="rc-note unv"><b>Not yet sourced.</b> To be checked by scholars.${note?" "+note:""}</p>`:(note?`<p class="rc-note">${note}</p>`:"");
+  $("rc-body").innerHTML=msg+(keys.length?`<ul>${keys.map(k=>{const r=SRC[k]; return `<li><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a>${r.a?`<span class="pub">${esc(r.a)}</span>`:""}</li>`;}).join("")}</ul>`:"");
+  card.hidden=false;
+}
+document.addEventListener("keydown",e=>{ if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches(".ref[data-ref]")){e.preventDefault();showRef(e.target);} if(e.key==="Escape") $("refcard").hidden=true; });
 document.addEventListener("click",e=>{
+  const r=e.target.closest(".ref[data-ref]"); if(r){ showRef(r); return; }
+  if(!e.target.closest("#refcard")) $("refcard").hidden=true; else if(e.target.closest(".rc-close")){ $("refcard").hidden=true; return; } else if(!e.target.closest("a")) return;
   const d=e.target.closest("[data-door]");
   if(d){const st=$("stage"), k=d.dataset.door, all=["t","s","w","c"];
     if(k==="all"){const on=!all.every(x=>st.classList.contains("open-"+x)); all.forEach(x=>st.classList.toggle("open-"+x,on));}
